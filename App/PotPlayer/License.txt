@@ -1,0 +1,18 @@
+﻿This software is a freeware product, which can be used freely by individual/company/School/Government Office/etc. users to play media files as long as it’s for non-commercial purposes.
+
+* Attention
+ - This software is protected by copyright laws and software protection law, and modifying, reverse engineering, decompiling, disassembling, or otherwise making changes to the software beyond what is specifically allowed by relevant laws is strictly prohibited.(Except for FFmpeg,lame which have LGPL licenses)
+ - This software cannot be used for commercial purposes without the permission of the copyright owner.
+
+* Copyright Information
+ - This software includes a video decoder based on FFmpeg (http://www.ffmpeg.org) which is licensed under LGPL license.(To review the LGPL license, look for LGPL.txt in install directory) The modified FFmpeg source can be downloaded from http://potplayer.daum.net/devel/ffmpeg.zip.
+ - This software uses Zlib library (http://www.zlib.net) which is licensed under zlib license.
+ - This software uses rar library made publicly available by RARLAB (http://www.rarlab.com)
+ - This software uses png library (http://www.libpng.org) which is licensed under zlib/png license.
+ - This software uses OGG (VORBIS) library made publicly available by Xiph.org (http://www.vorbis.com) which is licensed under BSD-like license.
+ - This software uses BASS library (http://www.un4seen.com)
+ - This software uses MediaInfo library (http://mediaarea.net)
+ - This software's installer was made using NSIS (http://nsis.sourceforge.net) which is licensed under zlib/libpng license.
+ - This software uses FreeType font renderer library (http://www.freetype.org)
+ - This software copyrights (C) are owned by Daum Communications (http://www.daum.net)
+

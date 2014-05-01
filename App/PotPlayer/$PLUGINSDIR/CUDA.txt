@@ -1,0 +1,247 @@
+Tesla K20
+Tesla C2075
+Tesla C2050
+Tesla C2070
+Tesla C1060
+Tesla C870
+Tesla D870
+Tesla K20
+Tesla K10
+Tesla M2050
+Tesla M2070
+Tesla M2075
+Tesla M2090
+Tesla S1070
+Tesla M1060
+Tesla S870
+Quadro K6000
+Quadro K5000
+Quadro K4000
+Quadro K2000
+Quadro K2000D
+Quadro K600
+Quadro 6000
+Quadro 5000
+Quadro 4000
+Quadro 2000
+Quadro 2000D
+Quadro 600
+Quadro 410
+Quadro FX 5800
+Quadro FX 5600
+Quadro FX 4800
+Quadro FX 4700 X2
+Quadro FX 4600
+Quadro FX 3800
+Quadro FX 3700
+Quadro FX 1800
+Quadro FX 1700
+Quadro FX 580
+Quadro FX 570
+Quadro FX 470
+Quadro FX 380
+Quadro FX 370
+Quadro CX
+Quadro NVS 450
+Quadro NVS 420
+NVIDIA NVS 300
+Quadro NVS 295
+Quadro Plex 7000
+Quadro Plex 2200 D2
+Quadro Plex 2100 D4
+Quadro Plex 2100 S4
+Quadro K500M
+Quadro 5010M
+Quadro 5000M
+Quadro 4000M
+Quadro 3000M
+Quadro 2000M
+Quadro 1000M
+Quadro FX 3800M 
+Quadro FX 3700M
+Quadro FX 3600M
+Quadro FX 2800M
+Quadro FX 2700M
+Quadro FX 1800M
+Quadro FX 1700M
+Quadro FX 1600M
+Quadro FX 880M
+Quadro FX 770M
+Quadro FX 570M
+Quadro FX 380M
+Quadro FX 370M
+Quadro FX 360M
+Quadro NVS 320M
+Quadro NVS 160M 
+Quadro NVS 150M
+Quadro NVS 140M
+Quadro NVS 135M
+Quadro NVS 130M
+Quadro NVS 450
+Quadro NVS 420
+NVIDIA NVS 300
+Quadro NVS 295 
+NVS 5400M
+NVS 5200M
+NVS 4200M
+NVS 5100M
+NVS 3100M
+NVS 2100M
+GeForce GTX TITAN
+GeForce GTX 780
+GeForce GTX 770
+GeForce GTX 760
+GeForce GTX 690
+GeForce GTX 680
+GeForce GTX 670
+GeForce GTX 660 Ti
+GeForce GTX 660
+GeForce GTX 650 Ti BOOST
+GeForce GTX 650 Ti
+GeForce GTX 650
+GeForce GTX 560 Ti
+GeForce GTX 550 Ti
+GeForce GTX 460
+GeForce GTS 450
+GeForce GTX 590
+GeForce GTX 580
+GeForce GTX 570
+GeForce GTX 480
+GeForce GTX 470
+GeForce GTX 465
+GeForce GTX 295
+GeForce GTX 285
+GeForce GTX 280
+GeForce GTX 275
+GeForce GTX 260
+GeForce GT 640
+GeForce GT 630
+GeForce GT 620
+GeForce GT 610
+GeForce GT 520
+GeForce GT 440
+GeForce GT 430
+GeForce GT 420
+GeForce GT 240
+GeForce GT 220
+GeForce 210
+GeForce GTS 250
+GeForce GTS 150
+GeForce GT 130
+GeForce GT 120
+GeForce G100
+GeForce 9800 GX2
+GeForce 9800 GTX+
+GeForce 9800 GTX
+GeForce 9600 GSO
+GeForce 9500 GT
+GeForce 8800 GTS
+GeForce 8800 GT
+GeForce 8800 GS
+GeForce 8600 GTS
+GeForce 8600 GT
+GeForce 8500 GT
+GeForce 8400 GS
+GeForce 9400 mGPU
+GeForce 9300 mGPU
+GeForce 8300 mGPU
+GeForce 8200 mGPU
+GeForce 8100 mGPU
+GeForce 8800 Ultra
+GeForce 8800 GTX
+GeForce GT 340
+GeForce GT 330
+GeForce GT 320
+GeForce 315
+GeForce 310
+GeForce 9800 GT
+GeForce 9600 GT
+GeForce 9400GT
+GeForce GTX 780M
+GeForce GTX 770M
+GeForce GTX 765M
+GeForce GTX 760M
+GeForce GTX 680MX
+GeForce GTX 680M
+GeForce GTX 675MX
+GeForce GTX 675M
+GeForce GTX 670MX
+GeForce GTX 670M
+GeForce GTX 660M
+GeForce GT 750M
+GeForce GT 650M
+GeForce GT 745M
+GeForce GT 645M
+GeForce GT 740M
+GeForce GT 730M
+GeForce GT 640M
+GeForce GT 640M LE
+GeForce GT 735M
+GeForce GT 635M
+GeForce GT 730M
+GeForce GT 630M
+GeForce GT 625M
+GeForce GT 720M
+GeForce GT 620M
+GeForce 710M
+GeForce 610M
+GeForce GTX 580M
+GeForce GTX 570M
+GeForce GTX 560M
+GeForce GT 555M
+GeForce GT 550M
+GeForce GT 540M
+GeForce GT 525M
+GeForce GT 520MX
+GeForce GT 520M
+GeForce GTX 485M
+GeForce GTX 470M
+GeForce GTX 460M
+GeForce GT 445M
+GeForce GT 435M
+GeForce GT 420M
+GeForce GT 415M
+GeForce GTX 480M 
+GeForce GTS 360M
+GeForce GTS 350M
+GeForce GT 335M
+GeForce GT 330M
+GeForce GT 325M
+GeForce GT 240M
+GeForce G210M
+GeForce 710M
+GeForce 410M
+GeForce 310M
+GeForce 305M
+GeForce GTX 285M
+GeForce GTX 280M
+GeForce GTX 260M
+GeForce 9800M GTX
+GeForce 8800M GTX
+GeForce GTS 260M
+GeForce GTS 250M
+GeForce 9800M GT
+GeForce 9600M GT
+GeForce 8800M GTS
+GeForce 9800M GTS
+GeForce GT 230M
+GeForce 9700M GT
+GeForce 9650M GS
+GeForce 9700M GT
+GeForce 9650M GS
+GeForce 9600M GT
+GeForce 9600M GS
+GeForce 9500M GS
+GeForce 8700M GT
+GeForce 8600M GT
+GeForce 8600M GS
+GeForce 9500M G
+GeForce 9300M G
+GeForce 8400M GS
+GeForce G210M
+GeForce G110M
+GeForce 9300M GS
+GeForce 9200M GS
+GeForce 9100M G
+GeForce 8400M GT
+GeForce G105M

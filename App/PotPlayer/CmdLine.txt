@@ -1,0 +1,34 @@
+Usage: PotPlayer[Mini].Exe Switch
+
+Switches:
+/filedlg		:Open file(s) (Ctrl+O)
+/urldlg			:Open URL (Ctrl+U)
+/folderdlg  		:Open directory (F2)
+/simple			:Open file navigator (F12)
+/cap			:Open screen capture (Ctrl+S)
+/cam			:Open webcam/Other devices (Ctrl+J)
+/atv[:ch]		:Open Analog TV (Ctrl+W)
+/dtv[:ch]		:Open Digital TV (Ctrl+K)
+/dvd			:Open DVD (Ctrl+D)
+/cd[:drive]		:Open a cd drive
+/autoplay   		:Play the last played file
+"filename" /add		:Add the specified file to the playlist
+"filename"  		:Play the specified file
+config=presetname	:Use the specified preset
+
+
+How can I run PotPlayer with a command line switch?
+1-)Right-click on PotPlayerMini[.exe] in install directory and click to create shortcut
+2-)Now right-click on the newly created file "PotPlayerMini[.exe] - Shortcut" in there and click to properties
+3-)Add the related command line switch at the end of the target (for example, "C:\Program Files\Daum\PotPlayer\PotPlayerMini.exe" /autoplay ) then apply and OK.
+4-)Now when you double-click on "PotPlayerMini[.exe] - Shortcut", the program will perform the desired action at the startup.
+
+
+Examples:
+PotPlayerMini.exe "D:\Data Center\Videos\SD Film\no retreat no surrender.avi"         ;Play "no retreat no surrender.avi" file
+PotPlayerMini.exe "D:\Data Center\Videos\SD Film\no retreat no surrender.avi" /add    ;Add "no retreat no surrender.avi" file to the playlist
+PotPlayerMini.exe /autoplay                                                           ;Play the last played file directly
+PotPlayerMini.exe /filedlg                                                            ;Open the OpenBox dialog to add file(s) into playlist
+PotPlayerMini.exe /dvd                                                                ;Open DVD device
+PotPlayerMini.exe config=test                                                         ;Activate the specified preset called "test"
+PotPlayerMini.exe /cd:e                                                               ;Open "e" drive 
