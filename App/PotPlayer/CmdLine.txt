@@ -14,7 +14,7 @@ Switches:
 /autoplay   		:Play the last played file
 "filename" /add		:Add the specified file to the playlist
 "filename"  		:Play the specified file
-config=presetname	:Use the specified preset
+config="preset name"	:Use the specified preset
 
 
 How can I run PotPlayer with a command line switch?
@@ -24,11 +24,11 @@ How can I run PotPlayer with a command line switch?
 4-)Now when you double-click on "PotPlayerMini[.exe] - Shortcut", the program will perform the desired action at the startup.
 
 
-Examples:
-PotPlayerMini.exe "D:\Data Center\Videos\SD Film\no retreat no surrender.avi"         ;Play "no retreat no surrender.avi" file
-PotPlayerMini.exe "D:\Data Center\Videos\SD Film\no retreat no surrender.avi" /add    ;Add "no retreat no surrender.avi" file to the playlist
-PotPlayerMini.exe /autoplay                                                           ;Play the last played file directly
-PotPlayerMini.exe /filedlg                                                            ;Open the OpenBox dialog to add file(s) into playlist
-PotPlayerMini.exe /dvd                                                                ;Open DVD device
-PotPlayerMini.exe config=test                                                         ;Activate the specified preset called "test"
-PotPlayerMini.exe /cd:e                                                               ;Open "e" drive 
+Examples;
+PotPlayerMini.exe "D:\Data Center\Videos\SD Film\no retreat no surrender.avi"         ;Plays the specified file directly 
+PotPlayerMini.exe "D:\Data Center\Videos\SD Film\no retreat no surrender.avi" /add    ;Adds the specified file into the playlist
+PotPlayerMini.exe /autoplay                                                           ;Plays the last played file directly
+PotPlayerMini.exe /filedlg                                                            ;Opens the OpenBox dialog to add file(s) into playlist
+PotPlayerMini.exe /dvd                                                                ;Opens default DVD device
+PotPlayerMini.exe config="HD Pack"                                                    ;Activates the specified preset
+PotPlayerMini.exe /cd:e                                                               ;Opens the specified drive 
