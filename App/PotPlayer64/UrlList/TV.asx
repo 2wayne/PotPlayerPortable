@@ -1,0 +1,185 @@
+﻿<asx version = "3.0" >
+#if<CodePage==949>
+
+  <entry>
+    <title>(케이블)KCTV 제주</title>
+    <ref href = "mms://media1.kctvjeju.com/live05 "/>
+  </entry>
+  <entry>
+    <title>국회방송</title>
+    <ref href = "http://plive.webcast.go.kr/natv_live?MSWMExt=.asf"/>
+  </entry>
+  <entry>
+    <title>현대 홈쇼핑</title>
+    <ref href = "http://live.hmall.com/encoder1.asx"/>
+  </entry>
+  <entry>
+    <title>CAR TV(자동차)</title>
+    <ref href = "mms://218.237.66.201/broadCast"/>
+  </entry>
+  <entry>
+    <title>(종교)CTS 기독교TV</title>
+    <ref href = "MMS://222.122.78.81/LIVE"/>
+  </entry>
+  <entry>
+    <title>(위성)아리랑TV</title>
+    <ref href = "http://www.arirang.co.kr/Player/Live_World.asx"/>
+  </entry>
+  <entry>
+    <title>(영국)Bloomberg TV</title>
+    <ref href = "mms://media2.bloomberg.com/btv_uknb.asf "/>
+  </entry>
+  <entry>
+    <title>(미국)Bloomberg TV</title>
+    <ref href = "http://www.bloomberg.com/streams/video/LiveBTV200.asx"/>
+  </entry>
+  <entry>
+    <title>(영국)BBC World News</title>
+    <ref href = "http://news.bbc.co.uk/newsa/n5ctrl/summaries/world/bb/video/world_bb.asx"/>
+  </entry>
+  <entry>
+    <title>(영국)BBC parliament</title>
+    <ref href = "mms://wmlive.bbc.net.uk/wms/news/parliament_16x9_nb_s2"/>
+  </entry>
+  <entry>
+    <title>(미국)NBC Weather US</title>
+    <ref href = "mms://a962.l2152922961.c21529.g.lm.akamaistream.net/D/962/21529/v0001/reflector:22961"/>
+  </entry>
+  <entry>
+    <title>(중국)CCTV 9</title>
+    <ref href = "mms://72.166.136.132/cctv9-300"/>
+  </entry>
+  <entry>
+    <title>(중국)QTV</title>
+    <ref href = "mms://movie.top86.com/qtv"/>
+  </entry>
+  <entry>
+    <title>(중국)LsTV-1</title>
+    <ref href = "mms://202.96.114.251/lstv"/>
+  </entry>
+  <entry>
+    <title>(미국)KRO - Kindertijd</title>
+    <ref href = "mms://livemedia2.omroep.nl/krokindertijd-sb"/>
+  </entry>
+  <entry>
+    <title>(미국)KRO (opvoeden doe je zo)</title>
+    <ref href = "mms://livemedia2.omroep.nl/kroopvoeden-bb"/>
+  </entry>
+  <entry>
+    <title>(미국)PETN.TV(영화)</title>
+    <ref href = "mms://80.237.157.98/moviechannel"/>
+  </entry>
+  <entry>
+    <title>(미국)Smile of a child TV(어린이)</title>
+    <ref href = "http://media.tbn.org/wmedia-live/tbn/10200/300_tbn-the_smile_of_a_child_051222.asx?endtime=2:00:00 AM"/>
+  </entry>
+  <entry>
+    <title>(미국)UWTV</title>
+    <ref href = "http://www.uwtv.org/asx/uwtv-lan.asx"/>
+  </entry>
+  <entry>
+    <title>(미국)alternative</title>
+    <ref href = "mms://stream.ihost.nu/nwez3"/>
+  </entry>
+  <entry>
+    <title>(영국)iN-TV</title>
+    <ref href = "http://www.channelflix.com/watch/invincible%20TV.wvx"/>
+  </entry>
+  <entry>
+    <title>(일본)Bloomberg TV</title>
+    <ref href = "mms://media2.bloomberg.com/btv_japnb.asf "/>
+  </entry>
+  <entry>
+    <title>(일본)IIV Channel</title>
+    <ref href = "http://www.iiv.ne.jp/meta/iiv-channel_high.asx"/>
+  </entry>
+  <entry>
+    <title>(일본)Odoroku tv</title>
+    <ref href = "http://asx.pod.tv/tandm/odoroku/live/nama500.asx"/>
+  </entry>
+  <entry>
+    <title>(일본)Oh!omaTV1</title>
+    <ref href = "mms://wms9live.pod.tv/king_ch01/video"/>
+  </entry>
+  <entry>
+    <title>(일본)Oh!omaTV2</title>
+    <ref href = "mms://wms9live.pod.tv/king_ch02/video"/>
+  </entry>
+  <entry>
+    <title>(일본)Sony Music</title>
+    <ref href = "mms://morrich.gekimedia.net/MainStream500"/>
+  </entry>
+  <entry>
+    <title>(일본)FLX</title>
+    <ref href = "mms://bbn-lf.stream.ne.jp/lfx-bb "/>
+  </entry>
+  <entry>
+    <title>(일본)Channel J</title>
+    <ref href = "mms://channelj.bmcdn.jp/channelj/chj/irmess_asahi2_j_071505s.asf"/>
+  </entry>
+
+#else
+
+  <entry>
+    <title>Bloomberg TV</title>
+    <ref href = "http://www.bloomberg.com/streams/video/LiveBTV200.asx"/>
+  </entry>
+  <entry>
+    <title>BBC World News</title>
+    <ref href = "http://news.bbc.co.uk/newsa/n5ctrl/summaries/world/bb/video/world_bb.asx"/>
+  </entry>
+  <entry>
+    <title>BBC parliament</title>
+    <ref href = "mms://wmlive.bbc.net.uk/wms/news/parliament_16x9_nb_s2"/>
+  </entry>
+  <entry>
+    <title>NBC Weather US</title>
+    <ref href = "mms://a962.l2152922961.c21529.g.lm.akamaistream.net/D/962/21529/v0001/reflector:22961"/>
+  </entry>
+  <entry>
+    <title>CCTV 9</title>
+    <ref href = "mms://72.166.136.132/cctv9-300"/>
+  </entry>
+  <entry>
+    <title>QTV</title>
+    <ref href = "mms://movie.top86.com/qtv"/>
+  </entry>
+  <entry>
+    <title>LsTV-1</title>
+    <ref href = "mms://202.96.114.251/lstv"/>
+  </entry>
+  <entry>
+    <title>KRO - Kindertijd</title>
+    <ref href = "mms://livemedia2.omroep.nl/krokindertijd-sb"/>
+  </entry>
+  <entry>
+    <title>KRO (opvoeden doe je zo)</title>
+    <ref href = "mms://livemedia2.omroep.nl/kroopvoeden-bb"/>
+  </entry>
+  <entry>
+    <title>PETN.TV</title>
+    <ref href = "mms://80.237.157.98/moviechannel"/>
+  </entry>
+  <entry>
+    <title>Smile of a child TV</title>
+    <ref href = "http://media.tbn.org/wmedia-live/tbn/10200/300_tbn-the_smile_of_a_child_051222.asx?endtime=2:00:00 AM"/>
+  </entry>
+  <entry>
+    <title>UWTV</title>
+    <ref href = "http://www.uwtv.org/asx/uwtv-lan.asx"/>
+  </entry>
+  <entry>
+    <title>alternative</title>
+    <ref href = "mms://stream.ihost.nu/nwez3"/>
+  </entry>
+  <entry>
+    <title>iN-TV</title>
+    <ref href = "http://www.channelflix.com/watch/invincible%20TV.wvx"/>
+  </entry>
+  <entry>
+    <title>Bloomberg TV</title>
+    <ref href = "mms://media2.bloomberg.com/btv_japnb.asf "/>
+  </entry>
+
+#endif
+</asx>
