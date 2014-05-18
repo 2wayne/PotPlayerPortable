@@ -1,108 +1,34 @@
-﻿{$CP949=
+Usage: PotPlayer[Mini].Exe Switch
 
-명령행 옵션 : PotPlayer[Mini].exe "파일명" [옵션]
+Switches:
+/filedlg		:Open file(s) (Ctrl+O)
+/urldlg			:Open URL (Ctrl+U)
+/folderdlg  		:Open directory (F2)
+/simple			:Open file navigator (F12)
+/cap			:Open screen capture (Ctrl+S)
+/cam			:Open webcam/Other devices (Ctrl+J)
+/atv[:ch]		:Open Analog TV (Ctrl+W)
+/dtv[:ch]		:Open Digital TV (Ctrl+K)
+/dvd			:Open DVD (Ctrl+D)
+/cd[:drive]		:Open a cd drive
+/autoplay   		:Play the last played file
+"filename" /add		:Add the specified file to the playlist
+"filename"  		:Play the specified file
+config="preset name"	:Use the specified preset
 
-/filedlg	  : 파일 열기 대화 상자
-/urldlg		  : 주소 열기 대화 상자
-/folderdlg	  : 폴더 열기 대화 상자
-/simple		  : 간편 열기 대화 상자
-/cap		  : 화면 캡쳐
-/cam		  : 캠이나 기타 장치
-/atv[:ch]	  : 아날로그 TV
-/dtv[:ch]	  : 디지탈 TV
-/dvd		  : DVD 기본 장치
-/cd[:drive]	  : CD 열기
-/add		  : 재생 목록에 추가
-/autoplay	  : 자동으로 재생
-config="환경이름" : 지정된 환경 선택
-$}
-{$CP936=
 
-命令行用法 : PotPlayer[Mini].exe "文件名" [参数]
+How can I run PotPlayer with a command line switch?
+1-)Right-click on PotPlayerMini[.exe] in install directory and click to create shortcut
+2-)Now right-click on the newly created file "PotPlayerMini[.exe] - Shortcut" in there and click to properties
+3-)Add the related command line switch at the end of the target (for example, "C:\Program Files\Daum\PotPlayer\PotPlayerMini.exe" /autoplay ) then apply and OK.
+4-)Now when you double-click on "PotPlayerMini[.exe] - Shortcut", the program will perform the desired action at the startup.
 
-/filedlg        : 打开文件对话框
-/urldlg		: 打开链接对话框
-/folderdlg      : 打开文件夹对话框
-/simple		: 简捷打开文件对话框
-/cap		: 视频录制
-/cam		: 摄像头其他设备
-/atv[:ch]	: 模拟 TV
-/dtv[:ch]	: 数字 TV
-/dvd		: 默认 DVD 设备
-/cd[:drive]	: CD 驱动器
-/add		: 添加到播放列表
-/autoplay       : 自动播放
-config="配置名"	: 选择指定配置
-$}
-{$CP950=
 
-命令行用法 : PotPlayer[Mini].exe "檔案名" [參數]
-
-/filedlg	: 開啟檔案對話框
-/urldlg		: 開啟連結對話框
-/folderdlg	: 開啟資料夾對話框
-/simple		: 快速開啟檔案對話框
-/cap		: 視訊錄制
-/cam		: 攝影機其他裝置
-/atv[:ch]	: 類比 TV
-/dtv[:ch]	: 數位 TV
-/dvd		: 預設 DVD 裝置
-/cd[:drive]	: CD 磁碟機
-/add		: 新增到播放清單
-/autoplay	: 自動播放
-config=配置名 	: 選擇指定配置
-$}
-{$POLISH=
-
-Użycie : PotPlayer[Mini].exe "nazwa pliku" [opcje]
-
-/filedlg              : Otwórz okno dialogowe pliku
-/urldlg		      : Otwórz okno dialogowe URL
-/folderdlg            : Otwórz okno dialogowe folderu
-/simple		      : Otwórz Nawigator po plikach
-/cap		      : Przechwyt ekranu
-/cam		      : Kamera lub inne urządzenie
-/atv[:ch]	      : TV analogowa (WDM)
-/dtv[:ch]	      : TV cyfrowa (BDA)
-/dvd		      : Domyślne urządzenie DVD
-/cd[:drive]	      : Otwórz dysk CD
-/add		      : Dodaj do Listy odtwarzania
-/autoplay             : Odtwarzaj automatycznie
-config="preset name"  : Wybierz podane ustawienia predefiniowane
-$}
-{$RUSSIAN=
-
-Параметры командной строки: "PotPlayerMini.exe" /параметр
-
-/filedlg	Окно открытия файла
-/urldlg		Окно открытия адреса URL
-/folderdlg	Окно открытия папки
-/simple		Открытие навигатора по файлам
-/cap		Снимок экрана
-/cam		Камера или другое устройство
-/atv[:ch]	Аналоговое телевидение
-/dtv[:ch]	Цифровое телевидение
-/dvd		Основное устройство DVD
-/cd[:drive]	Открытие дисковода
-/add		Добавление в список
-/autoplay	Автоматическое воспроизведение
-config=preset name	:Выбор шаблона
-$}
-{$CP0=
-
-Usage : PotPlayer[Mini].exe "filename" [options]
-
-/filedlg		: Open file dialog
-/urldlg			: Open url dialog
-/folderdlg  		: Open folder dialog
-/simple			: Open file navigator
-/cap			: Open screen capture
-/cam			: Open webcam/Other devices
-/atv[:ch]		: Open Analog TV
-/dtv[:ch]		: Open Digital TV
-/dvd			: Open DVD
-/cd[:drive]		: Open a cd drive
-/add			: Add to playlist
-/autoplay   		: Play the last played file
-config="preset name"	: Use the specified preset
-$}
+Examples;
+PotPlayerMini.exe "D:\Data Center\Videos\SD Film\no retreat no surrender.avi"         ;Plays the specified file directly 
+PotPlayerMini.exe "D:\Data Center\Videos\SD Film\no retreat no surrender.avi" /add    ;Adds the specified file into the playlist
+PotPlayerMini.exe /autoplay                                                           ;Plays the last played file directly
+PotPlayerMini.exe /filedlg                                                            ;Opens the OpenBox dialog to add file(s) into playlist
+PotPlayerMini.exe /dvd                                                                ;Opens default DVD device
+PotPlayerMini.exe config="HD Pack"                                                    ;Activates the specified preset
+PotPlayerMini.exe /cd:e                                                               ;Opens the specified drive 

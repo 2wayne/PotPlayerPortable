@@ -1,0 +1,24 @@
+// 3D SidebySide Green/Magenta
+
+sampler s0 : register(s0);
+float4 p0 : register(c0);
+
+#define width (p0[0])
+#define height (p0[1])
+
+float4 main(float2 tex : TEXCOORD0) : COLOR
+{
+
+tex.x=tex.x/2;
+
+float4 l = tex2D(s0, tex);
+tex.x=tex.x + 0.5;
+
+float4 r = tex2D(s0, tex);
+
+float red =r.r*0.3+r.g*0.4+r.b*0.1;
+float green =l.g*0.7;
+float blue = l.b*0.7;
+
+return float4(red, green, blue, 1);
+}
