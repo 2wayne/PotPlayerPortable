@@ -1,4 +1,107 @@
-﻿This software is a freeware product, which can be used freely by individual/company/School/Government Office/etc. users to play media files as long as it’s for non-commercial purposes.
+﻿{$CP949=
+
+ 이 프로그램은 개인/기업/학교/관공서등 어디서나 자유롭게 설치하여 사용이 가능합니다.
+
+* 주의사항 
+ - 이 프로그램은 저작권법과 프로그램 보호법에 의해 보호를 받고 있으며 관련 법규에서 명시적으로 허용한 제한적인 범위 이외에 본 소프트웨어 제품을 개작하거나 리버스 엔지니어링, 디컴파일, 디스어셈블 할 수 없습니다. (단, FFmpeg, lame은 LGPL 을 따릅니다.)
+ - 이 프로그램은 제작사의 허락없이 절대 상업적 목적으로 사용할 수 없습니다.
+
+* 저작권 정보
+ - 이 프로그램에 포함된 비디오 디코더는 FFmpeg(http://ffmpeg.org)를 사용하였고, FFmpeg의 라이센스는 LGPL을 따릅니다. LGPL 라이센스는 설치 디렉터리의 LGPL.TXT를 참고하시기 바랍니다. 수정된 FFmpeg의 소스는 http://potplayer.daum.net/devel/ffmpeg.zip에서 다운로드 받으실 수 있습니다.
+ - 이 프로그램에 사용된 zlib 압축 라이브러리는 http://www.zlib.net 에 공개된 소스를 사용 하였으며, 라이센스는 'zlib License'를 따릅니다.
+ - 이 프로그램에 사용된 rar 압축 라이브러리는 http://www.rarlab.com에 공개된 소스를 사용 하였습니다.
+ - 이 프로그램에 사용된 png 라이브러리는 libpng(http://www.libpng.org)를 사용 하였으며, 라이센스는 'zlib/png License'를 따릅니다.
+ - 이 프로그램에 사용된 OGG(VORBIS) 라이브러리는 Xiph.org에서 공개한 소스(http://www.vorbis.com)를 사용하였으며, 라이센스는 'BSD-like license'를 따릅니다.
+ - 이 프로그램에 사용된 BASS 라이브러리는 http://www.un4seen.com에서 사용하였습니다.
+ - 이 프로그램에 사용된 MediaInfo 라이브러리는 http://mediaarea.net에서 사용하였습니다.
+ - 이 프로그램의 설치 파일은 NSIS(http://nsis.sourceforge.net)를 사용하여 제작되었으며, NSIS의 라이센스는 'zlib/libpng License'를 따릅니다.
+ - 이 프로그램의 글꼴 출력은 FreeType(http://www.freetype.org)를 사용 하였습니다.
+ - 이 프로그램의 저작권은 (주)다음커뮤니케이션(http://www.daum.net)에 있습니다.
+$}
+{$CP936=
+
+ 本程序可供个人/企业/学校/政府机关等自由场合任意安装和使用。
+
+* 注意事项
+ - 本程序受著作权法和软件保护法的保护，除保护法条款中允许或非限制的范围以外任何人对本程序进行的逆向工程、反编译、重新组装都将被视为违法。(仅 FFmpeg、lame 遵循其 LGPL 协议。)
+ - 本程序未经著作权公司许可绝对禁止用于商业用途。
+
+* 版权信息
+ - 本程序包含了从 FFmpeg(http://ffmpeg.org) 下载的视频解码器，并遵循其 LGPL 公共许可协议。LGPL 公共许可证书内容请查阅安装目录下的 LGPL.TXT 文件。经修改后的 FFmpeg 源码文件您可从 http://potplayer.daum.net/devel/ffmpeg.zip 下载。
+ - 本程序包含了从 zlib(http://www.zlib.net) 下载的 zip 源码，并遵循 "zlib License" 许可协议。
+ - 本程序包含了从 http://www.rarlab.com 下载的 rar 源码。
+ - 本程序中包含了从 libpng(http://www.libpng.org) 下载的 png 源码，并遵循 "zlib/png License" 公共许可协议。
+ - 本程序中包含了从 Xiph.org(http://www.vorbis.com) 下载的 OGG(V0RBIS) 源码，并遵循 "BSD-like license" 公共许可协议。
+ - 本软件使用的 BASS 系列解码器是直接从 http://www.un4seen.com 下载的。
+ - 本程序使用的 MediaInfo 解析媒体插件是直接从 MediaInfo(http://mediaarea.net) 下载的。
+ - 本程序使用的安装程序是从 NSIS(http://nsis.sourceforge.net) 下载的，并遵循 NSIS 的 "zlib/libpng License" 公共许可协议。
+ - 本程序使用的 ATextOut 字串渲染插件是直接从 FreeType(http://www.freetype.org) 下载的源码。
+ - 本程序著作权归 Daum 通讯股份(有限)公司 (http://www.daum.net) 所有。
+$}
+{$CP950=
+
+ 本程式可供個人/企業/學校/政府機關等自由場合任意安裝和使用。
+
+* 注意事項 
+ - 本程式受著作權法和軟件保護法的保護，除保護法條款中允許或非限制的範圍以外任何人對本程式進行的逆向工程、反編譯、重新組裝都將被視為違法。(僅 FFmpeg、lame 遵循其 LGPL 協議。)
+ - 本程式未經著作權公司許可絕對禁止用於商業用途。
+
+* 版權訊息
+ - 本程式包含了從 FFmpeg(http://ffmpeg.org)下載的視訊解碼器，並遵循其 LGPL 公共許可協議。LGPL 公共許可證書內容請查閱安裝目錄下的 LGPL.TXT 檔案。經修改後的 FFmpeg 源碼檔案您可從 http://potplayer.daum.net/devel/ffmpeg.zip 下載。
+ - 本程式包含了從 zlib(http://www.zlib.net) 下載的 zip 源碼，並遵循 "zlib License" 許可協議。
+ - 本程式包含了從 http://www.rarlab.com 下載的 rar 源碼。
+ - 本程式中包含了從 libpng(http://www.libpng.org) 下載的 png 源碼，並遵循 "zlib/png License" 公共許可協議。
+ - 本程式中包含了從 Xiph.org(http://www.vorbis.com) 下載的 OGG(V0RBIS)源碼，並遵循 "BSD-like license" 公共許可協議。
+ - 本軟件使用的 BASS 系列解碼器是直接從 http://www.un4seen.com 下載的。
+ - 本程式使用的 MediaInfo 解析媒體外掛是直接從 MediaInfo(http://mediaarea.net) 下載的。
+ - 本程式使用的安裝程式是從 NSIS(http://nsis.sourceforge.net) 下載的，並遵循 NSIS 的 "zlib/libpng License" 公共許可協議。
+ - 本程式使用的 ATextOut 字串渲染外掛是直接從 FreeType(http://www.freetype.org) 下載的源碼。
+ - 本程式著作權歸 Daum 通訊股份(有限)公司 (http://www.daum.net) 所有。
+$}
+{$POLISH=
+
+ Program do dowolnego użytku prywatnego i publicznego przez osoby fizyczne/zakłady pracy/urzędy/szkoły/etc. Można go zainstalować i używać bez ograniczeń do odtwarzania plików multimedialnych, o ile nie jest to robione w celach komercyjnych.
+
+* Ostrzeżenie 
+ - Program ten chroniony jest prawem autorskim oraz prawami pokrewnymi i wprowadzanie zmian w oprogramowaniu lub inżynieria wsteczna, dekompilacja, demontaż oraz wprowadzanie zmian w inny sposób niż to, co jest wyraźnie dozwolone przez odpowiednie przepisy prawa jest zabronione (jednakże dla FFmpeg, lame należy postępować zgodnie z licencją LGPL).
+ - Program ten bez zgody właściciela praw autorskich nie może być wykorzystywany do celów komercyjnych w jakiejkolwiek postaci.
+
+* Informacja o prawach autorskich
+ - Program zawiera dekoder FFmpeg (http://ffmpeg.org) i jest on używany zgodnie z licencją LGPL. Plik licencji LGPL LGPL.TXT znajduje się w folderze instalacyjnym. Zmodyfikowane źródła FFmpeg można pobrać z http://potplayer.daum.net/devel/ffmpeg.zip.
+ - Używana w tym programie biblioteka kompresji zlib opiera się na opublikowanych plikach źródłowych (http://www.zlib.net) zgodnie z licencją 'zlib License'.
+ - Program ten korzysta z publicznego źródła biblioteki rar z http://www.rarlab.com.
+ - Program wykorzystuje do png bibliotekę libpng (http://www.libpng.org) zgodnie z licencją 'zlib/png License'.
+ - Program wykorzystuje do OGG (Vorbis) źródeł wydanych w bibliotece Xiph.org (http://www.vorbis.com) zgodnie z licencją 'BSD-like license'.
+ - Program wykorzystuje biblioteki BASS pochodzące z http://www.un4seen.com.
+ - Program wykorzystuje bibliotekę MediaInfo z (http://mediaarea.net).
+ - Pliki instalacyjne tego programu zostały wykonane przy pomocy NSIS (http://nsis.sourceforge.net) zgodnie z licencją NSIS 'zlib / libpng License'.
+ - Do renderowania czcionek została wykorzystana wtyczka ATextOut pobrana bezpośrednio z FreeType (http://www.freetype.org).
+ - Prawa autorskie (główne) do tego programu posiada tylko i wyłącznie Daum Communications (http://www.daum.net).
+ - Autorem tłumaczenia na język polski jest Adam Malich (adam_malich@gizycko.mm.pl)
+$}
+{$RUSSIAN=
+
+Daum Player — бесплатная программа для некоммерческого использования. Вы можете совершенно бесплатно использовать её где угодно — как на домашних компьютерах, так и на компьютерах, используемых в государственных и коммерческих организациях в некоммерческих целях.
+
+Примечание
+- Эта программа защищена в соответствии с законами об авторском праве и законами, явно ограничивающими любое изменение программы с помощью реверсинга, декомпиляции или дизассемблирования (однако FFmpeg распространяется под лицензией LGPL).
+- Вы не можете использовать данную программу в коммерческих целях без разрешения владельца.
+
+Информация об авторских правах
+- Декодер видео, включённый в эту программу, основан на FFmpeg (http://ffmpeg.mplayerhq.hu), который распространяется под лицензией LGPL. Для ознакомления с лицензией LGPL, откройте файл LGPL.TXT, который находится в папке с программой. Изменённый исходный код FFmpeg можно загрузить по этой ссылке: http://potplayer.daum.net/devel/ffmpeg.zip.
+- Открытый исходный код, доступный по адресу http://www.zlib.net, использовался для библиотеки сжатия zlib, включённой в эту программу и распространяемой под лицензией zlib.
+- В этой программе используются библиотеки, которые можно найти по адресу http://www.rarlab.com.
+- Libpng (http://www.libpng.org) использовался для библиотеки PNG, включённой в эту программу и распространяемой под лицензией zlib/png.
+- Открытый исходный код от Xiph.org (http://www.vorbis.com) использовался для библиотеки  OGG (VORBIS), включённой в эту программу и распространяемой под лицензией BSD-like.
+- В этой программе используется библиотека MP3 lame (http://lame.sourceforge.net), распространяемая под лицензией LGPL. Для ознакомления с лицензией LGPL, откройте файл LGPL.TXT, который находится в папке с программой. Изменённый исходный код lame можно загрузить по этой ссылке: http://potplayer.daum.net/devel/MP3Lame.zip.
+- В этой программе используется библиотека BASS: http://www.un4seen.com.
+- Установочный файл создан пи помощи NSIS (http://nsis.sourceforge.net), который распространяется под лицензией zlib/libpng.
+- Внешний вывод программы основан на шрифтах FreeType (http://www.freetype.org).
+- Авторское право на эту программу принадлежит Daum Communications (http://www.daum.net).
+$}
+{$CP0=
+
+This software is a freeware product, which can be used freely by individual/company/School/Government Office/etc. users to play media files as long as it’s for non-commercial purposes.
 
 * Attention
  - This software is protected by copyright laws and software protection law, and modifying, reverse engineering, decompiling, disassembling, or otherwise making changes to the software beyond what is specifically allowed by relevant laws is strictly prohibited.(Except for FFmpeg,lame which have LGPL licenses)
@@ -15,4 +118,5 @@
  - This software's installer was made using NSIS (http://nsis.sourceforge.net) which is licensed under zlib/libpng license.
  - This software uses FreeType font renderer library (http://www.freetype.org)
  - This software copyrights (C) are owned by Daum Communications (http://www.daum.net)
-
+ - Translated by http://www.dvbsupport.net/
+$}

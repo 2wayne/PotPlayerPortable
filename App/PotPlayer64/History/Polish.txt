@@ -2,6 +2,19 @@
 Historia wersji PotPlayer
 
 ----------------------------------------------------------
+[1.6.47995]                                     2014/05/29
+----------------------------------------------------------
++ Dodano język japoński
++ Dodano możliwość ustawienia pokazywania wybranych wbudowanych dekoderów/koderów sprzętowych
++ Dodano wsparcie Native Stereoscopic 3D dla Windows 8 lub nowszego
++ Dodano możliwość wyświetlania elementów Listy odtwarzania jako miniatury
+
+- Naprawiono problem powodujący, że nie można było zalogować się do konta Daum z niektórych PC
+- Naprawiono problem powodujące błędne działanie Pan & Scan w trybie pełnoekranowym
+- Naprawiono problem powodujący, że nie można było odtwarzać niektórych nowych plików MOV
+- Dodano możliwość ustawienia w jaki sposób program powinien połączyć się z serwerem FTP
+
+----------------------------------------------------------
 [1.6.47450]                                     2014/05/08
 ----------------------------------------------------------
 * Dodano wsparcie dla wersji w wielu językach (angielski/chiński/portugalski/polski/rosyjski)

@@ -1,0 +1,98 @@
+DAUM LIVE STREET
+Skins/Default.dsf,01cf7aef,bd2d24fb,0012d657
+Skins/WindowFrame.dsf,01cf78b1,4c215560,0012ce91
+Language/Chinese(Simplified).ini,01cf7afa,93e19ab1,0001f72b
+Language/Chinese(Traditional).ini,01cf7afa,93e0b04d,0001fb1e
+Language/English.ini,01cf7aef,b66cfdf5,00020a8f
+Language/Japanese.ini,01cf7aef,b66a9c94,000277e5
+Language/Korean.ini,01cf7aef,b66f5f55,0002533e
+Language/Polish.ini,01cf7aef,b66cfdf5,00025eea
+Language/Portuguese.ini,01cf78b1,41f79554,00023b3a
+Language/Russian.ini,01cf7aef,b66a9c94,00035a1a
+UrlList/Radio.asx,01cf62b7,d1943a76,00017075
+UrlList/TV.asx,01cf62b7,d193ec55,00001641
+Logos/PotPlayer.png,01cf102c,b118cea1,000022be
+PotIcons64.dll,01cf62b8,20aa2329,00218200
+DaumCrashHandler64.dll,01ce0348,bdcbc119,0001c600
+ATextOut64.dll,01cf3749,fcd89713,000d8e00
+GameCaptureHook64.dll,01cf78b1,507b5960,00019a00
+GameCaptureHook.dll,01cf78b1,50612a3d,00017000
+ffcodec64.dll,01cf7aef,ca52febf,009d9200
+DesktopHook64.dll,01cf62b8,210da15e,0000cc28
+DesktopHook.dll,01cf62b8,20bd5d51,0000ce28
+DesktopHook.exe,01cf62b8,20ae900a,0000ec28
+DesktopHook64.exe,01cf62b8,20ba5006,00010028
+PotPlayer64.dll,01cf7afd,b5eb3128,012ae970
+PotPlayer64.exe,01cf62b8,13777ee0,00013a28
+LGPL.TXT,01ce0348,bdc669d5,00006931
+DTDrop64.exe,01cf62b8,209450e7,00020428
+History/Chinese(Simplified).txt,01cf7aef,c5decb9c,000126e6
+History/Chinese(Traditional).txt,01cf7aef,c5decb9c,00012857
+History/English.txt,01cf7aef,c5decb9c,00014403
+History/Korean.txt,01cf7aef,c5dc6a3b,0001635f
+History/Polish.txt,01cf7aef,c5dc6a3b,00016266
+History/Russian.txt,01cf7aef,c5decb9c,0001e276
+License.txt,01cf62b8,2090f57b,0000353f
+CmdLine.txt,01cf699f,f9c79525,00000d79
+DChat64.dll,01cec0bf,51b60f69,00048400
+Logo.swf,01cf102c,b18d720e,00001afb
+Loading.swf,01ce0348,bdcf4396,00009d5b
+LogoMini.swf,01cf102c,b156b268,00001afb
+Alarm.wav,01ce0348,bdd29f03,0003a462
+LogManager.exe,01ce0348,be00184d,00039a00
+PotPlayerMini64.exe,01cf62b8,13976368,00013628
+d3dx9_43.dll,01ce0348,402a2f8d,0024a358
+D3DCompiler_43.dll,01ce0348,4032e23e,00268b68
+PxShader/BT601BT709.txt,01ce0348,9082d62a,000002b4
+PxShader/Contour.txt,01ce0348,908435bf,00000256
+PxShader/Deinterlace (blend).txt,01ce0348,9087430a,00000178
+PxShader/Denoise.txt,01ce0348,9083997d,000003a9
+PxShader/DisplayLessThan16 v1_1.txt,01ce0348,90871bfa,000002c5
+PxShader/EdgeSharpen v1_1(jim ro).txt,01ce0348,90852022,000006f0
+PxShader/EdgeSharpen v1_1.txt,01ce0348,908260f8,000007d7
+PxShader/Emboss.txt,01ce0348,9083c08d,0000025f
+PxShader/GrayScale.txt,01ce0348,9088547e,000000cc
+PxShader/Invert.txt,01ce0348,9087b83c,000000b8
+PxShader/Letterbox.txt,01ce0348,9087df4d,00000171
+PxShader/Levels.txt,01ce0348,90845cd0,0000010d
+PxShader/Levels2.txt,01ce0348,908212d7,000001a6
+PxShader/NightVision.txt,01ce0348,908658a7,000000a8
+PxShader/Procamp.txt,01ce0348,90867fb8,0000051f
+PxShader/Remap_16_235.txt,01ce0348,9086cdd9,0000021f
+PxShader/Sharpen.txt,01ce0348,90856e44,000003a8
+PxShader/Sharpen_3x3.txt,01ce0348,9084f912,00000425
+PxShader/Sharpen_5x5.txt,01ce0348,90859554,000008b3
+PxShader/SharpenComplex (jim ro).txt,01ce0348,90887b8f,0000075d
+PxShader/SharpenComplex2.txt,01ce506d,7daea564,00000a7b
+PxShader/SharpenFlou (jim ro).txt,01ce0348,9088065d,000006a4
+PxShader/Sphere.txt,01ce0348,9083726c,00000538
+PxShader/Spotlight.txt,01ce0348,90828809,000001d7
+PxShader/Undot.txt,01ce0348,90840eae,000006fe
+PxShader/Unsharp mask.txt,01ce0348,9084d201,0000064e
+PxShader/Wave.txt,01ce0348,9086a6c8,000001a2
+PxShader/YV12 Chroma Upsampling.txt,01ce0348,908483e0,00000677
+AviSynth/ColorBars.avs,01ce7094,c824fe1d,00000021
+AviSynth/FasterTrueMotion.avs,01ce7094,c8275f7d,000002f7
+AviSynth/FastestTrueMotion.avs,01ce7094,c8275f7d,00000220
+AviSynth/FastTrueMotion.avs,01ce7094,c824fe1d,000000d1
+AviSynth/FastTrueMotionNoGPU.avs,01ce7094,c8275f7d,000000d2
+AviSynth/OverlayText.avs,01ce7094,c824fe1d,000004ca
+AviSynth/TrueMotion.avs,01ce7094,c824fe1d,000000c0
+AviSynth/TrueMotionNoGPU.avs,01ce7094,c8275f7d,000000c1
+AviSynth/TrueMotion2.avs,01ce8c05,d08e460c,000001c4
+AviSynth/TrueMotion2NoGPU.avs,01ce8c05,d08f095f,000001c5
+Module/Bass64/bass.dll,01cf101e,921657b1,00036a00
+Module/Bass64/bass_ape.dll,01cf101e,921657b1,00016200
+Module/Bass64/bass_flac.dll,01cf101e,921657b1,0000bc00
+Module/Bass64/bass_mpc.dll,01cf3749,c5c0dddb,0000cc00
+Module/Bass64/bass_tta.dll,01cf1286,559cb0da,00003800
+Module/Bass64/bass_wv.dll,01cf101e,9218b911,0000e800
+Module/MediaInfo64.dll,01cf62b8,1eca5fa3,004f2350
+Module/QuickSync64.dll,01cf7aef,bce5bbb3,00066e00
+Html/InitList.htm,01ce0348,98703811,0000030a
+Html/ErrorList.htm,01ce0348,98714985,0000088e
+Html/ie_bn01.gif,01ce0348,986f269d,00000260
+Html/ie_err.gif,01ce0348,98712274,00001702
+Html/ie_bn02.gif,01ce0348,986fe9f0,00000214
+Html/loading.gif,01ce0348,986f74be,000044a0
+Html/loadtext.gif,01ce0348,9870d453,00000654
