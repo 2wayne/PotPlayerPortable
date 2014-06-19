@@ -2,6 +2,26 @@
 Historia wersji PotPlayer
 
 ----------------------------------------------------------
+[1.6.48575]                                     2014/06/18
+----------------------------------------------------------
++ Dodano język hiszpański
++ Dodano język ukraiński
++ Dodano funkcję zmiany rozmiaru okna odtwarzania tylko podczas pierwszego uruchomienia
++ Dodano możliwość wykonywania korekcji kolorów Gamma (Pixel Shader)
++ Dodano możliwość oddzielnego traktowania wideo/audio podczas losowego odtwarzania/powtarzania odtwarzania
++ Dodano możliwość przechowywania oddzielnie pozycji/rozmiaru skórki dla trybów wideo/audio
++ Dodano funkcję umożliwiającą zapis ustawień natychmiast po wstrzymaniu odtwarzania
++ Dodano funkcję odczytu danych z wyprzedzeniem w ustawieniach wbudowanych Source/Splitter
+
+- Naprawiono błąd powodujący brak możliwości odtwarzania plików MOD
+- Naprawiono problem z marginesami dla napisów SMI
+- Naprawiono nie działającą funkcję Native Stereoscopic 3D 
+- Naprawiono niektóre skróty klawiszowe, które nie działały w liście odtwarzania
+- Naprawiono powtarzanie odtwarzania, które nie działało w trybie odtwarzania w kolejności losowej
+- Zmodyfikowano proces instalacji odnośnie używania OpenCodec
+- Ulepszono funkcję kojarzenia rozszerzeń w systemie Windows 8
+
+----------------------------------------------------------
 [1.6.47995]                                     2014/05/29
 ----------------------------------------------------------
 + Dodano język japoński

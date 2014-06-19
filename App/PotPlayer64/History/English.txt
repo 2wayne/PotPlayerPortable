@@ -2,6 +2,26 @@
 Version History of the PotPlayer
 
 ----------------------------------------------------------
+[1.6.48575]                                     2014/06/18
+----------------------------------------------------------
++ Added Spanish translation
++ Added Ukrainian translation
++ Added an option to operate playback window size function only with the first playback at a runtime
++ Added the ability to perform color gamut correction
++ Added the ability to separately assign repeat and shuffle functions to each playback mode
++ Added the ability to remember window position and size of each skin mode
++ Added an option to save settings instantly when playback is paused
++ Added cache pre-read function to built-in source/splitter filter
+
+- Fixed a problem that can not play MOD files
+- Changed calculation of SMI subtitle position from relative to absolute
+- Fixed a problem that the Stereoscopic 3D output mode did not work properly
+- Fixed a problem that some playlist keyboard shortcuts did not work
+- Fixed an issue where the repeat playlist function did not work if shuffle playback mode was enabled
+- Added an action into installer to auto determine whether to show built-in hardware decoder/encoder selections depending on the system
+- Improved file association handling in Windows 8
+
+----------------------------------------------------------
 [1.6.47995]                                     2014/05/29
 ----------------------------------------------------------
 + Added Japanese translation
