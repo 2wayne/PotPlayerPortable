@@ -119,7 +119,29 @@ $}
  - У програмі використовується бібліотека обробки шрифтів FreeType (http://www.freetype.org).
  - Авторським правом © на цю програму володіє Daum Communications (http://www.daum.net).
  - Український переклад: Олександр (6c6c6) http://localize.org.ua
-$}{$CP0=
+$}
+{$HUNGARIAN=
+
+Ez a szoftver egy ingyenes termék, amely szabadon felhasználható otthoni/céges/iskolai/kormányhivatali/stb. célokra mindaddig, amíg az nem kereskedelmi indíttatásból történik.
+
+* Figyelem
+ - Ezt a szoftvert a szerzői jogi és szoftvervédelmi törvények védik. A program módosítását, kódjának vagy egyéb összetevőinek visszafejtését, szétbontását, vagy az engedélyezettől eltérő módon történő módosítását a vonatkozó törvények szigorúan tiltják.(Kivételt képeznek ez alól az LGPL licencekkel rendelkező FFmpeg, lame programok)
+ - A szoftver a szerzői jog tulajdonosának engedélye nélkül kereskedelmi célokra nem használható fel.
+
+* Szerzői jogi információk
+ - Ez a szoftver egy LGPL licenc alatt álló FFmpeg (http://www.ffmpeg.org) alapú videódekódolót tartalmaz.(Az LGPL licenc információk megtekintéséhez, keresse meg a telepítési könyvtárban található LGPL.txt fájlt) A módosított FFmpeg forrás letölthető innen: http://potplayer.daum.net/devel/ffmpeg.zip.
+ - Ez a szoftver egy zlib licenc alatt álló Zlib (http://www.zlib.net) erőforrástárat használ.
+ - Ez a szoftver egy RARLAB (http://www.rarlab.com) által készített és elérhetővé tett rar erőforrástárat használ. 
+ - Ez a szoftver egy zlib/png licenc alatt álló png (http://www.libpng.org) erőforrástárat használ.
+ - Ez a szoftver egy BSD-szerű licenc alatt álló Xiph.org (http://www.vorbis.com) által készített és elérhetővé tett OGG (VORBIS) eljárástárat használ.
+ - Ez a szoftver BASS (http://www.un4seen.com) erőforrástárat használ. 
+ - Ez a szoftver MediaInfo (http://mediaarea.net) erőforrástárat használ. 
+ - Ez a szoftver egy zlib/libpng licenc alatt álló NSIS (http://nsis.sourceforge.net) programmal létrehozott telepítőt használ.
+ - Ez a szoftver FreeType (http://www.freetype.org) betűtípus megjelenítő erőforrástárat használ.
+ - A jelenlegi a szoftver szerzői jogai (C) a Daum Communications (http://www.daum.net) tulajdonában vannak.  
+ - Magyar fordítás: Zityi - http://szoftverforditasok.hu
+ $}
+{$CP0=
 
 This software is a freeware product, which can be used freely by individual/company/School/Government Office/etc. users to play media files as long as it’s for non-commercial purposes.
 

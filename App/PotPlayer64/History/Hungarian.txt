@@ -1,0 +1,184 @@
+﻿
+PotPlayer verzió előzmények
+
+----------------------------------------------------------
+[1.6.49343]                                     2014/08/07
+----------------------------------------------------------
+* Összeállítva az új szerkesztőprogram verzióval
+
++ Magyar fordítás hozzáadása
++ Német fordítás hozzáadása
++ Bolgár fordítás hozzáadása
++ 2. felirat kimeneti támogatás hozzáadása
++ Új funkció a feliratok aktuális felirathoz való hozzáfűzésére
++ Új funkció a lejátszás ugrási időközök egyéni beállítására minden fájl esetén
++ Új opció a lejátszott fájlok Lomtárba küldésére
++ Új funkció az ikonkönyvtárak megadására
++ Keresés funkció hozzáadása a Felirat böngészőhöz
++ MKV Edition támogatás
++ Új funkció a behúzott fájlok beszúrására az ejtési pontnál a lejátszási listán belül
++ Többszörös kijelölési támogatását hozzáadása a Felirat böngészőhöz
++ Automatikus ISO fájl csatolási képesség hozzáadása Windows 8 vagy újabb rendszereken
++ A módosítás észlelése után végrehajtandó automatikus felirat újraolvasási funkció hozzáadása
++ Youtube lejátszási támogatás hozzáadása
+
+- Javítva lett néhány SSA feliratnál jelentkező képernyő pozícionálási probléma
+- Eltávolításra került az adásokkal együtt történő felirat továbbítás
+- Javítva lett egy hiba, amely nem tette lehetővé a HTTP TS adatfolyam lejátszását
+- Javítva lett egy hiba, amely nem tette lehetővé bizonyos HDMV felirat megjelenítését
+- Javítva lett egy hiba, amely nem tette lehetővé egyes rendszereknél a daum fiókkal való bejelentkezést
+- Továbbfejlesztett felirat újraolvasási funkció
+
+----------------------------------------------------------
+[1.6.48576]                                     2014/06/18
+----------------------------------------------------------
++ Spanyol fordítás hozzáadása
++ Ukrán fordítás hozzáadása
++ Új opció a lejátszó ablakméretének módosítására csak az első lejátszásnál
++ Új funkció a színskála korrekció végrehajtására
++ Új funkció az ismétlési és véletlenszerű lejátszási mód különálló hozzárendeléséhez az összes lejátszási módban
++ Új funkció az ablak pozíciójának és a felszínek méretének eltárolására
++ Új opció a beállítások azonnali mentésére a lejátszás szüneteltetésekor
++ Gyorsítótár előolvasási funkció hozzáadása a beépített forrás/leválasztó szűrőhöz
+
+- A MOD fájlok lejátszásánál jelentkező hiba javítása
+- Módosított SMI felirat pozíció (relatívból - abszolútba) kiszámítás 
+- A sztereoszkópikus 3D-kimeneti mód hibás működésének javítása
+- Néhány lejátszási lista gyorsbillentyű működési hiba javítása
+- A véletlenszerű lejátszási mód engedélyezésekor jelentkező lejátszólista ismétlési hiba javítása
+- Automatikus észlelési funció hozzáadása a telepítőhöz a rendszerkompatibilis beépített kódoló/dekódoló modulok megjelenítésére
+- Javított fájltársítás kezelés a Windows 8-ban
+
+----------------------------------------------------------
+[1.6.47995]                                     2014/05/29
+----------------------------------------------------------
++ Japán fordítás hozzáadása
++ Új funkció a beépített hardveres kódoló/dekódoló kiválasztására
++ A Windows 8 vagy újabb rendszerek sztereoszkópikus 3D-s módjának támogatása
++ Új funkció a lejátszási lista elemek miniatűrként való megjelenítésére
+
+- Javítva lett egy hiba, amely nem tette lehetővé egyes PC-kről a daum fiókkal való bejelentkezést
+- Teljes képernyős módban jelentkező rendellenes pan & scan működési hiba javítása
+- Néhány MOV fájl lejátszásakor jelentkező hiba javítása
+- A program FTP kiszolgálóra csatlakozási képességének támogatása
+
+----------------------------------------------------------
+[1.6.47450]                                     2014/05/08
+----------------------------------------------------------
+* Honosítási támogatás hozzáadása (Angol/Kínai/Portugál/Lengyel/Orosz támogatása)
+
++ Windows DMO/MFT kódoló/dekódoló használati képesség hozzáadása
++ NVIDIA NVENC H.264 kódoló hozzáadása
++ AMD VCE H.264 kódoló hozzáadása
++ Új funkció a képméret arány beállítására a lejátszás indításakor
++ VP7 videóformátum lejátszási támogatás hozzáadása
++ Új funkció a videó két monitorra való kiterjesztésére teljes képernyős módban
++ Új funkció a kiválasztott lejátszási lista elemek azonnali lejátszására az Album menüből
++ DXGI 1.2 képernyőrögzítési funkció hozzáadása (Windows 8 vagy újabb)
+
+- Bizonyos SMI feliratok olvasásakor jelentkező hiba javítása
+- Az előző feliratra ugrásnál jelentkező hiba javítása
+- Néhány forrás/leválasztó szűrő alapértelmezett értékének módosítása
+- FFmpeg forrás/leválasztó opció hozzáadása az összes formátumhoz a Forrás/Leválasztó szűrő vezérlőben 
+- A kimeneti eszköz képarány korrekciós hibájának javítása
+- Bizonyos ASF fájlok lejátszásánál jelentkező hiba javítása
+- Az ASS feliratoknál jelentkező memóriavesztési hiba javítása
+
+----------------------------------------------------------
+[1.5.45955]                                     2014/03/06
+----------------------------------------------------------
+- A bal/jobb és fel/le érintési műveleteknél jelentkező hiba javítása
+- Játékrögzítés során bizonyos szituációkban jelentkező hiba javítása
+- Egyes számítógépeken az adásközvetítés megtekintésekor jelentkező hibaüzenet probléma javítása
+- A többrétegű ablak OSC módjának használatakor jelentkező felszín probléma javítása
+
+----------------------------------------------------------
+[1.5.45948]                                     2014/03/05
+----------------------------------------------------------
++ Új funkció a hangszinkronizáció 2. hangleképezőre való beállítására 
++ Új funkció, mely szerint a miniatűrők is tartalmazhatják a feliratokat
++ DVD fájl lejátszási támogatás hozzáadása
++ Új funkció a feliratok maximális megjelenítési idejének beállítására
++ Körvonal elmosási effekt hozzáadása a felirat feldolgozási modulhoz
++ 2. körvonal szegélystílus hozzáadása a felirat feldolgozási modulhoz
++  XML felirat támogatás hozzáadása
++ Szó keresési funkció hozzáadása a felirat feldolgozási modulhoz
++ Felirat FPS konvertálási funkció hozzáadása
++ Open Subtitles DataBase (OSDb) támogatás hozzáadása a feliratok online keresésére és közvetlen letöltésére
++ 10 és 16 bites YUV videóformátumok támogatása
++ Rendszer-információk lap hozzáadása a lejátszási fájl információk párbeszédablakhoz
++ Új funkció a chat betűtípusának és ablakméretének beállítására
++ j2j fájl lejátszási támogatás hozzáadása
+
+- Egy biztonsági probléma javítása (a sérült MKV fejléc sebezhetőségének eltávolítása)
+- Továbbfejlesztett felirat olvasási sebesség
+- Javítva lett egy hiba, mely szerint egyes feliratok nem tűntek el
+- Továbbfejlesztett beépített forrás/elemző (BASS, FLPC, APE, MPC) kezelés
+- Javítva lett egy probléma, mely szerint néhány DVD feliratok nem jelent meg
+- Az ogg adatfolyamok lejátszásakor jelentkező hiba javítása
+- Néhány hibajavítás a beágyazott feliratoknál
+- Blu-ray felirat pozícionálási hiba javítása
+- Az ASF elosztó/forrás alapértelmezett értékének módosítása
+- A preferált audió/felirat nyelv kezelés javítása
+- A ruby feliratoknál jelentkező hiba javítása
+- A karaoke feliratoknál időnként jelentkező villogási probléma javítása
+- Javítva lett egy sortörés kezelési hiba a beágyazott feliratokban
+- Javítva lett egy probléma, mely szerint a QuickSync dekódoló/kódoló nem működött megfelelően bizonyos rendszerekben
+- Egyes HEVC (H.265) TS fájlok lejátszásakor jelentkező hiba javítása
+- Javítva lett egy hiba a többes feliratoknál
+- Javítva lett egy hiba az MPEG PS/TS beágyazott feliratainál
+
+----------------------------------------------------------
+[1.5.44465]                                     2014/01/16
+----------------------------------------------------------
+- Javítva lett egyes videókban a mozgás elmosás effekt használatakor jelentkező hiba
+- Javítva lett a műsorszórás alatt az eredeti FPS használatakor jelentkező hiba
+- Javítva lett egy hiba a felirat intézőben
+
+----------------------------------------------------------
+[1.5.44407]                                     2014/01/15
+----------------------------------------------------------
+* Az ikonok módosítva lettek
+* A különböző kódek formátumok kiválasztása bekerült a szűrővezérlőbe
+
++ HEVC(H.265) videóformátum támogatás hozzáadása
++ Nvidia CUDA H.264 kódoló hozzáadása
++ Dirac és MS Screen v1-4 kódek támogatás hozzáadása
++ Háromujjas műveletek hozzáadása az érintésvezérlési támogatáshoz
++ 2. hangleképező beállítási funkció hozzáadása
++ WavPack/OPUS szűrő kiválasztási opció hozzáadása
++ Beépített videófolyam váltó hozzáadása
++ Új Ctrl,Alt,Shift kombinálási képesség az egérműveletekkel
++ Sávmentesítési szűrő hozzáadása a videófeldolgozáshoz
+
+- Az AVCHD fájlok lejátszásánál jelentkező pozícionálási probléma javítása
+- Javítva lett bizonyos szituációkban a VC1/WMV3 fájlok DXVA módban történő lejátszásakor jelentkező képernyő megszakadási hiba
+- Javítva lett egy hiba, mely szerint túl sok rendszermemória gyorsítótár került felhasználásra a lejátszás során
+- Javítva lett bizonyos ruby címkék helytelen megjelenítéséért felelős hiba
+- Javítva lett bizonyos szituációkban a DXVA használatánál jelentkező képernyő megszakadási hiba
+- Továbbfejlesztett HDTV csatorna keresés
+- Az idx/sub feliratok mentésénél jelentkező hibák javítása
+- Javítva lett egy hiba, amely nem tette lehetővé a fájlok lejátszását bizonyos FTP-kiszolgálókról
+- Egyes MPEG fájlok szinkronizálási hibájának javítása
+- Az adásközvetítési hangtömörítés alapértelmezett beállításának módosítása 48000, 128K-ra
+- Az ASF elosztó/forrás alapértelmezett beállításának módosítása WMF forrásszűrőre
+- Bizonyos DVD-knél jelentkező pozícionálási probléma javítása
+- Javítva lett egy hiba, ahol a CUDA és QuickSync dekódolók nem működtek a DVD lejátszásnál
+- Elavult kódekek eltávolítása a beépített audió dekódolóból
+- Új funkció több HTML címke figyelmen kívül hagyására a feliratokban
+- Alapértelmezés szerint engedélyezve lett az MPEG PS/TS fájlok AVC1 - H264 feldolgozása
+- Bizonyos szituációkban a DXVA használatakor jelentkező DVD lejátszás leállítási probléma javítása
+- Továbbfejlesztett MPEG TS/PS, MKV, OGG fájl keresési sebesség
+- Továbbfejlesztett multi-program MPEG TS fájl lejátszás
+- Továbbfejlesztett miniatűr kép létrehozási funkció
+- Továbbfejlesztett jelenet kereső funkció
+- Hozzáadott folyamat a kattintás és dupla kattintás megkülönböztetésére
+- El lett távolítva egy egyujjas érintési művelet az érintésvezérlési támogatásból (egérkattintásként működik)
+- Miniatűr előnézetek megjelenítésének módosítása (navigációs sáv, jelenet kereső..) az aktuális képaránytól függően
+- Néhány WebDAV kiszolgálónál jelentkező hiba javítása
+- Néhány javítás a képernyő rögzítésben
+- Javított S/PDIF kezelés
+- Továbbfejlesztett beépített kódek kezelés
+- Néhány külső fájl áthelyezésre került a "module" nevű mappába
+
+----------------------------------------------------------

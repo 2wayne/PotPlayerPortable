@@ -105,7 +105,26 @@ $}
 /add			: Додати до списку відтворення
 /autoplay   		: Відтворити останній файл
 config="назва_шаблону"	: Використати зазначений шаблон
-$}{$CP0=
+$}
+{$HUNGARIAN=
+
+Használat : PotPlayer[Mini].exe "fájlnév" [opciók]
+
+/filedlg		: Fájl párbeszédpanel megnyitása
+/urldlg			: URL párbeszédpanel megnyitása
+/folderdlg  		: Mappa párbeszédpanel megnyitása
+/simple			: Fájl navigator megnyitása
+/cap			: Képernyő rögzítés megnyitása
+/cam			: Webkamera/egyéb eszközök megnyitása
+/atv[:ch]		: Analóg TV megnyitása
+/dtv[:ch]		: Digitális TV megnyitása
+/dvd			: DVD megnyitása
+/cd[:drive]		: CD-meghajtó megnyitása
+/add			: Hozzáadás a lejátszási listához
+/autoplay   		: Legutóbb játszott fájl lejátszása
+config="preset name"	: A megadott előbeállított minta használata
+$}
+{$CP0=
 
 Usage : PotPlayer[Mini].exe "filename" [options]
 

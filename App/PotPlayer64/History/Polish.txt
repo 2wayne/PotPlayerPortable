@@ -2,7 +2,36 @@
 Historia wersji PotPlayer
 
 ----------------------------------------------------------
-[1.6.48575]                                     2014/06/18
+[1.6.49343]                                     2014/08/07
+----------------------------------------------------------
+* Do kompilacji została użyta nowa wersja kompilatora
+
++ Dodano język bułgarski
++ Dodano język niemiecki
++ Dodano język węgierski
++ Dodano funkcję wyświetlania drugich napisów
++ Dodano możliwość dołączania napisów do aktualnych napisów (kilka języków)
++ Dodano funkcję przechowywania zakresu pomijania w oddzielnym pliku
++ Dodano możliwość wysłania odtworzonych plików do Kosza
++ Dodano w rozszerzeniach możliwość wyboru dodatkowego zestawu ikon
++ Dodano w Eksploratorze napisów możliwość wyszukiwania wyrazów/znaczeń
++ Dodano możliwość odtwarzania plików MKV Edition
++ Dodano funkcję umożliwiającą wstawianie przeciąganych plików w miejscu ich upuszczenia w obszarze listy odtwarzania
++ Dodano w Eksploratorze napisów możliwość zaznaczenia wielu napisów
++ Dodano możliwość automatycznego montowania i odtwarzania plików ISO w systemie Windows 8 i nowszym
++ Dodano funkcję automatycznego przeładowania napisów po wykryciu zmian
++ Dodano obsługę YouTube
++ Dodano możliwość nagrywania strumieni HLS (HTTP Live Streaming)
+
+- Naprawiono błąd wyświetlania niektórych napisów SSA
+- Usunięto możliwość bezpośredniego przesyłania danych z napisami podczas transmisji
+- Naprawiono problem powodujący błędne strumieniowanie HTTP TS
+- Naprawiono błędne wyświetlanie niektórych napisów HDMV
+- Naprawiono błąd powodujący brak możliwości zalogowania się do konta Daum z niektórych systemów
+- Ulepszono funkcję ponownego wczytywanie napisów
+
+----------------------------------------------------------
+[1.6.48576]                                     2014/06/18
 ----------------------------------------------------------
 + Dodano język hiszpański
 + Dodano język ukraiński
@@ -18,7 +47,7 @@ Historia wersji PotPlayer
 - Naprawiono nie działającą funkcję Native Stereoscopic 3D 
 - Naprawiono niektóre skróty klawiszowe, które nie działały w liście odtwarzania
 - Naprawiono powtarzanie odtwarzania, które nie działało w trybie odtwarzania w kolejności losowej
-- Zmodyfikowano proces instalacji odnośnie używania OpenCodec
+- Dodano w instalatorze działanie automatycznie określające wybór wbudowanych dekoderów/enkoderów sprzętowych w zależności od systemu
 - Ulepszono funkcję kojarzenia rozszerzeń w systemie Windows 8
 
 ----------------------------------------------------------

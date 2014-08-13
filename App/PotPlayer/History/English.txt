@@ -2,7 +2,36 @@
 Version History of the PotPlayer
 
 ----------------------------------------------------------
-[1.6.48575]                                     2014/06/18
+[1.6.49343]                                     2014/08/07
+----------------------------------------------------------
+* Compiled with the new version of compiler
+
++ Added Hungarian translation
++ Added German translation
++ Added Bulgarian translation
++ Added 2nd subtitle output support
++ Added the ability to append subtitles to the current subtitle
++ Added the ability to set playback skip intervals specifically for each file
++ Added an option to send played files to Recycle Bin
++ Added the ability to specify icon libraries
++ Added find function to Subtitle Browser
++ Added MKV Edition support
++ Added the ability to insert dragged files at the drop point within a playlist
++ Added multiple selection support to Subtitle Browser
++ Added the ability to auto mount ISO files in Windows 8 or newer
++ Added the ability to auto reload subtitles on file changes
++ Added YouTube support
++ Added the ability to record HLS (HTTP Live Streaming) streams
+
+- Fixed screen position problem of some SSA subtitles
+- Removed subtitle transmission along with broadcasts
+- Fixed a problem that can not play HTTP TS streams
+- Fixed an issue where some HDMV subtitles doesn't show up
+- Fixed an issue that can not login with daum account from certain systems
+- Improved reload subtitle function
+
+----------------------------------------------------------
+[1.6.48576]                                     2014/06/18
 ----------------------------------------------------------
 + Added Spanish translation
 + Added Ukrainian translation
