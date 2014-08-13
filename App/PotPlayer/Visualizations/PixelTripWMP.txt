@@ -1,0 +1,129 @@
+PixelTrip Windows Media Player Visualization PlugIn
+CopyRight© 2002 Brian Spangler
+
+bxs122@hotmail.com
+www.visolu.com/PixelTrip
+
+--------------------------------------------------------
+	PixelTrip
+--------------------------------------------------------
+Have Windows Media Player will Travel ... PixelTrip!
+Sit back, grab your seat and enjoy the ride.
+
+--------------------------------------------------------
+	Installation instruction
+--------------------------------------------------------
+
+PixelTrip requires both a processor that supports the MMX as well DirectX level 7 or better
+*If you require DirectX drivers then visit www.microsoft.com/DirectX
+
+-Place the PixelTripWMP.dll in WMP visualization plugin directory. Generally found in 'C:\Program Files\Windows Media Player\Visualizations'
+-PixelTrip is a COM object and requires it be registered. Register using command line 'regsvr32 C:\Program Files\Windows Media Player\Visualizations\PixelTripWMP.dll'
+-Start WMP and press select the PixelTrip Visualization
+-From Options click on visualizations tab to open the PixelTrip Configuration Panel
+-Make changes such as screen resolution, beat detection etc.
+-Close configuration panel and start a song
+
+--------------------------------------------------------
+	Configuration Notes
+--------------------------------------------------------
+
+PixelTrip offers a variety of settings to help tweak to your liking and environment. 
+Below is a brief description of each setting.
+
+Use Full Screen Flipping Chain --
+through DirectDraw a series of BackBuffers are allocated in video memory and are 'flipped' with
+each frame rendered to the screen. When turned off then a single backbuffer is allocated and copy to the 
+screen via a fast Hardware Blt. 
+
+Start Full Screen --
+On start of the PixelTrip PlugIn if this checkbox is set then PixelTrip will go into full screen mode.
+Otherwise a desktop window, that you can resize, will be created that can also be maximized to enter full screen mode.
+
+Full Screen Video Modes --
+Select from the list a Full Screen Video mode that suits your PC. If the number of Frames Per Second being generated falls
+below 20 than it is recommended you select a Full Screen Video mode at a lower resolution.
+
+Extend CPU Utilization --
+When set, PixelTrip will use as many CPU cycles as possible. When not set, PixelTrip will utilize less than 76% of the CPU.
+
+Show Frames Per Second --
+When set, the number of frames rendered per second will be displayed in the upper left corner of the window or full screen
+HotKey 'F' or 'f' can be used during play to toggle display of Frames Per Second
+
+Use Beat Detection --
+When set, beat detection will be enabled.
+HotKey 'D' or 'd' can be used during play to toggle state of Beat Detection
+
+Enable PixelTrip Motion --
+In addition to applying general polar coordinate transforms to the WMP waveform data, PixelTrip will also move the 
+rendered scene to provide the appearance of motion. Three options can be set:
+	Never - never use this option
+	Sometimes - randomly select when this option is on and off
+	Always - always use this option
+
+Enable Motion Bounce --
+Basic Beat Detection provides a visual in the form of color, shape change etc. This option will add a bounce to any 
+motion rendered in the scene. This can provide for some wild scenes ... but is not for everyone (particularly if you are susceptible to motion sickness)
+Three options can be set:
+	Never - never use this option
+	Sometimes - randomly select when this option is on and off
+	Always - always use this option
+
+Beat Sensitivity -- 
+The beat detection algorithm used was designed to allow for a sensitivity setting. If PixelTrip is failing to 
+detect a beat in your taste of music or is incorrectly finding a beat ... try lowering or raising this value.
+The default setting is 62
+
+Desired FPS --
+For smaller displays the number of frames per second rendered can run over 100. This can be very unpleasing and so this
+option can be used to force a constant number of frames per second irregardless of window size. 
+All internal PixelTrip settings were selected with an FPS value of 24 thru 30 in mind. It is recommended you stay within this range.
+*A value of -1 indicates the maximum number of frames per second achievable should be used.
+
+Additional HotKeys --
+HotKey T: Toggles application of a Transform Vector Field On and Off
+HotKey U: Clears the screen
+
+
+--------------------------------------------------------
+Boring legal stuff (For my protection and yours)
+--------------------------------------------------------
+
+TERMS OF USE - COPYRIGHT INFORMATION - PUBLIC DISPLAY
+
+PixelTrip is free for personal use only. No registration is required.
+Any commercial use of this program, however, requires the consent of the
+author. Please contact Brian Spangler at bxs122@hotmail.com for questions about
+commercial use. 
+
+Images and/or video sequence generated with this program are CopyRight© 2002 Brian Spangler and can not be reproduced or displayed in public without permission.
+
+
+LICENSE AGREEMENT and DISCLAIMER
+
+Please read the follow terms and conditions before using PixelTrip. Use of PixelTrip will indicate your acceptance of this License.  If you do not agree with these terms and conditions, you should promptly remove PixelTrip from your system. This requires you to delete the PixelTrip runtime file completely.  Please contact Brian Spangler if you have any questions about this license.
+
+The PixelTrip Visualization PlugIn (DLL, SVP, Screen Saver, etc.), Documentation, produced images, (hereinafter called "PlugIn") is proprietary to Brian Spangler and is protected by Federal Copyright Law.  Brian Spangler retains the title to and ownership of this PlugIn.  You are licensed to use this PlugIn based on the following terms and conditions.
+
+Grant of Right to Use - The license is defined as the individual utilizing the PlugIn.  This license is not for an entire company but for a single individual.  Brian Spangler hereby grants the licensee a right to personally use and copy the PlugIn free of charge.
+
+RESTRICTIONS - YOU MAY NOT:
+Distribute, rent, sub-license or otherwise make available to others the PlugIn for monetary gain without prior written consent from Brian Spangler. In the case of an authorized transfer the transferee must agree to be bound by the terms and conditions of this License Agreement.
+
+US GOVERNMENT RESTRICTED RIGHTS - Use, duplication or disclosure by the United States Government is subject to restrictions under FARS 52.227-14, in FARS 52.227-19 or in DFARS 52.227-7013(c)(1)(ii) Commercial Computer Software - Restricted Rights.
+
+TERM - You may terminate this License and Agreement at anytime, should no violations of the license have occurred, by destroying all copies of the PlugIn and PlugIn documentation.
+
+LIMITED WARRANTY
+
+Brian Spangler makes no warranty as to the operational performance of the PlugIn, the accuracy, completeness or usefulness of any information provided with this PlugIn, or the advisability of using the PlugIn. The Provided "as is" without warranty or representation, either express or implied, as to performance, merchantability or fitness for any particular purpose. The licensee assumes the entire risk as to the quality and performance of the PlugIn. 
+
+In no event shall Brian Spangler or anyone else who has been involved in the creation, production or delivery of this PlugIn be liable for any direct, indirect, special, incidental or consequential damages, such as, but not limited to, system problems or damage, loss of anticipated profits, business interruption, benefits, use, or data resulting from the use of this PlugIn. Some states do not allow the exclusions or limitation of direct, incidental or consequential damages so the above limitation may not apply to you.
+In no event shall Brian Spangler or anyone else who has been involved in the creation, production or delivery of this PlugIn be liable for any damages to you for using PlugIn. If you have any medical or health related concerns, do not use this PlugIn.
+
+GENERAL - This Agreement is governed by the laws of the Commonwealth of Pennsylvania. If any provisions are held void or unenforceable the remainder shall remain valid and enforceable according to its terms.
+
+THE FOREGOING CONSTITUTES THE ENTIRE LIABILTY OF BRIAN SPANGLER AND EXCLUSIVE REMEDY OR CUSTOMER WITH RESPECT TO ANY CLAIM OR ACTION FOR PATENT, TRADEMARK, AND COPYRIGHT OR TRADE SECRET INFRINGEMENT WITH RESPECT TO THE SOFTWARE.
+
+CopyRight© 2002 Brian Spangler

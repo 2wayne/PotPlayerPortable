@@ -2,6 +2,15 @@
 Historia wersji PotPlayer
 
 ----------------------------------------------------------
+[1.6.49479]                                     2014/08/13
+----------------------------------------------------------
++ Dodano funkcję dającą możliwość dodawania folderu z zewnętrznym audio
+
+- Naprawiono błąd powodujący nie wyświetlanie napisów podczas renderowania wideo za pomocą Haali/madVR
+- Naprawiono problem systemowy powodujący brak możliwości wyszukiwania napisów
+- Naprawiono problem powodujący brak możliwości odtwarzania niektórych nowych plików MP4
+
+----------------------------------------------------------
 [1.6.49343]                                     2014/08/07
 ----------------------------------------------------------
 * Do kompilacji została użyta nowa wersja kompilatora

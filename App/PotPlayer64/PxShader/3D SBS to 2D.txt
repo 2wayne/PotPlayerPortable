@@ -1,0 +1,21 @@
+// 3D SidebySide to 2D
+
+sampler s0 : register(s0);
+float4 p0 : register(c0);
+
+#define width (p0[0])
+#define height (p0[1])
+
+float4 main(float2 tex : TEXCOORD0) : COLOR
+{	
+   tex.x = tex.x / 2;
+
+   float4 l = tex2D(s0, tex);
+   float4 r = tex2D(s0, tex);
+
+   float red = l.r;
+   float green = r.g;
+   float blue = r.b;
+   
+   return float4(red, green, blue, 1);
+}

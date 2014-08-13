@@ -2,6 +2,15 @@
 История версий PotPlayer
 
 ----------------------------------------------------------
+[1.6.49479]                                     2014/08/13
+----------------------------------------------------------
++ Add external audio folder function
+ 
+- Fixed an issue that can't show subtitle with Haali and madVR Renderer
+- Fixed an issue that subtitle searching function did not work in certain system
+- Fixed an issue that can not play some MP4 files
+
+----------------------------------------------------------
 [1.6.49343]                                     2014/08/07
 ----------------------------------------------------------
 * Собрано в новой версии компилятора
