@@ -2,13 +2,26 @@
 PotPlayer verzió előzmények
 
 ----------------------------------------------------------
+[1.6.49952]                                     2014/09/25
+----------------------------------------------------------
++ Szerb fordítás hozzáadása
++ Új funkció került a könyvjelző menübe a YouTube videók minőségének szabályzására
+
+- Javítva lett egy probléma, amely hibát okozott a 2. felirat kimenetnél
+- Javítva lett egy hiba, amely miatt nem lehetett lejátszani bizonyos YouTube videókat
+- Továbbfejlesztett többszörös adatfolyam kiválasztási támogatása
+- Továbbfejlesztett műsorszolgáltatási UI effekt
+
+----------------------------------------------------------
 [1.6.49479]                                     2014/08/13
 ----------------------------------------------------------
-+ Add external audio folder function
++ Külső audió könyvtár meghatározási funkció hozzáadása
  
-- Fixed an issue that can't show subtitle with Haali and madVR Renderer
-- Fixed an issue that subtitle searching function did not work in certain system
-- Fixed an issue that can not play some MP4 files
+- Javítva lett egy hiba, amely miatt nem jelentek meg a feliratok a Haali és Madshi megjelenítőknél
+- Javítva lett egy hiba, amely miatt a felirat szó keresési funkció nem működött bizonyos rendszereken
+- Javítva lett egy hiba, amely miatt nem lehetett lejátszani néhány MP4 fájlt
+- Módosításra került a műsorszórásnál vagy anélkül használandó hang normalizáló használati módja
+- Javítva lett bizonyos rendszereken a chat kényszerített kilépési problémája
 
 ----------------------------------------------------------
 [1.6.49343]                                     2014/08/07
@@ -30,6 +43,7 @@ PotPlayer verzió előzmények
 + Automatikus ISO fájl csatolási képesség hozzáadása Windows 8 vagy újabb rendszereken
 + A módosítás észlelése után végrehajtandó automatikus felirat újraolvasási funkció hozzáadása
 + Youtube lejátszási támogatás hozzáadása
++ Új HLS (HTTP Live Streaming) adatfolyam rögzítési funkció
 
 - Javítva lett néhány SSA feliratnál jelentkező képernyő pozícionálási probléma
 - Eltávolításra került az adásokkal együtt történő felirat továbbítás

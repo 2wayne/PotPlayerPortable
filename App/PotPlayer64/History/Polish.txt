@@ -2,13 +2,28 @@
 Historia wersji PotPlayer
 
 ----------------------------------------------------------
+[1.6.49952]                                     2014/09/25
+----------------------------------------------------------
++ Dodano język serbski
++ Dodano do menu Zakładki możliwość wyboru jakości odtwarzanego materiału z YouTube
++ Dodano do Automatycznego wyboru kryteriów odtwarzania możliwość wyboru mediów w zależności od długości
++ Dodano dekoder HEVC CUDA/DXVA
+
+- Naprawiono błąd powodujący nieprawidłowe wyświetlanie drugich napisów
+- Naprawiono problemy z odtwarzaniem niektórych plików wideo z YouTube
+- Ulepszono funkcję wyboru wielu strumieni
+- Ulepszono efektywność wyświetlania UI dla internetowych transmisji wideo
+
+----------------------------------------------------------
 [1.6.49479]                                     2014/08/13
 ----------------------------------------------------------
-+ Dodano funkcję dającą możliwość dodawania folderu z zewnętrznym audio
++ Dodano możliwość określenia zewnętrznych folderów audio
 
 - Naprawiono błąd powodujący nie wyświetlanie napisów podczas renderowania wideo za pomocą Haali/madVR
-- Naprawiono problem systemowy powodujący brak możliwości wyszukiwania napisów
+- Naprawiono problem, powodujący że funkcja wyszukiwania wyrazów w napisach nie działała w niektórych systemach
 - Naprawiono problem powodujący brak możliwości odtwarzania niektórych nowych plików MP4
+- Zmieniono sposób normalizacji audio do stosowania z/bez internetową transmisją wideo
+- Naprawiono błąd wymuszania wyjścia z czatu występujący w niektórych systemach
 
 ----------------------------------------------------------
 [1.6.49343]                                     2014/08/07

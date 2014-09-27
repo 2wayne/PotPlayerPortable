@@ -1,6 +1,19 @@
 ﻿Version History of the PotPlayer
 
 ----------------------------------------------------------
+[1.6.49952]                                     2014/09/25
+----------------------------------------------------------
++ Added Serbian translation
++ Added the ability to control the quality of YouTube videos from bookmark menu
++ Added file duration condition to auto selection criteria of configuration management
++ Added CUDA/DXVA HEVC Decoder
+
+- Fixed a problem that caused an error with 2nd subtitle output
+- Fixed an issue that can not play some YouTube videos
+- Improved multiple stream selection support
+- Improved user interface of broadcast effects
+
+----------------------------------------------------------
 [1.6.49479]                                     2014/08/13
 ----------------------------------------------------------
 + Added the ability to specify external audio directories
