@@ -13,11 +13,16 @@ ${Segment.OnInit}
 !macroend
 
 ${SegmentInit}
-	${If} $Bits = 64
+	${If} $Bits == 64
 		${SetEnvironmentVariablesPath} FullAppDir $EXEDIR\App\PotPlayer64
-				Rename "$EXEDIR\Data\PotPlayer.ini" "$EXEDIR\Data\PotPlayer64.ini"
 	${Else}
 		${SetEnvironmentVariablesPath} FullAppDir $EXEDIR\App\PotPlayer
+	${EndIf}
+!macroend
+
+${SegmentPre}
+	${If} $Bits == 64
+		Rename "$EXEDIR\Data\PotPlayer.ini" "$EXEDIR\Data\PotPlayer64.ini"
 	${EndIf}
 !macroend
 
