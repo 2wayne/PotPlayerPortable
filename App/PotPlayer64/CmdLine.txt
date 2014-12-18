@@ -16,6 +16,24 @@
 /autoplay	  : 자동으로 재생
 config="환경이름" : 지정된 환경 선택
 $}
+{$CP932=
+
+コマンド入力 : PotPlayer[Mini].exe "ファイル名" [オプション]
+
+/filedlg		: ファイルを開くダイアログ
+/urldlg			: URLを開くダイアログ
+/folderdlg  		: フォルダを開くダイアログ
+/simple			: シンプルなファイルを開くダイアログ
+/cap			: 画面キャプチャ
+/cam			: Webcam/他のデバイス
+/atv[:ch]		: アナログ TV
+/dtv[:ch]		: デジタル TV
+/dvd			: 既定の DVDデバイス
+/cd[:drive]		: CD ドライブ
+/add			: 再生リストに追加
+/autoplay   		: 前回再生していたファイルを再生
+config="プリセット名"	: 使用するプリセットを指定
+$}
 {$CP936=
 
 命令行用法 : PotPlayer[Mini].exe "文件名" [参数]
@@ -123,6 +141,60 @@ Használat : PotPlayer[Mini].exe "fájlnév" [opciók]
 /add			: Hozzáadás a lejátszási listához
 /autoplay   		: Legutóbb játszott fájl lejátszása
 config="preset name"	: A megadott előbeállított minta használata
+$}
+{$SERBIAN=
+
+Употреба : PotPlayer[Mini].exe "filename" [избор]
+
+/filedlg		: Отвори дијалог фајла
+/urldlg			: Отвори дијалог адреса
+/folderdlg  		: Отвори фолдер дијалог
+/simple			: Отвори навигатор
+/cap			: Отвори снимање екрана
+/cam			: Отвори вебкам/други уређај
+/atv[:ch]		: Отвори Аналогну TV
+/dtv[:ch]		: Отвори Дигиталну TV
+/dvd			: Отвори DVD
+/cd[:drive]		: Отвори cd драјв
+/add			: Додај у листу за пуштање
+/autoplay   		: Пусти задњи фајл
+config="preset name"	: Користи назначене поставке
+$}
+{$THAI=
+
+วิธีใช้ : PotPlayer[Mini].exe "ชื่อไฟล์" [ตัวเลือก]
+
+/filedlg		: เปิดกล่องโต้ตอบสำหรับไฟล์
+/urldlg			: เปิดกล่องโต้ตอบสำหรับ URL
+/folderdlg  		: เปิดกล่องโต้ตอบสำหรับโฟลเดอร์
+/simple			: เปิดตัวนำทางไฟล์
+/cap			: เปิดตัวจับหน้าจอ
+/cam			: เปิดกล้องเว็บแคม/อุปกรณ์อื่น
+/atv[:ch]		: เปิดทีวีอนาล็อก
+/dtv[:ch]		: เปิดทีวีดิจิตอล
+/dvd			: เปิด DVD
+/cd[:drive]		: เปิดไดรฟ์ CD
+/add			: เพิ่มสู่บัญชีการเล่น
+/autoplay   		: เล่นไฟล์ที่ถูกเล่นครั้งหลังสุด
+config="ชื่อค่าสำเร็จรูป"	: ใช้ค่าสำเร็จรูปที่ระบุ
+$}
+{$TURKISH=
+
+Kullanım: PotPlayer[Mini].exe "dosyaadı" [seçenekler]
+
+/filedlg              : Dosya iletişim penceresini aç
+/urldlg		      : URL iletişim penceresini aç
+/folderdlg            : Klasör iletişim penceresini aç
+/simple		      : Dosya tarayıcısını aç
+/cap		      : Ekran yakalamayı aç
+/cam		      : Web kamerası/diğer aygıtları aç
+/atv[:ch]	      : Analog TV aç
+/dtv[:ch]	      : Dijital TV aç
+/dvd		      : DVD aç
+/cd[:drive]	      : Bir CD sürücüsü aç
+/add		      : Çalma listesine ekle
+/autoplay             : Son yürütülen dosyayı oynat
+config="preset name"  : Belirtilen yapılandırmayı kullan
 $}
 {$CP0=
 

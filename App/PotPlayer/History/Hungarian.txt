@@ -2,10 +2,26 @@
 PotPlayer verzió előzmények
 
 ----------------------------------------------------------
+[1.6.51480]                                     2014/12/16
+----------------------------------------------------------
++ Szinkronizált dalszöveg (SYLT) az MP3 fájlokban támogatás hozzáadása
++ VOD HLS adatfolyam lejátszási képesség hozzáadása
++ Francia fordítás hozzáadása
++ Szövegfelolvasási funkció hozzáadása
+
+- Javítva lett a CoreAVC használata esetén, bizonyos fájlok dekódolásánál jelentkező hiba
+- Javítva lett a játék felvételi funkció hibás működéséért felelős hiba
+- Javítva lett egy hiba, ahol a program átugrott a következő elemre, a befejezés kihagyása funkció engedélyezett állapotában
+- Javítva lett egy hiba, amely nem tette lehetővé a fájlok lejátszását bizonyos FTP kiszolgálók esetén
+- Néhány módosítás a beállítások párbeszédablak társítási és konfigurációs lapján
+
+----------------------------------------------------------
 [1.6.49952]                                     2014/09/25
 ----------------------------------------------------------
 + Szerb fordítás hozzáadása
 + Új funkció került a könyvjelző menübe a YouTube videók minőségének szabályzására
++ Új funkció a média hossza szerinti konfiguráció automatikus kiválasztására
++ CUDA/DXVA HEVC dekóder hozzáadva
 
 - Javítva lett egy probléma, amely hibát okozott a 2. felirat kimenetnél
 - Javítva lett egy hiba, amely miatt nem lehetett lejátszani bizonyos YouTube videókat

@@ -2,6 +2,28 @@
 Version History of the PotPlayer
 
 ----------------------------------------------------------
+[1.6.51480]                                     2014/12/16
+----------------------------------------------------------
++ Added French translation
++ Added Thai translation
++ Added Hebrew translation
++ Added Turkish translation
++ Added support for synchronized lyrics (SYLT) in MP3 files
++ Added the ability to play VOD HLS streams
++ Added text to speech feature
++ Added the ability to zoom, pan and stretch the image using Ctrl, Alt, Shift + mouse drag combination
++ Added the ability to set screen position of subtitles using Ctrl, Alt + mouse drag combination
+
+- Fixed an issue where certain files cannot be decoded with CoreAVC
+- Fixed a problem where game capture function did not work properly
+- Fixed a problem where the program skips the next items when skip ending function was enabled
+- Fixed an issue that can not play files from certain FTP servers
+- Some arrangements in association and configuration tabs of preferences dialog
+- Separated Built-in Audio Renderer into two different choices as Built-in Directsound and WASAPI Audio Renderers
+- Improved controlling of playback audio speed
+- Improved SRT subtitle loading
+
+----------------------------------------------------------
 [1.6.49952]                                     2014/09/25
 ----------------------------------------------------------
 + Added Serbian translation

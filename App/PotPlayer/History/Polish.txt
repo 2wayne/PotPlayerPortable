@@ -2,6 +2,28 @@
 Historia wersji PotPlayer
 
 ----------------------------------------------------------
+[1.6.51480]                                     2014/12/16
+----------------------------------------------------------
++ Dodano język francuski
++ Dodano język tajski
++ Dodano język hebrajski
++ Dodano język turecki
++ Dodano wsparcie dla zsynchronizowanych lyric (SYLT) w plikach MP3
++ Dodano możliwość odtwarzania strumieni VOD HLS
++ Dodano funkcję umożliwiającą zamianę tekstu na mowę (TTS)
++ Dodano funkcję powiększania, przesuwania oraz rozciągania obrazu przy użyciu kombinacji klawiszy Ctrl, Alt, Shift + przeciągnie LPM
++ Dodano funkcję ręcznego przesuwania położenia napisów za pomocą myszki po użyciu klawiszy Alt i Ctrl
+
+- Naprawiono błąd występujący podczas dekodowania niektórych plików za pomocą CoreAVC
+- Naprawiono problem powodujący nieprawidłowe działanie funkcji przechwytywania gier
+- Naprawiono problem występujący podczas automatycznego odtwarzania następnego pliku po błędzie odtwarzania
+- Naprawiono problem z odtwarzaniem z niektórych adresów FTP
+- Zmodyfikowano niektóre elementy preferencji
+- Rozdzielono wbudowany renderer WASAPI i wewnętrzny DirectSound Audio Renderer
+- Ulepszono regulację szybkości odtwarzania audio
+- Naprawiono wczytywanie napisów SRT
+
+----------------------------------------------------------
 [1.6.49952]                                     2014/09/25
 ----------------------------------------------------------
 + Dodano język serbski

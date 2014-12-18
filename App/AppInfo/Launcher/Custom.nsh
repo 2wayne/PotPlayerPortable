@@ -22,12 +22,12 @@ ${SegmentInit}
 
 ${SegmentPre}
 	${If} $Bits == 64
-		Rename "$EXEDIR\Data\PotPlayer.ini" "$EXEDIR\Data\PotPlayer64.ini"
+		Rename "$EXEDIR\Data\PotPlayerMini.ini" "$EXEDIR\Data\PotPlayerMini64.ini"
 	${EndIf}
 !macroend
 
 ${SegmentPost}
-        ${If} $Bits == 64
-                Rename "$EXEDIR\Data\PotPlayer64.ini" "$EXEDIR\Data\PotPlayer.ini"
-        ${EndIf}
+	${If} $Bits == 64
+		Rename "$EXEDIR\Data\PotPlayerMini64.ini" "$EXEDIR\Data\PotPlayerMini.ini"
+	${EndIf}
 !macroend
