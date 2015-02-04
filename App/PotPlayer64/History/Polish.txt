@@ -2,6 +2,38 @@
 Historia wersji PotPlayer
 
 ----------------------------------------------------------
+[1.6.52515]                                     2015/02/02
+----------------------------------------------------------
++ Dodano język szwedzki
++ Dodano możliwość nagrywania wideo w formacie GIF
++ Dodano możliwość wykonywania transmisji na żywo
++ Dodano sprawdzanie, czy PotPlayer.dll został zmodyfikowany (podczas uruchamiania odtwarzacza)
++ Dodano do przechwytywania ekranu funkcję DirectDraw
++ Dodano na wyjściu 3D funkcję NVIDIA 3D Vision
++ Dodano obsługę wyjścia 3D dla wbudowanego OpenGL Video Renderer
++ Dodano możliwość włączenia/wyłączenia Closed Caption
++ Dodano możliwość ustawienia rodzaju BDA
++ Dodano możliwość edycji częstotliwości kanału BDA
++ Dodano enkoder OpenH264
+
+- Naprawiono problem z odtwarzaniem plików z chmury Daum
+- Naprawiono problem z DXVA podczas odtwarzania niektórych plików z Intel VGA
+- Naprawiono występowanie problemów z kolorami podczas przechwytu do JPEG/PNG
+- Naprawiono problem z regulacją poziomu głośności Wave w Win Vista lub nowszym
+- Naprawiono błąd występujący po użyciu klawisza Alt, który powodował wywołanie menu systemowego i utratę koncentracji uwagi na odtwarzaczu
+- Ulepszono wydajność dekodera Intel QuickSync
+- Naprawiono problem z odczytem 8-bitowych plików PNG
+- Zmieniono domyślną wartość usuwania przeplotu na Motion Adaptive
+- Ulepszono funkcję przechwytywania ekranu DXGI 1.2
+- Poprawiono integrację w tymczasowej liście odtwarzania zewnętrznych plików DPL wybranych do odtwarzania 
+- Dostosowano pliki językowe do użycia tłumaczenia z języka angielskiego, gdy są nieprzetłumaczone linie w bieżącym pliku językowym
+- Ulepszono odtwarzanie pobieranych plików
+- Ulepszono wbudowany OpenGL Video Renderer 
+- Naprawiono problem z wyświetlaniem menu DVD z wbudowanymi OpenGL/Direct3D9 Video Renderer
+- Naprawiono problem z synchronizacją podczas odtwarzania niektórych plików MP4
+- Ulepszono wyświetlanie miniatur w liście odtwarzania
+
+----------------------------------------------------------
 [1.6.51480]                                     2014/12/16
 ----------------------------------------------------------
 + Dodano język francuski

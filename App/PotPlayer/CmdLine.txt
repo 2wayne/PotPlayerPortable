@@ -106,6 +106,24 @@ $}
 /autoplay	Автоматическое воспроизведение
 config=preset name	:Выбор шаблона
 $}
+{$SPANISH=
+
+Uso : PotPlayer[Mini].exe "nombre del archivo" [opciones]
+
+/filedlg   -- Diálogo Abrir archivo
+/urldlg    -- Diálogo abrir URL
+/folderdlg -- Diálogo abrir carpeta
+/simple    -- Abrir archivo navegador
+/cap       -- Abrir captura pantalla
+/cam       -- Abrir cámara web/dispositivos
+/atv[:ch]  -- Abrir TV análogica (WDM)
+/dtv[:ch]  -- Abrir TV digital (BDA)
+/dvd       -- Abrir DVD
+/cd[:drive]-- Abrir unidad CD
+/add       -- Añadir a lista de reproducción
+/autoplay  -- Reproducir automáticamente
+config="preset name" -- Usar los ajustes predefinidos
+$}
 {$UKRAINIAN=
 
 Використання: PotPlayer[Mini].exe "назва_файла" [параметри]

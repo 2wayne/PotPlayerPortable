@@ -99,6 +99,28 @@ Daum Player — бесплатная программа для некоммер�
 - Внешний вывод программы основан на шрифтах FreeType (http://www.freetype.org).
 - Авторское право на эту программу принадлежит Daum Kakao (http://www.daum.net).
 $}
+{$SPANISH=
+
+Este programa es para uso público y privado para individuos/establecimientos/oficinas/escuelas/etc.. Puede instalarlo y utilizarlo sin restricciones para la reproducción de archivos multimedia, si no se hace con fines comerciales.
+
+* Atención
+ - Este programa está protegido por derechos de autor y derechos conexos y realizar cambios en el programa o ingeniería inversa, descompilar, desmontar, y hacer cambios en cualquier forma que no sea lo que esté expresamente permitida está prohibido por ley (sin embargo, para FFmpeg, lame, seguir la LGPL)
+ - Este programa no se puede utilizar para fines comerciales sin el permiso del propietario de los derechos de autor.
+
+* Información de copyright, este programa utiliza:
+ - El decodificador de vídeo basado en FFmpeg (http://www.ffmpeg.org) bajo licencia LGPL.(Para revisar la licencia LGPL, busque LGPL.txt en directorio de instalación) La fuente de FFmpeg modificado se puede descargar desde http://potplayer.daum.net/devel/ffmpeg.zip.
+ - La biblioteca Zlib(http://www.zlib.net) bajo licencia zlib.
+ - La biblioteca rar por RARLAB (http://www.rarlab.com)
+ - La biblioteca png (http://www.libpng.org) bajo licencia zlib/png.
+ - La biblioteca OGG (Vorbis) por Xiph.org (http://www.vorbis.com) bajo la licencia BSD.
+ - La biblioteca BASS(http://www.un4seen.com)
+ - La biblioteca MediaInfo (http://mediaarea.net)
+ - La biblioteca de la fuente FreeType(http://www.freetype.org)
+ - La instalación se ha realizado utilizando NSIS (http://nsis.sourceforge.net) bajo licencia de zlib/libpng.
+ - Es propiedad de Daum Kakao (http://www.daum.net)
+ - Traducido por Oleada, para todos los amigos de habla hispana.
+
+$}
 {$UKRAINIAN=
 
 Ця програма є безкоштовною для встановлення та особистого, некомерційного використання вдома, на роботі, школі, державній установі тощо.

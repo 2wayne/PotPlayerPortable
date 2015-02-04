@@ -2,6 +2,38 @@
 Историја верзија Пот плејера
 
 ----------------------------------------------------------
+[1.6.52515]                                     2015/02/02
+----------------------------------------------------------
++ Added Swedish translation
++ Added the ability to record videos in GIF format
++ Added an option to apply broadcast effect to on-air broadcasts only
++ Added a function at program startup to determine whether the PotPlayer.dll is touched or not
++ Added the ability to capture screen via DirectDraw API
++ Added support for NVIDIA 3D Vision Kit
++ Added 3D output support to Built-in OpenGL Video Renderer
++ Added support for Closed Captioning
++ Added the ability to set reception type of BDA devices
++ Added the ability to add/edit frequency list for BDA devices
++ Added OpenH264 encoder
+
+- Fixed an issue that can't play videos from Daum's cloud server
+- Fixed video corruption problem when decoding certain files with DXVA on Intel VGAs
+- Fixed strange color problem when images are captured in JPEG/PNG format
+- Fixed a problem that the volume level can't be adjusted when wave volume control is used in Vista or newer
+- Fixed an issue where the Alt key triggers window's system menu and takes away the focus from the program
+- Improved performance of Intel QuickSync Decoder
+- Fixed a problem that can't open 8-bit PNG files
+- Changed default value of Deinterlace to Motion Adaptive
+- Improved performance of Screen Capture via DXGI 1.2 API
+- Changed loading method of external .dpl playlist files as a temporary new album for editing directly
+- Changed default fallback language to English for untranslated strings
+- Improved playback of downloading files
+- Improved Built-in OpenGL Renderer
+- Fixed an issue where DVD menu did not work with Built-in OpenGL/Direct3D9 Video Renderers
+- Fixed sync problem with certain MP4 files
+- Improved thumbnail view of playlist items
+
+----------------------------------------------------------
 [1.6.51480]                                     2014/12/16
 ----------------------------------------------------------
 + Додат Француски превод
