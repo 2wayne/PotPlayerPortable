@@ -2,6 +2,24 @@
 PotPlayer verzió előzmények
 
 ----------------------------------------------------------
+[1.6.53104]                                     2015/03/17
+----------------------------------------------------------
+* Fixed an issue that the following file buffers when changing device during broadcasting
+
++ Added the ability to set whether displaying thumbnails in file navigation
++ Added various algorithms into VMR9/EVR scaler
++ Added the ability to show folders and files list on left/right side when opening FTP
+
+- Fixed an issue that can't play certain MKV files smoothly
+- Fixed an issue that no images appear when playing certain MPEG files
+- Fixed an issue that playing some MPEG files with abnormal de-interlacing
+- Improved display of album art
+- Fixed an issue that can not properly detect the HDTV MMS channel
+- Fixed an issue that intermittent parameter error in chat
+- Fixed an issue that can automatically scroll with so much contents of the chat
+- Fixed broadcast logo to support for animated PNG (APNG)
+
+----------------------------------------------------------
 [1.6.52515]                                     2015/02/02
 ----------------------------------------------------------
 + Added Swedish translation

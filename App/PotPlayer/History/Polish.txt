@@ -2,6 +2,24 @@
 Historia wersji PotPlayer
 
 ----------------------------------------------------------
+[1.6.53104]                                     2015/03/17
+----------------------------------------------------------
+* Naprawiono problem z buforowaniem plików podczas zmiany urządzenia w trakcie odbioru emisji
+
++ Dodano możliwość włączenia/wyłączenia miniatur w Nawigatorze po plikach
++ Dodano różne algorytmy do skalowania VMR9 / EVR
++ Dodano w "Otwórz FTP" możliwość wyświetlania listy plików i folderów z lewej / prawej
+
+- Naprawiono błąd powodujący brak płynności odtwarzania niektórych plików MKV
+- Naprawiono błąd, gdzie przy niektórych plikach MPEG nie pojawiał się ekran odtwarzania
+- Naprawiono problem z usuwaniem przeplotu podczas odtwarzania niektórych plików MPEG
+- Ulepszono wyświetlanie obrazków album art/cover
+- Naprawiono problem z prawidłowym wykrywaniem kanałów HDTV MMS
+- Naprawiono błąd powodujący przerywanie rozmów na czacie
+- Naprawiono problem z automatycznym przewijaniem występujący na czacie podczas wielu rozmów
+- Naprawiono obsługę w trakcie emisji animowanego logo PNG (APNG)
+
+----------------------------------------------------------
 [1.6.52515]                                     2015/02/02
 ----------------------------------------------------------
 + Dodano język szwedzki
