@@ -2,6 +2,33 @@
 PotPlayer verzió előzmények
 
 ----------------------------------------------------------
+[1.6.54266]                                     2015/05/21
+----------------------------------------------------------
++ Added the ability to set the maximum volume to 200%
+
+- Fixed a memory leak problem when playing certain files
+- Fixed an error when playing with VMR9 Renderless in certain situations
+- Fixed a problem that can't jump to previous/next subtitle in Sup subtitles
+- Fixed a sync problem when playing certain files with QuickSync decoder
+
+----------------------------------------------------------
+[1.6.54133]                                     2015/05/13
+----------------------------------------------------------
++ Added Italian translation
+
+- Fixed an issue that certain animated GIF logo was slowly displayed
+- Fixed an issue that compression setting did not take effect during broadcasting
+- Fixed abnormal operation when saving broadcast in a specific format
+- Improved slow running problem with auto-login
+- Removed MPEG4 video codec from broadcast
+- Fixed abnormal operation in certain ASF files navigation
+- Fixed an issue that program occasionally freezed at the end of broadcast
+- Fixed an issue that no images appear when playing certain HEVC MPEG TS files
+- Fixed an issue that can't automatically scroll with chat contents in certain situations
+- Improved performance of video capture during broadcasting
+- Improved damaged AVI playback
+
+----------------------------------------------------------
 [1.6.53104]                                     2015/03/17
 ----------------------------------------------------------
 * Fixed an issue that the following file buffers when changing device during broadcasting

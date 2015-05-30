@@ -2,6 +2,35 @@
 Historia wersji PotPlayer
 
 ----------------------------------------------------------
+[1.6.54266]                                     2015/05/21
+----------------------------------------------------------
++ Dodano możliwość ustawienia poziomu głośności do 200%
+
+- Naprawiono problem z wyciekiem pamięci podczas odtwarzania niektórych plików
+- Naprawiono problem powodujący błędy w odtwarzaniu podczas korzystania z VMR9 Renderless
+- Naprawiono problem występujący w napisach SUP podczas przechodzenia do poprzedniego/następnego
+- Naprawiono błąd powodujący desynchronizację podczas odtwarzania niektórych plików w dekoderze Quick Sync 
+- Naprawiono nieprawidłowe działanie niektórych funkcji systemowych
+
+----------------------------------------------------------
+[1.6.54133]                                     2015/05/13
+----------------------------------------------------------
++ Dodano język włoski
+
+- Naprawiono problem z powolnym poruszaniem się animowanego logo GIF
+- Naprawiono problem powodujący, że ustawienia kompresji nie działały podczas emisji
+- Naprawiono problem z zapisem czasowego przechowywania danych określonego formatu występujący po zakończeniu emisji
+- Naprawiono problem ze zbyt wolnym działaniem podczas korzystania z automatycznego logowania
+- Usunięto z emisji wideo kodek MPEG4
+- Naprawiono błąd występujący podczas przeszukiwania w niektórych starszych plikach ASF
+- Naprawiono problem powodujący zamrażanie wideo pod koniec emisji
+- Naprawiono problem z nie pojawianiem się obrazu podczas odtwarzania niektórych plików HEVC MPEG TS
+- Naprawiono problem z automatycznym przewijaniem rozmów podczas korzystania z czatu
+- Ulepszono wydajność przechwytywania obrazu podczas transmisji wideo
+- Poprawiono odtwarzanie stratnego wideo AVI
+- Ulepszono przetwarzanie obracania
+
+----------------------------------------------------------
 [1.6.53104]                                     2015/03/17
 ----------------------------------------------------------
 * Naprawiono problem z buforowaniem plików podczas zmiany urządzenia w trakcie odbioru emisji

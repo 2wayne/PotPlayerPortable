@@ -2,54 +2,80 @@
 Историја верзија Пот плејера
 
 ----------------------------------------------------------
+[1.6.54266]                                     2015/05/21
+----------------------------------------------------------
++ Added the ability to set the maximum volume to 200%
+
+- Fixed a memory leak problem when playing certain files
+- Fixed an error when playing with VMR9 Renderless in certain situations
+- Fixed a problem that can't jump to previous/next subtitle in Sup subtitles
+- Fixed a sync problem when playing certain files with QuickSync decoder
+
+----------------------------------------------------------
+[1.6.54133]                                     2015/05/13
+----------------------------------------------------------
++ Added Italian translation
+
+- Fixed an issue that certain animated GIF logo was slowly displayed
+- Fixed an issue that compression setting did not take effect during broadcasting
+- Fixed abnormal operation when saving broadcast in a specific format
+- Improved slow running problem with auto-login
+- Removed MPEG4 video codec from broadcast
+- Fixed abnormal operation in certain ASF files navigation
+- Fixed an issue that program occasionally freezed at the end of broadcast
+- Fixed an issue that no images appear when playing certain HEVC MPEG TS files
+- Fixed an issue that can't automatically scroll with chat contents in certain situations
+- Improved performance of video capture during broadcasting
+- Improved damaged AVI playback
+
+----------------------------------------------------------
 [1.6.53104]                                     2015/03/17
 ----------------------------------------------------------
-* Fixed an issue that the following file buffers when changing device during broadcasting
+* Решен проблем са баферовањем тренутне датотеке када промените уређај током емитовања
 
-+ Added the ability to set whether displaying thumbnails in file navigation
-+ Added various algorithms into VMR9/EVR scaler
-+ Added the ability to show folders and files list on left/right side when opening FTP
++ Додата могућност подешавања приказа сличица у фајл навигатору
++ Додати разни алгоритми у VMR9/EVR скалер
++ Додата способност приказа листе фолдера и фајлова на левој/десној страни код отварања FTP
 
-- Fixed an issue that can't play certain MKV files smoothly
-- Fixed an issue that no images appear when playing certain MPEG files
-- Fixed an issue that playing some MPEG files with abnormal de-interlacing
-- Improved display of album art
-- Fixed an issue that can not properly detect the HDTV MMS channel
-- Fixed an issue that intermittent parameter error in chat
-- Fixed an issue that can automatically scroll with so much contents of the chat
-- Fixed broadcast logo to support for animated PNG (APNG)
+- Решен проблем немогућности пуштања неких MKV фајлова
+- Решен проблем непојављивања слика када се пуштају одређени MPEG фајлови
+- Решен проблем пуштања неких MPEG фајлова када је абнормалан de-interlacing
+- Побољшан приказ омота албума
+- Решен проблем правилног детектовањаt HDTV MMS канала
+- Решен проблем грешака у чат прозору
+- Решен проблем аутоматског скрола са много садржаја у чат прозору
+- Побоњшан лого емитовања да подржава анимирани PNG (APNG)
 
 ----------------------------------------------------------
 [1.6.52515]                                     2015/02/02
 ----------------------------------------------------------
-+ Added Swedish translation
-+ Added the ability to record videos in GIF format
-+ Added an option to apply broadcast effect to on-air broadcasts only
-+ Added a function at program startup to determine whether the PotPlayer.dll is touched or not
-+ Added the ability to capture screen via DirectDraw API
-+ Added support for NVIDIA 3D Vision Kit
-+ Added 3D output support to Built-in OpenGL Video Renderer
-+ Added support for Closed Captioning
-+ Added the ability to set reception type of BDA devices
-+ Added the ability to add/edit frequency list for BDA devices
-+ Added OpenH264 encoder
++ Додат Шведски превод
++ Додата могућност снимања видеа у GIF формату
++ Додата опција примене ефеката само на емисије у етру
++ Додата функција утврђивања при покретању програма  да ли је недирнут PotPlayer.dll или не
++ Додата способност хватања екрана преко DirectDraw API
++ Додата подршка за NVIDIA 3D Vision Kit
++ Додата 3D излазна подршка за Built-in OpenGL Video Renderer
++ Додата подршка за затворене преводе
++ Додата могућност да подесите врсту пријем за BDA уређаје
++ Додата могућност додавања листу/измене фреквенције за BDA уређаје
++ Додат OpenH264 encoder
 
-- Fixed an issue that can't play videos from Daum's cloud server
-- Fixed video corruption problem when decoding certain files with DXVA on Intel VGAs
-- Fixed strange color problem when images are captured in JPEG/PNG format
-- Fixed a problem that the volume level can't be adjusted when wave volume control is used in Vista or newer
-- Fixed an issue where the Alt key triggers window's system menu and takes away the focus from the program
-- Improved performance of Intel QuickSync Decoder
-- Fixed a problem that can't open 8-bit PNG files
-- Changed default value of Deinterlace to Motion Adaptive
-- Improved performance of Screen Capture via DXGI 1.2 API
-- Changed loading method of external .dpl playlist files as a temporary new album for editing directly
-- Changed default fallback language to English for untranslated strings
-- Improved playback of downloading files
-- Improved Built-in OpenGL Renderer
-- Fixed an issue where DVD menu did not work with Built-in OpenGL/Direct3D9 Video Renderers
-- Fixed sync problem with certain MP4 files
-- Improved thumbnail view of playlist items
+- Решен проблем немогућности пуштања видеа из Daum's cloud сервера
+- Решен проблем неисправних фајлова приликом декодирања са DXVA на Intel VGAs
+- Решен проблем чудних боја када су слике у JPEG/PNG формату
+- Решен проблем неподешавања јачине звука  у Висти или новијем окружењу
+- Побољшан учинак Intel QuickSync Decoder
+- Решен проблем неотварања 8-bit PNG фајлова
+- Промењена подразумевана вредност Deinterlace на Motion Adaptive
+- Побољшан учинак Screen Capture via DXGI 1.2 API
+- Промењен метод учитавања спољних .dpl плејлист фајлова као привремени нови албум за директно уређивање
+- Промењен подразумевани резервни језик на Енглески за непреведене стрингове
+- Побољшано пуштање скинутих фајлова
+- Побољшан уграђени OpenGL Renderer
+- Решен проблем када DVD избор није радио са уграђеним OpenGL/Direct3D9 Video Renderers
+- Решен проблем синхронизације неких MP4 фајлова
+- Побољшан преглед сличица ставки за пуштање
 
 ----------------------------------------------------------
 [1.6.51480]                                     2014/12/16
