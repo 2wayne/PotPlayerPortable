@@ -2,6 +2,18 @@
 Historia wersji PotPlayer
 
 ----------------------------------------------------------
+[1.6.54549]                                     2015/06/11
+----------------------------------------------------------
++ Dodano język perski
+
+- Naprawiono problem z brakiem wsparcia odtwarzania na niektórych serwerach FTP
+- Naprawiono problem powodujący zatrzymywanie odtwarzacza przy zbyt dużej ilości rozmów na czacie
+- Naprawiono problem powodujący wyczyszczenie zawartości czatu po modyfikacji odtwarzanego pliku, a następnie uruchomienia broadcastu
+- Ulepszono dekodowanie HEVC DXVA
+- Poprawiono szybkość tworzenia galerii miniatur
+- Naprawiono problem z odczytem niektórych nowych plików .PNG
+
+----------------------------------------------------------
 [1.6.54266]                                     2015/05/21
 ----------------------------------------------------------
 + Dodano możliwość ustawienia poziomu głośności do 200%
@@ -10,7 +22,7 @@ Historia wersji PotPlayer
 - Naprawiono problem powodujący błędy w odtwarzaniu podczas korzystania z VMR9 Renderless
 - Naprawiono problem występujący w napisach SUP podczas przechodzenia do poprzedniego/następnego
 - Naprawiono błąd powodujący desynchronizację podczas odtwarzania niektórych plików w dekoderze Quick Sync 
-- Naprawiono nieprawidłowe działanie niektórych funkcji systemowych
+- Naprawiono nieprawidłowe działanie funkcji systemu klatek
 
 ----------------------------------------------------------
 [1.6.54133]                                     2015/05/13

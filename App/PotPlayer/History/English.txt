@@ -2,6 +2,18 @@
 Version History of the PotPlayer
 
 ----------------------------------------------------------
+[1.6.54549]                                     2015/06/11
+----------------------------------------------------------
++ Added Persian translation
+
+- Fixed an issue that playback was not supported on certain FTP servers
+- Fixed an issue that Potplayer stopped with too much chat contents
+- Fixed an issue that chat contents were cleared while playing next file during broadcasting
+- Improved HEVC DXVA decoding ability
+- Increased speed of creating thumbnails
+- Fixed an issue that can't read certain PNG files
+
+----------------------------------------------------------
 [1.6.54266]                                     2015/05/21
 ----------------------------------------------------------
 + Added the ability to set the maximum volume to 200%
