@@ -2,107 +2,162 @@
 PotPlayer verzió előzmények
 
 ----------------------------------------------------------
+[1.6.55390]                                     2015/07/22
+----------------------------------------------------------
++ Üzbég fordítás hozzáadása
++ Kézi formátum kiválasztási képesség a WDM eszköz megnyitásakor
++ Új Direct3D 11 funkció a DXVA Copy-Back módban
+
+- Javítva lett a képernyő helytelen működéséért felelős hiba, amely a kép lejátszása közben az elforgatásnál vagy átméretezésnél jelentkezett
+- Javítva lett a közvetítés során bizonyos esetekben a képkocka csökkenéséért felelős hiba
+- Javítva lett egy hiba, amely miatt nem lehet kilépni bizonyos esetekben.
+- Javítva lett egy hiba, amely miatt a fájlok másolása sikertelen volt a telepítés során
+- Bizonyos MP4 fájloknál jelentkező lejátszási hibák javítása.
+- A DXVA használatakor jeletkező GPU memóriaszivárgási hiba javítása
+- Javítva lett néhány AVI fájl szinkron lejátszási problémája
+- Javítva lett néhány MKV fájl lejátszásának végén jelentkező hiba
+- Javítva lett egy probléma, amely a program leállását okozta a műsorszolgáltatás végén
+- Javítva lett egy hiba, amely túl sok album esetén a műveletek lassulását okozta
+- Javított madVR kompatibilitás
+- Javítva lett egy műsorszolgáltatás megújítási hiba a be- és kijelentkezési műveletnél
+
+----------------------------------------------------------
+[1.6.54915]                                     2015/07/02
+----------------------------------------------------------
+- Javítva lett egy hiba, amely nem tette lehetővé bizonyos DVB feliratok megjelenítését
+- Javítva lett a különálló ablakoknál hibát okozó felszín probléma
+- Javítva lett egy hiba, amely miatt az előnézeti funkció nem működött a Direct3D9 OSC üzemmódban
+- Javítva a 60 FPS élő közvetítésnél jelentkező pufferelési probléma
+
+----------------------------------------------------------
+[1.6.54871]                                     2015/06/29
+----------------------------------------------------------
+* A program élő módjának átszervezésének első része
+
++ Jelenetböngésző többoszlopos megjelenítési képesség
++ Jelenetböngésző felirat támogatási képesség hozzáadása
++ Hozzáadva egy opció a fájl navigátor átlátszó hátterének beállítására
+
+- Javítva lett egy helytelen fájlméret kiszámítási probléma
+- Javítva lett egy hiba, amely több fájl kiválasztásánál nem tette lehetővé a jobb gombos kattintást a lejátszási listában
+- Javítva lett egy hiba, amely bizonyos MKV fájlok lejátszásakor jelentkezett
+- Fokozva lett a bélyegképek létrehozási sebessége a lejátszási listában/jelenetböngészőben
+- Javítva lett egy hiba, amely egyes sérült AVI fájlok lejátszásakor jelentkezett
+- JAvítva lett egy hiba, amely nem tette lehetővé az automatikus görgetést a chaten, egyes PC-ken
+- Javítva lett egy audio CD lejátszási hiba
+
+----------------------------------------------------------
 [1.6.54549]                                     2015/06/11
 ----------------------------------------------------------
-+ Added Persian translation
++ Perzsa fordítás hozzáadása
 
-- Fixed an issue that playback was not supported on certain FTP servers
-- Fixed an issue that Potplayer stopped with too much chat contents
-- Fixed an issue that chat contents were cleared while playing next file during broadcasting
-- Improved HEVC DXVA decoding ability
-- Increased speed of creating thumbnails
-- Fixed an issue that can't read certain PNG files
+- Javítva lett egy probléma, amely miatt nem lehetett lejátszani a fájlokat egyes FTP szerverekről
+- Javítva lett egy probléma, amely a chat megnövekedett tartalma miatt a program leállását okozta
+- Javítva lett egy probléma, amely miatt a chat tartalma törlődött a következő fájl lejátszásakor a műsorszórás során
+- Továbbfejlesztett HEVC DXVA dekóder
+- Javított bélyegkép készítési sebesség
+- Javítva lett egy hiba, amely miatt nem lehetett megnyitni bizonyos .png fájlokat
 
 ----------------------------------------------------------
 [1.6.54266]                                     2015/05/21
 ----------------------------------------------------------
-+ Added the ability to set the maximum volume to 200%
++ Új képesség hozzáadása a maximális hangerő 200%-ra állításához
 
-- Fixed a memory leak problem when playing certain files
-- Fixed an error when playing with VMR9 Renderless in certain situations
-- Fixed a problem that can't jump to previous/next subtitle in Sup subtitles
-- Fixed a sync problem when playing certain files with QuickSync decoder
+- Javítva lett bizonyos fájloknál jelentkező memóriavesztési probléma
+- Javítva lett a VMR9 Renderless-nél bizonyos helyzetekben fellépő hiba
+- Javítva lett egy probléma, amely miatt az előző/következő feliratra ugrás nem működött a .sup feliratoknál
+- Javítva lett az Intel QuickSync dekódernél bizonyos fájlok esetén jelentkező szinkronizálási hiba
+- Javítva lett a képkockáról-képkockára lejátszásnál egyes pontokon előforduló rendellenes működés
 
 ----------------------------------------------------------
 [1.6.54133]                                     2015/05/13
 ----------------------------------------------------------
-+ Added Italian translation
++ Olasz fordítás hozzáadása
 
-- Fixed an issue that certain animated GIF logo was slowly displayed
-- Fixed an issue that compression setting did not take effect during broadcasting
-- Fixed abnormal operation when saving broadcast in a specific format
-- Improved slow running problem with auto-login
-- Removed MPEG4 video codec from broadcast
-- Fixed abnormal operation in certain ASF files navigation
-- Fixed an issue that program occasionally freezed at the end of broadcast
-- Fixed an issue that no images appear when playing certain HEVC MPEG TS files
-- Fixed an issue that can't automatically scroll with chat contents in certain situations
-- Improved performance of video capture during broadcasting
-- Improved damaged AVI playback
+- Javítva lett egy hiba, amely miatt bizonyos animált GIF logó fájlok lejátszása nem volt megfelelő
+- Javítva lett a tömörítési beállítások módosításánál jelentkező műsorszolgáltatás hiba
+- Javítva lett az adás bizonyos formátumba rögzítésénél fellépő rendellenes működés
+- Javítva lett az automatikus bejelentkezésnél jelentkező lassú program végrehajtási probléma
+- MPEG4 kódoló eltávolítása a műsorszolgáltatás tömörítési beállításaiból
+- Javítva lett egy keresési hiba bizonyos ASF fájlokban
+- Javítva lett az adásközvetítés végén alkalmanként jelentkező fagyási probléma
+- Javítva lett egy hiba, amely miatt nem volt videókép bizonyos HEVC MPEG TS fájlok lejátszásakor 
+- Javítva lett egy probléma, amely miatt nem lehetett automatikusan lefelé léptetni a chat tartalmát bizonyos helyzetekben
+- Javított videó és online tartalom rögzítési teljesítmény
+- Javítva lett a sérült AVI-fájlok lejátszása
+- Javított elforgatási funkció
 
 ----------------------------------------------------------
 [1.6.53104]                                     2015/03/17
 ----------------------------------------------------------
-* Fixed an issue that the following file buffers when changing device during broadcasting
+* Javítva lett a következő fájlok gyorsítótárazási problémája, amely a műsorsugárzás közben az eszköz váltásakor jelentkezett
 
-+ Added the ability to set whether displaying thumbnails in file navigation
-+ Added various algorithms into VMR9/EVR scaler
-+ Added the ability to show folders and files list on left/right side when opening FTP
++ Új opció a videó bélyegképek megjelenítésére/elrejtésére a fájl navigátorban
++ Különböző WMR9/EVR méretezési algoritmusok hozzáadása
++ Új opció a panelek egymás melletti megjelenítésére az FTP/WebDAV/HTTP megnyitás párbeszédablakban
 
-- Fixed an issue that can't play certain MKV files smoothly
-- Fixed an issue that no images appear when playing certain MPEG files
-- Fixed an issue that playing some MPEG files with abnormal de-interlacing
-- Improved display of album art
-- Fixed an issue that can not properly detect the HDTV MMS channel
-- Fixed an issue that intermittent parameter error in chat
-- Fixed an issue that can automatically scroll with so much contents of the chat
-- Fixed broadcast logo to support for animated PNG (APNG)
+- Javítva lett egy hiba, amely miatt bizonyos MKV fájlok lejátszása nem volt egyenletes
+- Javítva lett egy hiba, amely miatt nem volt videókép bizonyos MPEG fájlok lejátszásakor
+- Javított félkép-összefésülés egyes MPEG fájloknál
+- Továbbfejlesztett album kép/borító megjelenítés
+- Javítva lett a HDTV MMS csatorna nem megfelelő észleléséért felelős hiba
+- Javítva lett a csevegésnél jelentkező időszakos paraméter hiba
+- Javítva lett a nagy chat tartalomnál jelentkező automatikus görgetési probléma
+- Javított műsorszolgáltatási logó támogatás használat az animált PNG (APNG) fájloknál
 
 ----------------------------------------------------------
 [1.6.52515]                                     2015/02/02
 ----------------------------------------------------------
-+ Added Swedish translation
-+ Added the ability to record videos in GIF format
-+ Added an option to apply broadcast effect to on-air broadcasts only
-+ Added a function at program startup to determine whether the PotPlayer.dll is touched or not
-+ Added the ability to capture screen via DirectDraw API
-+ Added support for NVIDIA 3D Vision Kit
-+ Added 3D output support to Built-in OpenGL Video Renderer
-+ Added support for Closed Captioning
-+ Added the ability to set reception type of BDA devices
-+ Added the ability to add/edit frequency list for BDA devices
-+ Added OpenH264 encoder
++ Svéd fordítás hozzáadása
++ Új képesség a videók GIF formátumú rögzítésére
++ Hozzá lett adva egy opció, csak az adásban lévő közvetítések műsorszórási effektjeinek alkalmazására
++ Hozzá lett adva egy funkció a program indításakor annak megállapítására, hogy a PotPlayer.dll módosítva lett vagy sem
++ Új képesség hozzáadása a képernyő DirectDraw API-n keresztül való rögzítésére
++ NVIDIA 3D Vision Kit támogatás hozzáadása
++ 3D kimeneti támogatás hozzáadása a beépített OpenGL videó megjelenítőhöz
++ Hangfeliratozási támogatás hozzáadása
++ Új képesség hozzáadása a BDA eszközök vételi típusának beállítására
++ Új képesség hozzáadása a BDA eszközök frekvencia listáinak hozzáadására/szerkesztésére
++ OpenH264 kódoló hozzáadása
 
-- Fixed an issue that can't play videos from Daum's cloud server
-- Fixed video corruption problem when decoding certain files with DXVA on Intel VGAs
-- Fixed strange color problem when images are captured in JPEG/PNG format
-- Fixed a problem that the volume level can't be adjusted when wave volume control is used in Vista or newer
-- Fixed an issue where the Alt key triggers window's system menu and takes away the focus from the program
-- Improved performance of Intel QuickSync Decoder
-- Fixed a problem that can't open 8-bit PNG files
-- Changed default value of Deinterlace to Motion Adaptive
-- Improved performance of Screen Capture via DXGI 1.2 API
-- Changed loading method of external .dpl playlist files as a temporary new album for editing directly
-- Changed default fallback language to English for untranslated strings
-- Improved playback of downloading files
-- Improved Built-in OpenGL Renderer
-- Fixed an issue where DVD menu did not work with Built-in OpenGL/Direct3D9 Video Renderers
-- Fixed sync problem with certain MP4 files
-- Improved thumbnail view of playlist items
+- Javítva lett egy hiba, amely nem tette lehetővé a videók lejátszását a Daum felhő kiszolgálóról
+- Javítva lett az Intel videókártyákon DXVA-val dekódolt fájloknál jelentkező minőségromlást okozó probléma
+- Javítva lett a JPEG/PNG formátumba rögzített képeknél jelentkező szín probléma
+- Javítva lett ehy hiba, amely nem tette lehetővé a hangerő állítását a Vista vagy újabb rendszereken a hullám hangerőszabályzó használatánál 
+- Javítva lett egy hiba, ahol az Alt billentyű kiváltja ablak rendszer menüjét és elveszi a fókuszt a programról
+- Javított Intel QuickSync dekóder teljesítmény
+- Javítva lett a 8 bites PNG-fájlok megnyitási hibája
+- Az félkép-összefésülés alapértelmezett értéke módosítva lett mozgásadaptívra
+- Javítva lett a DXGI 1.2 API-n keresztül alkalmazott képernyőfelvétel teljesítménye
+- Módosítva lett a külső .dpl lejátszási fájlok betöltési módja
+- Az alapértelmezett alapnyelv módosítása angolra a lefordítatlan karakterláncoknál
+- Továbbfejlesztett letöltött fájl lejátszás
+- Továbbfejlesztett beépített OpenGL leképező
+- Javítva a lett a beépített OpenGL/Direct3D9 videóleképezőknél jelentkező DVD-menü működési hibája
+- Javítva lett bizonyos MP4 fájloknál jelentkező szinkronizálási hiba
+- Továbbfejlesztésre került a lejátszási lista elemek miniatűr nézete 
 
 ----------------------------------------------------------
 [1.6.51480]                                     2014/12/16
 ----------------------------------------------------------
++ Francia fordítás hozzáadása
++ Thai fordítás hozzáadása
++ Héber fordítás hozzáadása
++ Török fordítás hozzáadása
 + Szinkronizált dalszöveg (SYLT) az MP3 fájlokban támogatás hozzáadása
 + VOD HLS adatfolyam lejátszási képesség hozzáadása
-+ Francia fordítás hozzáadása
 + Szövegfelolvasási funkció hozzáadása
++ Új képesség a kép nagyítására, pásztázására és nyújtására a Ctrl, Alt, Shift + egér húzási kombinációja segítségével
++ Új képesség a feliratok képernyő pozíciójának beállítására a Ctrl, Alt + egér húzási kombinációja segítségével
 
 - Javítva lett a CoreAVC használata esetén, bizonyos fájlok dekódolásánál jelentkező hiba
 - Javítva lett a játék felvételi funkció hibás működéséért felelős hiba
 - Javítva lett egy hiba, ahol a program átugrott a következő elemre, a befejezés kihagyása funkció engedélyezett állapotában
 - Javítva lett egy hiba, amely nem tette lehetővé a fájlok lejátszását bizonyos FTP kiszolgálók esetén
 - Néhány módosítás a beállítások párbeszédablak társítási és konfigurációs lapján
+- A beépített hangleképező szét lett választva két különálló opcióra, úgymint beépített Directsound és WASAPI hangleképezők
+- Javítva lett a hang lejátszási sebesség szabályozása
+- Javítva lett az SRT felirat betöltés
 
 ----------------------------------------------------------
 [1.6.49952]                                     2014/09/25

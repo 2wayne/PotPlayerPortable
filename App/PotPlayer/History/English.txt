@@ -2,63 +2,109 @@
 Version History of the PotPlayer
 
 ----------------------------------------------------------
+[1.6.55390]                                     2015/07/22
+----------------------------------------------------------
++ Added Uzbek translation
++ Added the ability to manually select the format when opening WDM device
++ Added Direct3D 11 feature into DXVA Copy-Back mode
+
+- Fixed an issue that the screen didn't work properly with rotating or resizing image during playback
+- Fixed an issue that the frame is dropped while broadcasting in certain situations
+- Fixed an issue that program can't exit in certain situations
+- Fixed an issue that copying files may fail during installation
+- Fixed playback problem of some MP4 files
+- Fixed GPU memory leak problem when using DXVA
+- Fixed sync playback issue of some AVI files
+- Fixed a problem of some MKV files at the end of playback
+- Fixed a problem that program was terminated at the end of broadcasting
+- Fixed an issue where action was slow with too many albums
+- Improved compatibility with madVR
+- Fixed renew broadcast problem with log in/log out action
+- Fixed an issue that can't mount ISO files for playback
+
+----------------------------------------------------------
+[1.6.54915]                                     2015/07/02
+----------------------------------------------------------
+- Fixed an issue where some DVB subtitles doesn't show up
+- Fixed a skin issue when windows are separated
+- Fixed a problem where the thumbnail preview function did not work with Direct3D9 OSC mode
+- Fixed buffering problem with 60 FPS live streaming
+
+----------------------------------------------------------
+[1.6.54871]                                     2015/06/29
+----------------------------------------------------------
+* First part of reorganization of the program's live mode
+
++ Added multiple column support to Scene Browser
++ Added the ability to browse scenes by subtitle intervals
++ Added an option to only make background of File/Menu/Subtitle Navigator transparent
+
+- Fixed an error in the calculation of file size
+- Fixed a problem where right-click doesn't work with multiple selection of playlist items
+- Fixed a problem that caused an error when playing certain MKV files
+- Improved thumbnail loading speed of playlist/scene browser
+- Fixed a problem that caused an error when playing certain damaged AVI files
+- Fixed an abnormal operation with automatic scrolling of chat in certain PCs
+- Fixed playback problem of Audio CDs
+
+----------------------------------------------------------
 [1.6.54549]                                     2015/06/11
 ----------------------------------------------------------
 + Added Persian translation
 
-- Fixed an issue that playback was not supported on certain FTP servers
-- Fixed an issue that Potplayer stopped with too much chat contents
-- Fixed an issue that chat contents were cleared while playing next file during broadcasting
-- Improved HEVC DXVA decoding ability
-- Increased speed of creating thumbnails
-- Fixed an issue that can't read certain PNG files
+- Fixed an issue that can't play files from certain FTP servers
+- Fixed an issue that the program has stopped working when chat content is too large
+- Fixed an issue where chat content were cleaned when the next file is played while broadcasting
+- Improved HEVC DXVA Decoder
+- Improved speed of Thumbnail Image Creator through generating thumbnails by keyframe search
+- Fixed an issue that can't open certain .png files
 
 ----------------------------------------------------------
 [1.6.54266]                                     2015/05/21
 ----------------------------------------------------------
-+ Added the ability to set the maximum volume to 200%
++ Added the ability to amplify volume up to 200%
 
-- Fixed a memory leak problem when playing certain files
-- Fixed an error when playing with VMR9 Renderless in certain situations
-- Fixed a problem that can't jump to previous/next subtitle in Sup subtitles
-- Fixed a sync problem when playing certain files with QuickSync decoder
-- Fixed abnormal operation of frame system function in certain location
+- Fixed memory leak problem with certain files
+- Fixed an issue with VMR9 Renderless in certain situations
+- Fixed an issue where jumping to previous/next subtitle did not work with .sup subtitles
+- Fixed sync issue of certain files with Intel QuickSync Decoder
+- Fixed an abnormal operation with frame by frame playback in certain points
 
 ----------------------------------------------------------
 [1.6.54133]                                     2015/05/13
 ----------------------------------------------------------
 + Added Italian translation
 
-- Fixed an issue that certain animated GIF logo was slowly displayed
-- Fixed an issue that compression setting did not take effect during broadcasting
-- Fixed abnormal operation when saving broadcast in a specific format
-- Improved slow running problem with auto-login
-- Removed MPEG4 video codec from broadcast
-- Fixed abnormal operation in certain ASF files navigation
-- Fixed an issue that program occasionally freezed at the end of broadcast
-- Fixed an issue that no images appear when playing certain HEVC MPEG TS files
-- Fixed an issue that can't automatically scroll with chat contents in certain situations
-- Improved performance of video capture during broadcasting
-- Improved damaged AVI playback
-- Improved rotation processing
+- Fixed an issue where certain Animated GIF logo files were not properly played
+- Fixed an issue with broadcasting when compression settings was changed
+- Fixed an abnormal operation with recording brodcast in certain format
+- Improved program execution speed which was slow with auto-login
+- Removed MPEG4 encoder from compression settings of broadcasting
+- Fixed an issue with seeking in certain ASF files
+- Fixed occasional freeze problem at the end of broadcast
+- Fixed a problem that no video when playing certain HEVC MPEG TS files
+- Fixed an issue where the chat does not automatically scroll down in certain situations
+- Improved performance of Video and Stream Recorder
+- Improved playback of damaged AVI files
+- Improved rotate function
 
 ----------------------------------------------------------
 [1.6.53104]                                     2015/03/17
 ----------------------------------------------------------
-* Fixed an issue that the following file buffers when changing device during broadcasting
+* Fixed an issue with buffering the next file when if device was changed while broadcasting
 
-+ Added the ability to set whether displaying thumbnails in file navigation
-+ Added various algorithms into VMR9/EVR scaler
-+ Added the ability to show folders and files list on left/right side when opening FTP
++ Added an option to show/hide video thumbnails in file navigator
++ Added various WMR9/EVR scaling algorithms
++ Added an option to show panes side by side in FTP/WebDAV/HTTP open dialog
 
-- Fixed an issue that can't play certain MKV files smoothly
-- Fixed an issue that no images appear when playing certain MPEG files
-- Fixed an issue that playing some MPEG files with abnormal de-interlacing
-- Improved display of album art
-- Fixed an issue that can't properly detect the HDTV MMS channel
-- Fixed intermittent parameter error in chat
-- Fixed an issue that can't automatically scroll with too much contents of the chat
-- Fixed broadcast logo to support for animated PNG (APNG)
+- Fixed an issue where playback of certain MKV files was not smooth
+- Fixed a problem that no video when playing certain MPEG files
+- Fixed deinterlacing on certain MPEG files
+- Improved displaying of album art/cover pictures
+- Fixed an issue where HDTV MMS channels were not properly detected
+- Fixed occasional parameter error with chat
+- Fixed auto scrolling problem with large amount of chat content
+- Corrected broadcasting logo support to be used with Amimated PNG (APNG) files
 
 ----------------------------------------------------------
 [1.6.52515]                                     2015/02/02

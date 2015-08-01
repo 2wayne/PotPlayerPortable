@@ -232,3 +232,22 @@ Usage : PotPlayer[Mini].exe "filename" [options]
 /autoplay   		: Play the last played file
 config="preset name"	: Use the specified preset
 $}
+{$PERSIAN=
+
+طریقه استفاده : PotPlayer[Mini].exe "[گزینه ها] " نام فایل
+
+/filedlg		:  باز کردن کادر محاوره ای فایل
+/urldlg			: بازکردن کادر محاوره ای آدرس اینترنتی
+/folderdlg  		: بازکردن پوشه کادر محاوره ای
+/simple			: باز کردن هدایتگر فایل
+/cap			: باز کردن ضبط صفحه نمایش
+/cam			: باز کردن وب کم/سایر دستگاهها
+/atv[:ch]		: باز کردن تلویزیون آنالوگ
+/dtv[:ch]		: باز کردن تلویزیون دیجیتال
+/dvd			: DVD بازکردن 
+/cd[:drive]		: CD بازکردن درایو
+/add			: افزودن به لیست پخش
+/autoplay   		: پخش از آخرین زمان پخش فایل
+config="preset name"	:  استفاده ازپیش تعیین شده مشخص                                                                                                                              
+$}
+

@@ -2,6 +2,40 @@
 Историја верзија Пот плејера
 
 ----------------------------------------------------------
+[1.6.55390]                                     2015/07/22
+----------------------------------------------------------
+- Fixed an issue that the screen didn't work properly with rotating or resizing image during playback
+- Fixed an issue that the frame is dropped while broadcasting in certain situations
+- Fixed an issue that program can't exit in certain situations
+- Fixed an issue that copying files may fail during installation
+- Fixed playback problem of some MP4 files
+
+----------------------------------------------------------
+[1.6.54915]                                     2015/07/02
+----------------------------------------------------------
+- Fixed an issue that can't show some DVB subtitles
+- Fixed an issue that skins look strange after separating all windows
+- Fixed an issue that thumbnail preview didn't work with D3D Skin
+- Fixed a delay issue of 60-frame captured videos when broadcasting
+
+----------------------------------------------------------
+[1.6.54871]                                     2015/06/29
+----------------------------------------------------------
+* First Live reconsitution
+
++ Added the ability to output multiple columns in scene explorer
++ Added caption support in scene explorer
++ Added an option to set a transparent background in file navigator
+
+- Fixed incorrect calculation problem of file size
+- Fixed an issue that multiple selection can't be right-clicked in playlist
+- Fixed an error when playing certain MKV files
+- Improved speed of generating thumbnails in playlist/scene explorer
+- Fixed an error when playing certain damaged AVI files
+- Fixed an issue where the chat does not automatically scroll down in certain PCs
+- Fixed an issue that can't play audio CD
+
+----------------------------------------------------------
 [1.6.54549]                                     2015/06/11
 ----------------------------------------------------------
 + Added Persian translation
@@ -16,29 +50,29 @@
 ----------------------------------------------------------
 [1.6.54266]                                     2015/05/21
 ----------------------------------------------------------
-+ Added the ability to set the maximum volume to 200%
++ Додата могућност подешавања јачине звука за 200%
 
-- Fixed a memory leak problem when playing certain files
-- Fixed an error when playing with VMR9 Renderless in certain situations
-- Fixed a problem that can't jump to previous/next subtitle in Sup subtitles
-- Fixed a sync problem when playing certain files with QuickSync decoder
+- Решен проблем цурења меморија код пуштања одређених фајлова
+- Решен проблем код пуштања VMR9 Renderless у неким ситуацијама
+- Решен проблем да не може да скочи  претходни/следећи превод у Sup subtitles
+- Решен проблем синхронизације код пуштања са QuickSync decoder
 
 ----------------------------------------------------------
 [1.6.54133]                                     2015/05/13
 ----------------------------------------------------------
-+ Added Italian translation
++ Додат Италијански превод
 
-- Fixed an issue that certain animated GIF logo was slowly displayed
-- Fixed an issue that compression setting did not take effect during broadcasting
-- Fixed abnormal operation when saving broadcast in a specific format
-- Improved slow running problem with auto-login
-- Removed MPEG4 video codec from broadcast
-- Fixed abnormal operation in certain ASF files navigation
-- Fixed an issue that program occasionally freezed at the end of broadcast
-- Fixed an issue that no images appear when playing certain HEVC MPEG TS files
-- Fixed an issue that can't automatically scroll with chat contents in certain situations
-- Improved performance of video capture during broadcasting
-- Improved damaged AVI playback
+- Решен проблем спорог приказа анимираних GIF-ова.
+- Решен проблем када поставка компресије не ступа на снагу током емитовања
+- Решен проблем приликом чувања емитовањa у одређеном формату
+- Побољшан спори старт  ауто-логин-а
+- Уклоњен MPEG4 video codec из емитовања
+- Решен проблем навигације са неким ASF фајловима
+- Решен проблем  са замрзавањем слике током емитовања
+- Решен проблем не појавлјивања слика са  HEVC MPEG TS фајловима
+- Решен проблем када не може аутоматски да се скролује код чат прозора
+- Побољшање квалитета видео записа током емитовања
+- Побољшан поступак са оштећеним AVI фајловима
 
 ----------------------------------------------------------
 [1.6.53104]                                     2015/03/17

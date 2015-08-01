@@ -2,6 +2,52 @@
 Historia wersji PotPlayer
 
 ----------------------------------------------------------
+[1.6.55390]                                     2015/07/22
+----------------------------------------------------------
++ Dodano język uzbecki
++ Dodano możliwość ręcznego wyboru formatu podczas otwierania urządzenia WDM
++ Dodano możliwość wyboru Direct3D 11 w trybie DXVA Copy-Back 
+
+- Naprawiono problem występujący podczas obracania ekranu lub zmiany rozmiaru w trakcie odtwarzania
+- Naprawiono występujące w pewnych sytuacjach gubienie klatek w trakcie emisji
+- Naprawiono błąd powodujący problemy z zamknięciem programu w pewnych okolicznościach
+- Naprawiono błąd powodujący problem z kopiowaniem plików podczas instalacji
+- Naprawiono problem z odtwarzaniem niektórych plików MP4
+- Naprawiono problem z wyciekiem pamięci GPU podczas korzystania z DXVA
+- Naprawiono problem z synchronizacją podczas odtwarzania niektórych plików AVI
+- Naprawiono problem z zakańczaniem odtwarzania występujący w niektórych plikach MKV
+- Naprawiono problem powodujący przerywanie programu pod koniec emisji
+- Naprawiono błąd powodujący wolne działanie przy zbyt wielu albumach
+- Ulepszone implementację madVR
+- Naprawiono błąd z odnowieniem logowania/wylogowania podczas broadcastu
+- Naprawiono problem z niedziałającą funkcją montowania plików ISO
+
+----------------------------------------------------------
+[1.6.54915]                                     2015/07/02
+----------------------------------------------------------
+- Naprawiono błąd powodujący, że niektóre napisy DVB nie były wyświetlane (były pomijane)
+- Naprawiono problem powodujący dziwny wygląd skórki po oddzieleniu wszystkich okien
+- Naprawiono problem z nie działającym podglądem miniatur, gdy skórka jest w trybie D3D
+- Naprawiono problem z opóźnieniem przechwytu 60-klatkowego wideo podczas broadcastu
+
+----------------------------------------------------------
+[1.6.54871]                                     2015/06/29
+----------------------------------------------------------
+* 1-wsza reorganizacja Live
+
++ Dodano możliwość ustawienia wielu kolumn na wyjściu w Eksploratorze scen
++ Dodano Eksplorator scen wg napisów
++ Dodano opcję ustawienia przezroczystego tła w Nawigatorze po plikach, po napisach, po menu 
+
+- Naprawiono błąd wyliczania rozmiaru pliku
+- Naprawiono błąd występujący podczas kliknięcia PPM na liście odtwarzania przy wyborze wielu elementów
+- Naprawiono błąd występujący podczas odtwarzania niektórych plików MKV
+- Zwiększono szybkość tworzenia miniatur w liście odtwarzania/Eksploratorze scen
+- Naprawiono błąd występujący podczas odtwarzania niektórych uszkodzonych plików AVI
+- Naprawiono błąd występujący w niektórych PC podczas wykonywania na czacie operacji automatycznego przewijania
+- Naprawiono problem z brakiem możliwości odtwarzania dysków CD-Audio
+
+----------------------------------------------------------
 [1.6.54549]                                     2015/06/11
 ----------------------------------------------------------
 + Dodano język perski

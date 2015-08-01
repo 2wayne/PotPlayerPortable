@@ -7,7 +7,7 @@
  - 이 프로그램은 제작사의 허락없이 절대 상업적 목적으로 사용할 수 없습니다.
 
 * 저작권 정보
- - 이 프로그램에 포함된 비디오 디코더는 FFmpeg(http://ffmpeg.org)를 사용하였고, FFmpeg의 라이센스는 LGPL을 따릅니다. LGPL 라이센스는 설치 디렉터리의 LGPL.TXT를 참고하시기 바랍니다. 수정된 FFmpeg의 소스는 http://potplayer.daum.net/devel/ffmpeg.zip에서 다운로드 받으실 수 있습니다.
+ - 이 프로그램에 포함된 비디오 디코더는 FFmpeg(http://ffmpeg.org)를 사용하였고, FFmpeg의 라이센스는 LGPL을 따릅니다. LGPL 라이센스는 설치 디렉터리의 LGPL.TXT를 참고하시기 바랍니다. 수정된 FFmpeg의 소스는 http://get.daum.net/devel/ffmpeg.zip에서 다운로드 받으실 수 있습니다.
  - 이 프로그램에 사용된 zlib 압축 라이브러리는 http://www.zlib.net 에 공개된 소스를 사용 하였으며, 라이센스는 'zlib License'를 따릅니다.
  - 이 프로그램에 사용된 rar 압축 라이브러리는 http://www.rarlab.com에 공개된 소스를 사용 하였습니다.
  - 이 프로그램에 사용된 png 라이브러리는 libpng(http://www.libpng.org)를 사용 하였으며, 라이센스는 'zlib/png License'를 따릅니다.
@@ -27,7 +27,7 @@ $}
  - 本程序未经著作权公司许可绝对禁止用于商业用途。
 
 * 版权信息
- - 本程序包含了从 FFmpeg(http://ffmpeg.org) 下载的视频解码器，并遵循其 LGPL 公共许可协议。LGPL 公共许可证书内容请查阅安装目录下的 LGPL.TXT 文件。经修改后的 FFmpeg 源码文件您可从 http://potplayer.daum.net/devel/ffmpeg.zip 下载。
+ - 本程序包含了从 FFmpeg(http://ffmpeg.org) 下载的视频解码器，并遵循其 LGPL 公共许可协议。LGPL 公共许可证书内容请查阅安装目录下的 LGPL.TXT 文件。经修改后的 FFmpeg 源码文件您可从 http://get.daum.net/devel/ffmpeg.zip 下载。
  - 本程序包含了从 zlib(http://www.zlib.net) 下载的 zip 源码，并遵循 "zlib License" 许可协议。
  - 本程序包含了从 http://www.rarlab.com 下载的 rar 源码。
  - 本程序中包含了从 libpng(http://www.libpng.org) 下载的 png 源码，并遵循 "zlib/png License" 公共许可协议。
@@ -47,7 +47,7 @@ $}
  - 本程式未經著作權公司許可絕對禁止用於商業用途。
 
 * 版權訊息
- - 本程式包含了從 FFmpeg(http://ffmpeg.org)下載的視訊解碼器，並遵循其 LGPL 公共許可協議。LGPL 公共許可證書內容請查閱安裝目錄下的 LGPL.TXT 檔案。經修改後的 FFmpeg 源碼檔案您可從 http://potplayer.daum.net/devel/ffmpeg.zip 下載。
+ - 本程式包含了從 FFmpeg(http://ffmpeg.org)下載的視訊解碼器，並遵循其 LGPL 公共許可協議。LGPL 公共許可證書內容請查閱安裝目錄下的 LGPL.TXT 檔案。經修改後的 FFmpeg 源碼檔案您可從 http://get.daum.net/devel/ffmpeg.zip 下載。
  - 本程式包含了從 zlib(http://www.zlib.net) 下載的 zip 源碼，並遵循 "zlib License" 許可協議。
  - 本程式包含了從 http://www.rarlab.com 下載的 rar 源碼。
  - 本程式中包含了從 libpng(http://www.libpng.org) 下載的 png 源碼，並遵循 "zlib/png License" 公共許可協議。
@@ -67,7 +67,7 @@ $}
  - Program ten bez zgody właściciela praw autorskich nie może być wykorzystywany do celów komercyjnych w jakiejkolwiek postaci.
 
 * Informacja o prawach autorskich
- - Program zawiera dekoder FFmpeg (http://ffmpeg.org) i jest on używany zgodnie z licencją LGPL. Plik licencji LGPL LGPL.TXT znajduje się w folderze instalacyjnym. Zmodyfikowane źródła FFmpeg można pobrać z http://potplayer.daum.net/devel/ffmpeg.zip.
+ - Program zawiera dekoder FFmpeg (http://ffmpeg.org) i jest on używany zgodnie z licencją LGPL. Plik licencji LGPL LGPL.TXT znajduje się w folderze instalacyjnym. Zmodyfikowane źródła FFmpeg można pobrać z http://get.daum.net/devel/ffmpeg.zip.
  - Używana w tym programie biblioteka kompresji zlib opiera się na opublikowanych plikach źródłowych (http://www.zlib.net) zgodnie z licencją 'zlib License'.
  - Program ten korzysta z publicznego źródła biblioteki rar z http://www.rarlab.com.
  - Program wykorzystuje do png bibliotekę libpng (http://www.libpng.org) zgodnie z licencją 'zlib/png License'.
@@ -88,12 +88,12 @@ Daum Player — бесплатная программа для некоммер�
 - Вы не можете использовать данную программу в коммерческих целях без разрешения владельца.
 
 Информация об авторских правах
-- Декодер видео, включённый в эту программу, основан на FFmpeg (http://ffmpeg.mplayerhq.hu), который распространяется под лицензией LGPL. Для ознакомления с лицензией LGPL, откройте файл LGPL.TXT, который находится в папке с программой. Изменённый исходный код FFmpeg можно загрузить по этой ссылке: http://potplayer.daum.net/devel/ffmpeg.zip.
+- Декодер видео, включённый в эту программу, основан на FFmpeg (http://ffmpeg.mplayerhq.hu), который распространяется под лицензией LGPL. Для ознакомления с лицензией LGPL, откройте файл LGPL.TXT, который находится в папке с программой. Изменённый исходный код FFmpeg можно загрузить по этой ссылке: http://get.daum.net/devel/ffmpeg.zip.
 - Открытый исходный код, доступный по адресу http://www.zlib.net, использовался для библиотеки сжатия zlib, включённой в эту программу и распространяемой под лицензией zlib.
 - В этой программе используются библиотеки, которые можно найти по адресу http://www.rarlab.com.
 - Libpng (http://www.libpng.org) использовался для библиотеки PNG, включённой в эту программу и распространяемой под лицензией zlib/png.
 - Открытый исходный код от Xiph.org (http://www.vorbis.com) использовался для библиотеки  OGG (VORBIS), включённой в эту программу и распространяемой под лицензией BSD-like.
-- В этой программе используется библиотека MP3 lame (http://lame.sourceforge.net), распространяемая под лицензией LGPL. Для ознакомления с лицензией LGPL, откройте файл LGPL.TXT, который находится в папке с программой. Изменённый исходный код lame можно загрузить по этой ссылке: http://potplayer.daum.net/devel/MP3Lame.zip.
+- В этой программе используется библиотека MP3 lame (http://lame.sourceforge.net), распространяемая под лицензией LGPL. Для ознакомления с лицензией LGPL, откройте файл LGPL.TXT, который находится в папке с программой. Изменённый исходный код lame можно загрузить по этой ссылке: http://get.daum.net/devel/MP3Lame.zip.
 - В этой программе используется библиотека BASS: http://www.un4seen.com.
 - Установочный файл создан пи помощи NSIS (http://nsis.sourceforge.net), который распространяется под лицензией zlib/libpng.
 - Внешний вывод программы основан на шрифтах FreeType (http://www.freetype.org).
@@ -108,7 +108,7 @@ Este programa es para uso público y privado para individuos/establecimientos/of
  - Este programa no se puede utilizar para fines comerciales sin el permiso del propietario de los derechos de autor.
 
 * Información de copyright, este programa utiliza:
- - El decodificador de vídeo basado en FFmpeg (http://www.ffmpeg.org) bajo licencia LGPL.(Para revisar la licencia LGPL, busque LGPL.txt en directorio de instalación) La fuente de FFmpeg modificado se puede descargar desde http://potplayer.daum.net/devel/ffmpeg.zip.
+ - El decodificador de vídeo basado en FFmpeg (http://www.ffmpeg.org) bajo licencia LGPL.(Para revisar la licencia LGPL, busque LGPL.txt en directorio de instalación) La fuente de FFmpeg modificado se puede descargar desde http://get.daum.net/devel/ffmpeg.zip.
  - La biblioteca Zlib(http://www.zlib.net) bajo licencia zlib.
  - La biblioteca rar por RARLAB (http://www.rarlab.com)
  - La biblioteca png (http://www.libpng.org) bajo licencia zlib/png.
@@ -130,7 +130,7 @@ $}
  - Це програмне забезпечення не можна використовувати у комерційних цілях без дозволу власника авторських прав.
 
 * Інформація про авторські права
- - Ця програма включає відео-декодер, що базується на FFmpeg (http://www.ffmpeg.org) у відповідності до ліцензії LGPL. Ліцензію LGPL можна переглянути у файлі LGPL.txt у теці встановлення. Змінений початковий код FFmpeg можна завантажити з http://potplayer.daum.net/devel/ffmpeg.zip.
+ - Ця програма включає відео-декодер, що базується на FFmpeg (http://www.ffmpeg.org) у відповідності до ліцензії LGPL. Ліцензію LGPL можна переглянути у файлі LGPL.txt у теці встановлення. Змінений початковий код FFmpeg можна завантажити з http://get.daum.net/devel/ffmpeg.zip.
  - У програмі використовується бібліотека стиснення Zlib (http://www.zlib.net), що розповсюджується у відповідності до ліцензії „zlib License“.
  - У програмі використовується бібліотека rar, що публічно викладена на RARLAB (http://www.rarlab.com).
  - У програмі використовується бібліотека png (http://www.libpng.org), що розповсюджується у відповідності до ліцензії „zlib/png license“.
@@ -151,7 +151,7 @@ Ez a szoftver egy ingyenes termék, amely szabadon felhasználható otthoni/cég
  - A szoftver a szerzői jog tulajdonosának engedélye nélkül kereskedelmi célokra nem használható fel.
 
 * Szerzői jogi információk
- - Ez a szoftver egy LGPL licenc alatt álló FFmpeg (http://www.ffmpeg.org) alapú videódekódolót tartalmaz.(Az LGPL licenc információk megtekintéséhez, keresse meg a telepítési könyvtárban található LGPL.txt fájlt) A módosított FFmpeg forrás letölthető innen: http://potplayer.daum.net/devel/ffmpeg.zip.
+ - Ez a szoftver egy LGPL licenc alatt álló FFmpeg (http://www.ffmpeg.org) alapú videódekódolót tartalmaz.(Az LGPL licenc információk megtekintéséhez, keresse meg a telepítési könyvtárban található LGPL.txt fájlt) A módosított FFmpeg forrás letölthető innen: http://get.daum.net/devel/ffmpeg.zip.
  - Ez a szoftver egy zlib licenc alatt álló Zlib (http://www.zlib.net) erőforrástárat használ.
  - Ez a szoftver egy RARLAB (http://www.rarlab.com) által készített és elérhetővé tett rar erőforrástárat használ. 
  - Ez a szoftver egy zlib/png licenc alatt álló png (http://www.libpng.org) erőforrástárat használ.
@@ -175,7 +175,7 @@ $}
  - Овај софтвер укључује видео декодер заснован на FFmpeg (http://www.ffmpeg.org) који је лиценциран под LGPL лиценцом.
 (Да би прегледали LGPL лиценцу, погледај под LGPL.txt у 
 инсталационом фолдеру.) Модификовани FFmpeg извор може се 
-скинути са адресе http://potplayer.daum.net/devel/ffmpeg.zip.
+скинути са адресе http://get.daum.net/devel/ffmpeg.zip.
  - Овај софтвер користи Zlib библиотеку (http://www.zlib.net) 
 која је лиценцирана под лиценцом zlib.
  - Овај софтвер користи rar библиотеку  јавно доступни од стране RARLAB (http://www.rarlab.com)
@@ -197,7 +197,7 @@ $}
      - ซอฟต์แวร์นี้ไม่สามารถใช้เพื่อวัตถุประสงค์ทางการค้าโดยปราศจากคำยินยอมอนุญาตของเจ้าของลิขสิทธิ์
 
     * ข้อมูลลิขสิทธิ์
-     - ซอฟต์แวร์นี้รวมตัวถอดรหัสวิดีโอที่มีพื้นฐานจาก FFmpeg (http://www.ffmpeg.org) ซึ่งได้รับอนุญาตภายใต้ใบอนุญาต LGPL(เพื่อดูใบอนุญาต LGPL มองหา LGPL.txt ในเส้นทางของการติดตั้ง) แหล่ง FFmpeg ที่ถูกดัดแปลงสามารถดาวน์โหลดได้จาก http://potplayer.daum.net/devel/ffmpeg.zip
+     - ซอฟต์แวร์นี้รวมตัวถอดรหัสวิดีโอที่มีพื้นฐานจาก FFmpeg (http://www.ffmpeg.org) ซึ่งได้รับอนุญาตภายใต้ใบอนุญาต LGPL(เพื่อดูใบอนุญาต LGPL มองหา LGPL.txt ในเส้นทางของการติดตั้ง) แหล่ง FFmpeg ที่ถูกดัดแปลงสามารถดาวน์โหลดได้จาก http://get.daum.net/devel/ffmpeg.zip
      - ซอฟต์แวร์นี้ใช้ไลบรารี่ Zlib (http://www.zlib.net) ซึ่งได้รับอนุญาตภายใต้ใบอนุญาต zlib
      - ซอฟต์แวร์นี้ใช้ไลบรารี่ rar ซึ่งทำไว้เป็นสาธารณะโดย RARLAB (http://www.rarlab.com)
      - ซอฟต์แวร์นี้ใช้ไลบรารี่ png (http://www.libpng.org) ซึ่งได้รับอนุญาตภายใต้ใบอนุญาต zlib/png
@@ -218,7 +218,7 @@ Bu yazılım; ücretsiz bir üründür ve bireyler, şirketler, okullar, hüküm
  - Bu yazılım, telif hakkı sahibinin izni olmadan ticari amaçlar için kullanılamaz.
 
 * Telif Hakkı Bilgileri
- - Bu yazılım, LPGL (LGPL lisansını incelemek için, kurulum dizinindeki LGPL.txt dosyasına göz atabilirsiniz) lisansı altında yayımlanan FFmpeg (http://wwww.ffmpeg.org) tabanlı bir video çözücüsü barındırmaktadır. Düzenlenmiş FFmpeg kaynağı, http://potplayer.daum.net/devel/ffmpeg.zip bağlantısından indirilebilir.
+ - Bu yazılım, LPGL (LGPL lisansını incelemek için, kurulum dizinindeki LGPL.txt dosyasına göz atabilirsiniz) lisansı altında yayımlanan FFmpeg (http://wwww.ffmpeg.org) tabanlı bir video çözücüsü barındırmaktadır. Düzenlenmiş FFmpeg kaynağı, http://get.daum.net/devel/ffmpeg.zip bağlantısından indirilebilir.
  - Bu yazılım, zlib lisansı altında yayımlanan Zlib kütüphanesini (http://www.zlib.net) kullanmaktadır.
  - Bu yazılım, RARLAB (http://www.rarlab.com) tarafından halka açık olarak sunulan rar kütüphanesini kullanmaktadır.
  - Bu yazılım, zlib/png lisansı altında yayımlanan png kütüphanesini (http://www.libpng.org) kullanmaktadır.
@@ -239,7 +239,7 @@ This software is a freeware product, which can be used freely by individual/comp
  - This software cannot be used for commercial purposes without the permission of the copyright owner.
 
 * Copyright Information
- - This software includes a video decoder based on FFmpeg (http://www.ffmpeg.org) which is licensed under LGPL license.(To review the LGPL license, look for LGPL.txt in install directory) The modified FFmpeg source can be downloaded from http://potplayer.daum.net/devel/ffmpeg.zip.
+ - This software includes a video decoder based on FFmpeg (http://www.ffmpeg.org) which is licensed under LGPL license.(To review the LGPL license, look for LGPL.txt in install directory) The modified FFmpeg source can be downloaded from http://get.daum.net/devel/ffmpeg.zip.
  - This software uses Zlib library (http://www.zlib.net) which is licensed under zlib license.
  - This software uses rar library made publicly available by RARLAB (http://www.rarlab.com)
  - This software uses png library (http://www.libpng.org) which is licensed under zlib/png license.
@@ -250,4 +250,25 @@ This software is a freeware product, which can be used freely by individual/comp
  - This software's installer was made using NSIS (http://nsis.sourceforge.net) which is licensed under zlib/libpng license.
  - This software was translated into English by DVB Support (http://www.dvbsupport.net)
  - This software copyrights (C) are owned by Daum Kakao (http://www.daum.net)
+$}
+{$PERSIAN=
+
+این نرم افزار محصولی رایگان است که می تواند آزادانه از فردی به فرد / شرکت / مدرسه / دفتر دولت / و غیره استفاده  شود.  تا زمانی که کاربران برای پخش فایل های رسانه ای آن را برای مقاصد غیر تجاری استفاده کنند
+
+* * * * توجه
+ - ( غیر موجه یا بلامانع می باشد LGPL که، مجوز برای FFmpeg این نرم افزار توسط قوانین کپی رایت و حقوق حفاظت از نرم افزار و اصلاح، مهندسی معکوس، تجزیه وتحلیل، اسمبل و طراحی گردیده ، و درغیر این صورت از تغییرات در نرم افزار فراتر از آنچه که به طور خاص توسط قوانین مربوطه اجازه داده شده از آنها ممنوع است و محافظت می شود.  ( به جز برای  
+ - این نرم افزار نمی تواند برای مقاصد تجاری بدون اجازه صاحب حق نسخه استفاده شود
+
+* * * * اطلاعات کپی رایت
+ -دریافت کنید http://get.daum.net/devel/ffmpeg.zip اصلاح شده را می توانیداز FFmpeg منبع (در نصب دایرکتوری LGPL.txt  برای جستجو ،LGPL برای بررسی مجوز) می باشد LGPL که تحت مجوز (http://www.ffmpeg.org) FFmpeg این نرم افزار شامل یک رمزگشای ویدئویی بر اساس    
+ -ساخته شده استzlib است که تحت مجوز zlib (http://www.zlib.net) این نرم افزار با استفاده از کتابخانه 
+ -(http://www.rarlab.com) برای دسترس عموم ساخته شده RAR RARLAB این نرم افزار با استفاده از کتابخانه های
+ -محفوظ می باشد  zlib / PNG است که تحت مجوز  (http://www.libpng.org) این نرم افزار با استفاده فعلی کتابخانه 
+ -می باشدکه برای دسترس عموم ساخته شده است BSDتحت مجوز Xiph.org (http://www.vorbis.com) کتابخانه  OGG (Vorbis ) این نرم افزار با استفاده از  
+ -  BASS (http://www.un4seen.com)این نرم افزار با استفاده از کتابخانه
+ -(http://mediaarea.net) MediaInfo این نرم افزار با استفاده از کتابخانه                                  
+ - (http://www.freetype.org) FreeType این نرم افزار با استفاده از فونت کتابخانه رندر
+ -ساخته شده است zlib / libpng  تحت مجوز NSIS (http://nsis.sourceforge.net)نصب این نرم افزار با استفاده از  
+ -(http://www.dvbsupport.net) ترجمه شده است  DVB  این نرم افزار به زبان انگلیسی توسط پشتیبانی          
+ -(http://www.daum.net) می باشد Daum Kakao متعلق به (C) حق تکثیر این نرم افزار براساس
 $}

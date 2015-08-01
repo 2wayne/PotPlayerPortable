@@ -2,43 +2,79 @@
 Історія версій PotPlayer
 
 ----------------------------------------------------------
+[1.6.55390]                                     2015/07/22
+----------------------------------------------------------
+- Fixed an issue that the screen didn't work properly with rotating or resizing image during playback
+- Fixed an issue that the frame is dropped while broadcasting in certain situations
+- Fixed an issue that program can't exit in certain situations
+- Fixed an issue that copying files may fail during installation
+- Fixed playback problem of some MP4 files
+
+----------------------------------------------------------
+[1.6.54915]                                     2015/07/02
+----------------------------------------------------------
+- Fixed an issue that can't show some DVB subtitles
+- Fixed an issue that skins look strange after separating all windows
+- Fixed an issue that thumbnail preview didn't work with D3D Skin
+- Fixed a delay issue of 60-frame captured videos when broadcasting
+
+----------------------------------------------------------
+[1.6.54871]                                     2015/06/29
+----------------------------------------------------------
+* First Live reconsitution
+
++ Added the ability to output multiple columns in scene explorer
++ Added caption support in scene explorer
++ Added an option to set a transparent background in file navigator
+
+- Fixed incorrect calculation problem of file size
+- Fixed an issue that multiple selection can't be right-clicked in playlist
+- Fixed an error when playing certain MKV files
+- Improved speed of generating thumbnails in playlist/scene explorer
+- Fixed an error when playing certain damaged AVI files
+- Fixed an issue where the chat does not automatically scroll down in certain PCs
+- Fixed an issue that can't play audio CD
+
+----------------------------------------------------------
 [1.6.54549]                                     2015/06/11
 ----------------------------------------------------------
-+ Added Persian translation
++ Додано перський переклад
 
-- Fixed an issue that playback was not supported on certain FTP servers
-- Fixed an issue that Potplayer stopped with too much chat contents
-- Fixed an issue that chat contents were cleared while playing next file during broadcasting
-- Improved HEVC DXVA decoding ability
-- Increased speed of creating thumbnails
-- Fixed an issue that can't read certain PNG files
+- Виправлено проблему з непідтримкою відтворення з певних FTP-серверів
+- Виправлено проблему, коли PotPlayer зупинявся із завеликою кількістю з’єднань в балачці
+- Виправлено проблему, коли з’єднання балачки очищались під час відтворення наступного файла під час трансляції
+- Вдосконалено можливість декодування HEVC DXVA
+- Прискорено створення мініатюр
+- Виправлено проблему з неможливістю читання певних PNG-файлів
 
 ----------------------------------------------------------
 [1.6.54266]                                     2015/05/21
 ----------------------------------------------------------
-+ Added the ability to set the maximum volume to 200%
++ Додано можливість встановити максимальну гучність до 200%
 
-- Fixed a memory leak problem when playing certain files
-- Fixed an error when playing with VMR9 Renderless in certain situations
-- Fixed a problem that can't jump to previous/next subtitle in Sup subtitles
-- Fixed a sync problem when playing certain files with QuickSync decoder
+- Виправлено проблему з витоком пам’яті при відтворенні певних файлів
+- Виправлено помилку відтворення з обробником VMR9 за певних обставин
+- Виправлено проблему з неможливістю переходу до попереднього/наступного субтитру в Sup-субтитрах
+- Виправлено проблему синхронізації при відтворенні певних файлів з кодеком QuickSync
+- Виправлено ненормальну поведінку функції системи кадру
 
 ----------------------------------------------------------
 [1.6.54133]                                     2015/05/13
 ----------------------------------------------------------
-+ Added Italian translation
++ Додано італійський переклад
 
-- Fixed an issue that certain animated GIF logo was slowly displayed
-- Fixed an issue that compression setting did not take effect during broadcasting
-- Fixed abnormal operation when saving broadcast in a specific format
-- Improved slow running problem with auto-login
-- Removed MPEG4 video codec from broadcast
-- Fixed abnormal operation in certain ASF files navigation
-- Fixed an issue that program occasionally freezed at the end of broadcast
-- Fixed an issue that no images appear when playing certain HEVC MPEG TS files
-- Fixed an issue that can't automatically scroll with chat contents in certain situations
-- Improved performance of video capture during broadcasting
-- Improved damaged AVI playback
+- Виправлено проблему з повільним показом певних анімованих GIF-логотипів
+- Виправлено проблему, коли параметри стиснення не працювали під час трансляції
+- Виправлено ненормальну роботу при збереженні трансляції у певному форматі
+- Виправлено проблему з повільним автоматичним входом
+- Вилучено MPEG4 відео-кодек з трансляції
+- Виправлено ненормальну поведінку під час навігації по певних ASF-файлах
+- Виправлено проблему, коли програма періодично завмирала наприкінці трансляції
+- Виправлено проблему, коли не з’являлось зображення при відтворенні певних HEVC MPEG TS-файлів
+- Виправлено проблему, коли неможливо автоматично прокрутити вміст балачки за певних обставин
+- Вдосконалено продуктивність захоплення відео під час трансляції
+- Вдосконалено відтворення пошкоджених AVI
+- Вдосконалено обробку поворотів
 
 ----------------------------------------------------------
 [1.6.53104]                                     2015/03/17
