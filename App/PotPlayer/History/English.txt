@@ -2,11 +2,32 @@
 Version History of the PotPlayer
 
 ----------------------------------------------------------
+[1.6.56209]                                     2015/09/09
+----------------------------------------------------------
+* Second part of reorganization of the program's live mode
+
++ Added Czech translation
++ Added Greek translation
++ Added Tajik translation
++ Added MFT HEVC decoder in Windows 10 or newer(WDDM 2.0 or newer version)
++ Added FFmpeg QuickSync H264 Decoder
++ Added the ability to output translucent Scene Browser
+
+- Fixed an issue that can't save the format in capture device
+- Fixed navigation problem of blu-ray mpls files
+- Fixed ffcodec.dll error when playing in certain PCs
+- Fixed an issue that caused an error when creating a new album without items
+- Fixed an issue that can't open certain .sub subtitle files
+- Fixed an issue that can't play files from certain FTP servers
+
+* Improved operation of temporary playback queue
+
+----------------------------------------------------------
 [1.6.55390]                                     2015/07/22
 ----------------------------------------------------------
 + Added Uzbek translation
 + Added the ability to manually select the format when opening WDM device
-+ Added Direct3D 11 feature into DXVA Copy-Back mode
++ Added Direct3D 11 feature into DXVA Copy-Back mode (Windows 8 or newer)
 
 - Fixed an issue that the screen didn't work properly with rotating or resizing image during playback
 - Fixed an issue that the frame is dropped while broadcasting in certain situations

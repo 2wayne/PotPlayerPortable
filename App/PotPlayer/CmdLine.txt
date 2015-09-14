@@ -214,24 +214,6 @@ Kullanım: PotPlayer[Mini].exe "dosyaadı" [seçenekler]
 /autoplay             : Son yürütülen dosyayı oynat
 config="preset name"  : Belirtilen yapılandırmayı kullan
 $}
-{$CP0=
-
-Usage : PotPlayer[Mini].exe "filename" [options]
-
-/filedlg		: Open file dialog
-/urldlg			: Open url dialog
-/folderdlg  		: Open folder dialog
-/simple			: Open file navigator
-/cap			: Open screen capture
-/cam			: Open webcam/Other devices
-/atv[:ch]		: Open Analog TV
-/dtv[:ch]		: Open Digital TV
-/dvd			: Open DVD
-/cd[:drive]		: Open a cd drive
-/add			: Add to playlist
-/autoplay   		: Play the last played file
-config="preset name"	: Use the specified preset
-$}
 {$PERSIAN=
 
 طریقه استفاده : PotPlayer[Mini].exe "[گزینه ها] " نام فایل
@@ -250,4 +232,41 @@ $}
 /autoplay   		: پخش از آخرین زمان پخش فایل
 config="preset name"	:  استفاده ازپیش تعیین شده مشخص                                                                                                                              
 $}
+{$FRENCH=
+
+Utilisation : PotPlayer[Mini].exe "nomfichier" [options]
+
+/filedlg    : Ouvrir le dialogue de fichier
+/urldlg     : Ouvrir le dialogue d'url
+/folderdlg  : Ouvrir le dialogue de dossier
+/simple     : Ouvrir le navigateur de fichier
+/cap        : Ouvrir la capture d'écran
+/cam        : Ouvrir la webcam/autres appareils
+/atv[:ch]   : Ouvrir la TV Analogique
+/dtv[:ch]   : Ouvrir la TV Numérique
+/dvd        : Ouvrir un DVD
+/cd[:drive] : Ouvrir un lecteur cd
+/add        : Ajouter à la liste de lecture
+/autoplay   : Lire de dernier fichier lu
+config="nom de préset" : Utiliser le préset spécifié
+$}
+{$CP0=
+
+Usage : PotPlayer[Mini].exe "filename" [options]
+
+/filedlg		: Open file dialog
+/urldlg			: Open url dialog
+/folderdlg  		: Open folder dialog
+/simple			: Open file navigator
+/cap			: Open screen capture
+/cam			: Open webcam/Other devices
+/atv[:ch]		: Open Analog TV
+/dtv[:ch]		: Open Digital TV
+/dvd			: Open DVD
+/cd[:drive]		: Open a cd drive
+/add			: Add to playlist
+/autoplay   		: Play the last played file
+config="preset name"	: Use the specified preset
+$}
+
 

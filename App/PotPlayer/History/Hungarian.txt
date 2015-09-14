@@ -2,9 +2,27 @@
 PotPlayer verzió előzmények
 
 ----------------------------------------------------------
+[1.6.56209]                                     2015/09/09
+----------------------------------------------------------
++ Cseh fordítás
++ Görög fordítás
++ Tádzsik fordítás
++ MFT HEVC dekóder hozzáadása Windows 10 vagy újabb rendszerhez (WDDM 2.0 vagy újabb verzió)
++ FFmpeg QuickSync H264 dekóder hozzáadása
+
+- Javítva egy probléma, amely formátum mentési problémát okozott a rögzítőeszközön
+- Blu-ray mpls fájl navigációs probléma javítása
+- Bizonyos PCs-ken lejátszás közben jelentkező ffcodec.dll hiba javítása
+- Javítva lett egy hiba, amely problémát okozott az elemek nélküli új album létrehozásakor
+- Javítva lett egy hiba, amely miatt nem lehetett megnyitni bizonyos .sub feliratfájlokat
+- Javítva lett egy probléma, amely miatt nem lehetett lejátszani a fájlokat egyes FTP szerverekről
+
+* Javított ideiglenes lejátszás várólista művelet
+
+----------------------------------------------------------
 [1.6.55390]                                     2015/07/22
 ----------------------------------------------------------
-+ Üzbég fordítás hozzáadása
++ Üzbég fordítás
 + Kézi formátum kiválasztási képesség a WDM eszköz megnyitásakor
 + Új Direct3D 11 funkció a DXVA Copy-Back módban
 
@@ -20,6 +38,7 @@ PotPlayer verzió előzmények
 - Javítva lett egy hiba, amely túl sok album esetén a műveletek lassulását okozta
 - Javított madVR kompatibilitás
 - Javítva lett egy műsorszolgáltatás megújítási hiba a be- és kijelentkezési műveletnél
+- Javítva egy hiba, amely nem tette lehetővé az ISO fájlok csatolását lejátszásra
 
 ----------------------------------------------------------
 [1.6.54915]                                     2015/07/02
@@ -72,7 +91,7 @@ PotPlayer verzió előzmények
 ----------------------------------------------------------
 [1.6.54133]                                     2015/05/13
 ----------------------------------------------------------
-+ Olasz fordítás hozzáadása
++ Olasz fordítás
 
 - Javítva lett egy hiba, amely miatt bizonyos animált GIF logó fájlok lejátszása nem volt megfelelő
 - Javítva lett a tömörítési beállítások módosításánál jelentkező műsorszolgáltatás hiba
@@ -108,7 +127,7 @@ PotPlayer verzió előzmények
 ----------------------------------------------------------
 [1.6.52515]                                     2015/02/02
 ----------------------------------------------------------
-+ Svéd fordítás hozzáadása
++ Svéd fordítás
 + Új képesség a videók GIF formátumú rögzítésére
 + Hozzá lett adva egy opció, csak az adásban lévő közvetítések műsorszórási effektjeinek alkalmazására
 + Hozzá lett adva egy funkció a program indításakor annak megállapítására, hogy a PotPlayer.dll módosítva lett vagy sem
@@ -140,10 +159,10 @@ PotPlayer verzió előzmények
 ----------------------------------------------------------
 [1.6.51480]                                     2014/12/16
 ----------------------------------------------------------
-+ Francia fordítás hozzáadása
-+ Thai fordítás hozzáadása
-+ Héber fordítás hozzáadása
-+ Török fordítás hozzáadása
++ Francia fordítás
++ Thai fordítás
++ Héber fordítás
++ Török fordítás
 + Szinkronizált dalszöveg (SYLT) az MP3 fájlokban támogatás hozzáadása
 + VOD HLS adatfolyam lejátszási képesség hozzáadása
 + Szövegfelolvasási funkció hozzáadása
@@ -162,7 +181,7 @@ PotPlayer verzió előzmények
 ----------------------------------------------------------
 [1.6.49952]                                     2014/09/25
 ----------------------------------------------------------
-+ Szerb fordítás hozzáadása
++ Szerb fordítás
 + Új funkció került a könyvjelző menübe a YouTube videók minőségének szabályzására
 + Új funkció a média hossza szerinti konfiguráció automatikus kiválasztására
 + CUDA/DXVA HEVC dekóder hozzáadva
@@ -215,8 +234,8 @@ PotPlayer verzió előzmények
 ----------------------------------------------------------
 [1.6.48576]                                     2014/06/18
 ----------------------------------------------------------
-+ Spanyol fordítás hozzáadása
-+ Ukrán fordítás hozzáadása
++ Spanyol fordítás
++ Ukrán fordítás
 + Új opció a lejátszó ablakméretének módosítására csak az első lejátszásnál
 + Új funkció a színskála korrekció végrehajtására
 + Új funkció az ismétlési és véletlenszerű lejátszási mód különálló hozzárendeléséhez az összes lejátszási módban
@@ -235,7 +254,7 @@ PotPlayer verzió előzmények
 ----------------------------------------------------------
 [1.6.47995]                                     2014/05/29
 ----------------------------------------------------------
-+ Japán fordítás hozzáadása
++ Japán fordítás
 + Új funkció a beépített hardveres kódoló/dekódoló kiválasztására
 + A Windows 8 vagy újabb rendszerek sztereoszkópikus 3D-s módjának támogatása
 + Új funkció a lejátszási lista elemek miniatűrként való megjelenítésére

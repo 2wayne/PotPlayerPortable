@@ -2,38 +2,66 @@
 Історія версій PotPlayer
 
 ----------------------------------------------------------
+[1.6.56209]                                     2015/09/09
+----------------------------------------------------------
++ Added Greek translation
++ Added Tajik translation
++ Added MFT HEVC decoder in Windows 10 or newer(WDDM 2.0 or newer version)
++ Added FFmpeg QuickSync H264 Decoder
+
+- Fixed an issue that can't save the format in capture device
+- Fixed navigation problem of blu-ray mpls files
+- Fixed ffcodec.dll error when playing in certain PCs
+- Fixed an issue that caused an error when creating a new album without items
+- Fixed an issue that can't open certain .sub subtitle files
+
+* Improved operation of temporary playback queue
+
+----------------------------------------------------------
 [1.6.55390]                                     2015/07/22
 ----------------------------------------------------------
-- Fixed an issue that the screen didn't work properly with rotating or resizing image during playback
-- Fixed an issue that the frame is dropped while broadcasting in certain situations
-- Fixed an issue that program can't exit in certain situations
-- Fixed an issue that copying files may fail during installation
-- Fixed playback problem of some MP4 files
++ Додано узбецький переклад
++ Додано можливість власноруч обрати формат при відкритті WDM-пристрою
++ Додано функцію Direct3D 11 до режиму DXVA Copy-Back
+
+- Виправлено проблему з неправильною роботою екрану при повороті чи зміні розміру під час відтворення
+- Виправлено проблему з битими кадрами при трансляції за певних обставин
+- Виправлено проблему з неможливістю виходу з програми за певних обставин
+- Виправлено проблему з помилкою під час копіювання файлів при встановленні
+- Виправлено проблему відтворення певних MP4-файлів
+- Виправлено проблему з витоком пам’яті ГП при використанні DXVA
+- Виправлено проблему синхронізації відтворення певних AVI-файлів
+- Виправлено проблему з певними MKV-файлами наприкінці відтворення
+- Виправлено проблему з збоєм програми наприкінці трансляції
+- Виправлено проблему з повільністю дій з великою кількістю альбомів
+- Вдосконалено сумісність з madVR
+- Виправлено проблему відновлення трансляції при вході/виході
+- Виправлено проблему з неможливістю монтування ISO-файлів для відтворення
 
 ----------------------------------------------------------
 [1.6.54915]                                     2015/07/02
 ----------------------------------------------------------
-- Fixed an issue that can't show some DVB subtitles
-- Fixed an issue that skins look strange after separating all windows
-- Fixed an issue that thumbnail preview didn't work with D3D Skin
-- Fixed a delay issue of 60-frame captured videos when broadcasting
+- Виправлено проблему з непоказом певних DVB-субтитрів
+- Виправлено проблему з обкладинкою при розділенні вікон
+- Виправлено проблему з непоказом мініатюр у режимі Direct3D9 OSC
+- Виправлено проблему буферизації при трансляції з 60 кадр./с
 
 ----------------------------------------------------------
 [1.6.54871]                                     2015/06/29
 ----------------------------------------------------------
-* First Live reconsitution
+* Перша частина реорганізації режиму програми „наживо“
 
-+ Added the ability to output multiple columns in scene explorer
-+ Added caption support in scene explorer
-+ Added an option to set a transparent background in file navigator
++ Додано підтримку кількох стовпців в оглядач сцен
++ Додано можливість перегляду сцен за інтервалами субтитрів
++ Додано можливість робити тло навігатора файлів/меню/субтитрів прозорим
 
-- Fixed incorrect calculation problem of file size
-- Fixed an issue that multiple selection can't be right-clicked in playlist
-- Fixed an error when playing certain MKV files
-- Improved speed of generating thumbnails in playlist/scene explorer
-- Fixed an error when playing certain damaged AVI files
-- Fixed an issue where the chat does not automatically scroll down in certain PCs
-- Fixed an issue that can't play audio CD
+- Виправлено помилку з розрахунком розміру файлів
+- Виправлено проблему з непрацездатністю правого притиску при множинному виділенні елементів списку відтворення
+- Виправлено проблему, що спричиняла помилку при відтворенні певних MKV-файлів
+- Вдосконалено швидкість завантаження мініатюр у списку відтворення/оглядачі сцен
+- Виправлено проблему, що спричиняла помилку при відтворенні певних пошкоджених AVI-файлів
+- Виправлено ненормальне автоматичне прокручування в балачці на певних ПК
+- Виправлено проблему відтворення Аудіо-КД
 
 ----------------------------------------------------------
 [1.6.54549]                                     2015/06/11

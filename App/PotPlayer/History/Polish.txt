@@ -2,6 +2,25 @@
 Historia wersji PotPlayer
 
 ----------------------------------------------------------
+[1.6.56209]                                     2015/09/09
+----------------------------------------------------------
++ Dodano język czeski
++ Dodano język grecki
++ Dodano język tadżycki
++ Dodano dekoder systemowy MFT HEVC w Windows 10 lub nowszym (tylko WDDM 2.0 lub nowsze)
++ Dodano FFmpeg QuickSync H264 Decoder
++ Dodano funkcję przejrzystości w Przeglądarce scen
+
+- Naprawiono problem z nie zapamiętywaniem formatu w urządzeniu do przechwytywania
+- Naprawiono problem z nawigacją Blu-ray po plikach MPLS
+- Naprawiono problem z ffcodec.dll powodujący błędy podczas odtwarzania na określonych PC
+- Naprawiono błąd występujący podczas tworzenia nowego albumu bez elementów
+- Naprawiono problem z brakiem możliwości otworzenia niektórych plików napisów .sub
+- Naprawiono problem z odtwarzaniem plików z niektórych serwerów FTP
+
+* Zmieniono pracę tymczasowej kolejki odtwarzania
+
+----------------------------------------------------------
 [1.6.55390]                                     2015/07/22
 ----------------------------------------------------------
 + Dodano język uzbecki
