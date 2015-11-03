@@ -2,6 +2,22 @@
 Version History of the PotPlayer
 
 ----------------------------------------------------------
+[1.6.56815]                                     2015/10/28
+----------------------------------------------------------
+* Major update for FFmpeg (Previous module can't be used)
+* Fixed a security problem (remediation of damaged AVI header vulnerability)
+
++ Added the ability to open/close the list of participants in the chat
++ Added the ability to use various browser when you don't chat in the chat area
++ Added operating selection in showing UI when dropping file to play
++ Added an option to show network in file navigator
+
+- Fixed an issue that can't play next one with certain AAC/MP3 files
+- Fixed abnormal action when using Windows Border Skin in Windows 10 or newer
+- Improved Subtitle Browser UI
+- Fixed a problem that no sound while playing certain MKV files
+
+----------------------------------------------------------
 [1.6.56209]                                     2015/09/09
 ----------------------------------------------------------
 * Second part of reorganization of the program's live mode
@@ -9,7 +25,7 @@ Version History of the PotPlayer
 + Added Czech translation
 + Added Greek translation
 + Added Tajik translation
-+ Added MFT HEVC decoder in Windows 10 or newer(WDDM 2.0 or newer version)
++ Added MFT HEVC decoder in Windows 10 or newer (WDDM 2.0 or newer version)
 + Added FFmpeg QuickSync H264 Decoder
 + Added the ability to output translucent Scene Browser
 

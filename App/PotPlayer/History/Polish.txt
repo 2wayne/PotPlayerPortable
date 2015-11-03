@@ -2,8 +2,25 @@
 Historia wersji PotPlayer
 
 ----------------------------------------------------------
+[1.6.56815]                                     2015/10/28
+----------------------------------------------------------
+* Wprowadzono istotną aktualizację FFmpeg (poprzedniego modułu nie należy używać)
+
++ Dodano funkcję pozwalającą na zamknięcie/otworzenie listy uczestników czatu
++ Dodano możliwość korzystania z różnych funkcjonalności przeglądarki, gdy obszar czatu jest nieużywany
++ Dodano funkcję dającą możliwość wyświetlenia UI przy upuszczaniu pliku na odtwarzacz w trakcie odtwarzania
++ Dodano funkcję dającą możliwość wyświetlenia połączeń sieciowych w Nawigatorze po plikach
+
+- Naprawiono błąd powodujący brak przejścia do następnego pliku podczas odtwarzania niektórych plików AAC/MP3
+- Naprawiono nieprawidłowe działanie podczas korzystania z Windows Border Skin w systemie Windows 10 lub nowszym
+- Ulepszono UI Przeglądarki napisów
+- Naprawiono problem powodujący brak dźwięku podczas odtwarzania niektórych plików MKV
+
+----------------------------------------------------------
 [1.6.56209]                                     2015/09/09
 ----------------------------------------------------------
+* Przeprowadzono drugą część reorganizacji trybu Live
+
 + Dodano język czeski
 + Dodano język grecki
 + Dodano język tadżycki

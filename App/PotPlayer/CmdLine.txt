@@ -250,6 +250,24 @@ Utilisation : PotPlayer[Mini].exe "nomfichier" [options]
 /autoplay   : Lire de dernier fichier lu
 config="nom de préset" : Utiliser le préset spécifié
 $}
+{$HONGKONGESE=
+
+用法：PotPlayer[Mini].exe "檔名" [參數]
+
+/filedlg	：開啟檔案話匣
+/urldlg		：開啟網址話匣
+/folderdlg	：開啟資料夾話匣
+/simple		：開啟資料夾導航
+/cap		：螢幕擷取
+/cam		：開啟網絡鏡頭╱其他裝置
+/atv[:ch]	：開啟模擬電視
+/dtv[:ch]	：開啟數碼電視
+/dvd		：開啟DVD裝置
+/cd[:drive]	：開啟CD裝置
+/add		：加入到播放清單
+/autoplay	：播放上次檔案
+config="設定名" ：使用指定設定
+$}
 {$CP0=
 
 Usage : PotPlayer[Mini].exe "filename" [options]

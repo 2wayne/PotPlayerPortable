@@ -2,6 +2,19 @@
 PotPlayer verzió előzmények
 
 ----------------------------------------------------------
+[1.6.56815]                                     2015/10/28
+----------------------------------------------------------
+* Major update for FFmpeg(Previous module can't be used)
+
++ Added operating selection in showing UI when dropping file to play
++ Added an option to show network in file navigator
+
+- Fixed an issue that can't play next one with certain AAC/MP3 files
+- Fixed abnormal action when using Windows Border Skin in Windows 10 or newer
+- Improved Subtitle Browser UI
+- Fixed a problem that no sound while playing certain MKV files
+
+----------------------------------------------------------
 [1.6.56209]                                     2015/09/09
 ----------------------------------------------------------
 + Cseh fordítás
