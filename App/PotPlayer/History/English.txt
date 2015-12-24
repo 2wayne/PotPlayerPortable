@@ -2,6 +2,22 @@
 Version History of the PotPlayer
 
 ----------------------------------------------------------
+[1.6.57398]                                     2015/12/01
+----------------------------------------------------------
+* Fixed a security problem (remediation of damaged MP4 header vulnerability)
+
++ Added XInput (XBOX controller) support
++ Added Armenian translation
++ Added DVB Teletext subtitle support
++ Added EIA 708 Closed Caption support
+
+- Fixed an error on broadcasting with lots of auto-ID managers
+- Fixed an issue that can't show certain video thumbnails
+- Fixed occasional freeze problem when compression settings was changed during broadcasting
+- Fixed an issue that can't smoothly output animation ASS subtitles
+- Fixed an issue that closed program with DXVA on certain VGA cards during playback
+
+----------------------------------------------------------
 [1.6.56815]                                     2015/10/28
 ----------------------------------------------------------
 * Major update for FFmpeg (Previous module can't be used)

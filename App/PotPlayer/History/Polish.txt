@@ -2,9 +2,26 @@
 Historia wersji PotPlayer
 
 ----------------------------------------------------------
+[1.6.57398]                                     2015/12/01
+----------------------------------------------------------
+* Aktualizacja zabezpieczeń (naprawiono lukę w zabezpieczeniach nagłówka uszkodzonych MP4)
+
++ Dodano obsługę XInput (kontroler XBOX)
++ Dodano język armeński
++ Dodano obsługę napisów DVB Teletext
++ Dodano obsługę napisów EIA 708 Closed Caption
+
+- Naprawiono błąd w broadcast z dużą ilością automatycznych połączeń
+- Naprawiono problem z wyświetlaniem niektórych miniatur wideo
+- Naprawiono problem powodujący czasowe zamrażanie przy zmianie ustawień kompresji podczas broadcast
+- Naprawiono problem z płynnością wyświetlania animacji w niektórych napisach ASS
+- Naprawiono problem z zamykaniem programu podczas odtwarzania z użyciem DXVA występujący w niektórych VGA
+
+----------------------------------------------------------
 [1.6.56815]                                     2015/10/28
 ----------------------------------------------------------
 * Wprowadzono istotną aktualizację FFmpeg (poprzedniego modułu nie należy używać)
+* Aktualizacja zabezpieczeń (naprawiono lukę w zabezpieczeniach nagłówka uszkodzonych AVI)
 
 + Dodano funkcję pozwalającą na zamknięcie/otworzenie listy uczestników czatu
 + Dodano możliwość korzystania z różnych funkcjonalności przeglądarki, gdy obszar czatu jest nieużywany

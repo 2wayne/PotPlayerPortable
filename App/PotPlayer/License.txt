@@ -279,7 +279,7 @@ $}
 
 【警告】
 －本軟件受版權法例保護，除法例容許或非限制範圍以外任何對
-　本軟件進行　更改、反工程、反編譯、解除組裝都被視作違法。
+　本軟件進行更改、反工程、反編譯、解除組裝都被視作違法。
 　（僅FFmpeg、lame遵循其LGPL協議。）
 －未經版權持有者授權不得利用本軟件作商業用途。
 
@@ -296,11 +296,11 @@ $}
 　協議使用。
 －本軟件含Zlib源碼（http://www.zlib.net），按Zlib授權協議
 　使用。
-－本軟件含RAR源碼，可於http://www.rarlab.com下載。
+－本軟件含RAR源碼，可於 http://www.rarlab.com 下載。
 －本軟件使用BASS系列解碼器（http://www.un4seen.com）。
 －本軟件使用FreeType文字呈像器（http://www.freetype.org）。
 －本軟件使用MediaInfo影音資訊程式（http://mediaarea.net）。
-－本軟件版權由Daum Kakao持有（http://www.daum.net）。
+－本軟件版權由Kakao持有（http://www.daum.net）。
 $}
 {$CP0=
 

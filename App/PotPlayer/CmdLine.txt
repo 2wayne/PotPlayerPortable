@@ -61,11 +61,11 @@ $}
 /folderdlg	: 開啟資料夾對話框
 /simple		: 快速開啟檔案對話框
 /cap		: 視訊錄制
-/cam		: 攝影機其他裝置
-/atv[:ch]	: 類比 TV
-/dtv[:ch]	: 數位 TV
-/dvd		: 預設 DVD 裝置
-/cd[:drive]	: CD 磁碟機
+/cam		: 網路攝影機或其他裝置
+/atv[:ch]	: 類比電視
+/dtv[:ch]	: 數位電視
+/dvd		: 預設DVD裝置
+/cd[:drive]	: CD磁碟機
 /add		: 新增到播放清單
 /autoplay	: 自動播放
 config=配置名 	: 選擇指定配置
@@ -266,7 +266,7 @@ $}
 /cd[:drive]	：開啟CD裝置
 /add		：加入到播放清單
 /autoplay	：播放上次檔案
-config="設定名" ：使用指定設定
+config="範本名" ：使用指定工作範本
 $}
 {$CP0=
 
