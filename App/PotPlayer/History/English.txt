@@ -2,10 +2,26 @@
 Version History of the PotPlayer
 
 ----------------------------------------------------------
+[1.6.57875]                                     2015/12/29
+----------------------------------------------------------
++ Added XInput Mouse Button mapping feature
++ Added the ability to share broadcasts by opening address (http://tvpot.daum.net/xxxxxx.live)
++ Added VP9 DXVA mode
+
+- Fixed a circuit error while playing Vingo TV under certain conditions
+- Improved playback point of Vingo TV
+- Fixed an issue that initialized value of broadcast list (Ctrl + Mouse Wheel)
+- Fixed an issue that no sound while playing certain AVI files
+- Fixed green screen problem while playing with DX11 CopyBack decoder on NVIDIA VGA card
+- Fixed freeze problem when broadcasting in certain systems
+- Fixed display problem of tag information while playing OGG streams
+
+----------------------------------------------------------
 [1.6.57398]                                     2015/12/01
 ----------------------------------------------------------
 * Fixed a security problem (remediation of damaged MP4 header vulnerability)
 
++ Added Vingo TV playback feature
 + Added XInput (XBOX controller) support
 + Added Armenian translation
 + Added DVB Teletext subtitle support
@@ -16,6 +32,7 @@ Version History of the PotPlayer
 - Fixed occasional freeze problem when compression settings was changed during broadcasting
 - Fixed an issue that can't smoothly output animation ASS subtitles
 - Fixed an issue that closed program with DXVA on certain VGA cards during playback
+- Fixed an error on broadcasting with SWF logo
 
 ----------------------------------------------------------
 [1.6.56815]                                     2015/10/28

@@ -2,10 +2,25 @@
 Historia wersji PotPlayer
 
 ----------------------------------------------------------
+[1.6.57875]                                     2015/12/29
+----------------------------------------------------------
++ Dodano mapowanie przycisków myszki dla XInput
++ Dodano funkcję pozwalającą na współdzielenie broadcastów otwierając adres (http://tvpot.daum.net/xxxxxx.live)
+
+- Naprawiono problem z odtwarzaniem Vingo TV występujący w pewnych okolicznościach
+- Ulepszono czas odtwarzania Vingo TV
+- Naprawiono problem z inicjalizacją ustawienia wartości na liście broadcast (Ctrl+rolka myszki)
+- Naprawiono błąd powodujący brak dźwięku podczas odtwarzania niektórych plików AVI
+- Naprawiono problem z zielonym ekranem podczas odtwarzania z dekoderem DX11 CopyBack przy użyciu NVIDIA VGA 
+- Naprawiono problem z zamrażaniem broadcastu w niektórych systemach
+- Poprawiono wyświetlanie informacji z tagów podczas odtwarzania strumieni OGG 
+
+----------------------------------------------------------
 [1.6.57398]                                     2015/12/01
 ----------------------------------------------------------
 * Aktualizacja zabezpieczeń (naprawiono lukę w zabezpieczeniach nagłówka uszkodzonych MP4)
 
++ Dodano funkcję odtwarzania Vingo TV
 + Dodano obsługę XInput (kontroler XBOX)
 + Dodano język armeński
 + Dodano obsługę napisów DVB Teletext
@@ -16,6 +31,7 @@ Historia wersji PotPlayer
 - Naprawiono problem powodujący czasowe zamrażanie przy zmianie ustawień kompresji podczas broadcast
 - Naprawiono problem z płynnością wyświetlania animacji w niektórych napisach ASS
 - Naprawiono problem z zamykaniem programu podczas odtwarzania z użyciem DXVA występujący w niektórych VGA
+- Naprawiono problem z logo SWF podczas broadcast
 
 ----------------------------------------------------------
 [1.6.56815]                                     2015/10/28

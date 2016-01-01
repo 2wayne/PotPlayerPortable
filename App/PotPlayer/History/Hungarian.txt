@@ -2,6 +2,19 @@
 PotPlayer verzió előzmények
 
 ----------------------------------------------------------
+[1.6.57875]                                     2015/12/29
+----------------------------------------------------------
++ Added XInput Mouse Button mapping feature
++ Added the ability to share broadcasts by opening address (http://tvpot.daum.net/xxxxxx.live)
+
+- Fixed a circuit error while playing Vingo TV under certain conditions
+- Fixed an issue that initialized value of broadcast list (Ctrl + Mouse Wheel)
+- Fixed an issue that no sound while playing certain AVI files
+- Fixed green screen problem while playing with DX11 CopyBack decoder on NVIDIA VGA card
+- Fixed freeze problem when broadcasting in certain systems
+- Fixed display problem of tag information while playing OGG streams
+
+----------------------------------------------------------
 [1.6.57398]                                     2015/12/01
 ----------------------------------------------------------
 * Fixed a security problem (remediation of damaged MP4 header vulnerability)

@@ -2,94 +2,108 @@
 Историја верзија Пот плејера
 
 ----------------------------------------------------------
+[1.6.57875]                                     2015/12/29
+----------------------------------------------------------
++ Added XInput Mouse Button mapping feature
++ Added the ability to share broadcasts by opening address (http://tvpot.daum.net/xxxxxx.live)
+
+- Fixed a circuit error while playing Vingo TV under certain conditions
+- Fixed an issue that initialized value of broadcast list (Ctrl + Mouse Wheel)
+- Fixed an issue that no sound while playing certain AVI files
+- Fixed green screen problem while playing with DX11 CopyBack decoder on NVIDIA VGA card
+- Fixed freeze problem when broadcasting in certain systems
+- Fixed display problem of tag information while playing OGG streams
+
+----------------------------------------------------------
 [1.6.57398]                                     2015/12/01
 ----------------------------------------------------------
-* Fixed a security problem (remediation of damaged MP4 header vulnerability)
+* Решен проблем безбедности (санација рањивости оштећених MP4 хеадера )
 
-+ Added Armenian translation
-+ Added DVB Teletext subtitle support
-+ Added XInput (XBOX controller) support
++ Додата XInput (XBOX controller) подршка
++ Додат Арменски превод
++ Додата DVB Teletext подршка
++ Додата EIA 708 подршка затвореног превода
 
-- Fixed an error on broadcasting with lots of auto-ID managers
-- Fixed an issue that can't show certain video thumbnails
-- Fixed occasional freeze problem when compression settings was changed during broadcasting
-- Fixed an issue that can't smoothly output animation ASS subtitles
-- Fixed an issue that closed program with DXVA on certain VGA cards during playback
+- Исправљена грешка током емитовања са много ауто-ID менаџера
+- Решен проблем не приказивања одређених видео сличица
+- Решен проблем повременог замрзавања кад подешавања компресије током емитовања
+- Решен проблем не приказивања глатке анимације ASS превода
+- Решен проблем затварања програма са DXVA на неким VGA картицама током репродукције
 
 ----------------------------------------------------------
 [1.6.56815]                                     2015/10/28
 ----------------------------------------------------------
-* Major update for FFmpeg(Previous module can't be used)
+* Знатна надоградња за FFmpeg(претходни модул не може бити коришћен)
 
-+ Added operating selection in showing UI when dropping file to play
-+ Added an option to show network in file navigator
++ Додат оперативни избор за показивање UI када се убаци фајл за пуштање
++ Додата опција приказивања мреже у фајл навигатору
 
-- Fixed an issue that can't play next one with certain AAC/MP3 files
-- Fixed abnormal action when using Windows Border Skin in Windows 10 or newer
-- Improved Subtitle Browser UI
-- Fixed a problem that no sound while playing certain MKV files
+- Решен проблем не пуштања са одређеним AAC/MP3 фајловима
+- Сређено ненормално понашање код коришћења Виндовс бордер скин-а у Виндоњс 10 или новијем
+- Унапређен прегледач превода UI
+- Решен проблем без звука код одређених MKV fајлова
 
 ----------------------------------------------------------
 [1.6.56209]                                     2015/09/09
 ----------------------------------------------------------
-+ Added Greek translation
-+ Added Tajik translation
-+ Added MFT HEVC decoder in Windows 10 or newer(WDDM 2.0 or newer version)
-+ Added FFmpeg QuickSync H264 Decoder
++ Додат Грчки превод
++ Додат Таџикистански превод
++ Додат MFT HEVC декодер у Виндовс 10 или новијем (WDDM 2.0 или новија верзија)
++ Додат FFmpeg QuickSync H264 Декодер
 
-- Fixed an issue that can't save the format in capture device
-- Fixed navigation problem of blu-ray mpls files
-- Fixed ffcodec.dll error when playing in certain PCs
-- Fixed an issue that caused an error when creating a new album without items
-- Fixed an issue that can't open certain .sub subtitle files
+- Решен проблем не снимања формата у уређају за снимање
+- Решен проблем навигације код blu-ray mpls фајлова
+- Исправљена ffcodec.dll грешка код пуштања на одређеним PCs
+- Решен проблем изазвања грешке када креирате нови албум без ставки
+- Решен проблем не отварања одређених .sub превода
 
-* Improved operation of temporary playback queue
+* Побољшан рад привременог рeда репродукције
 
 ----------------------------------------------------------
 [1.6.55390]                                     2015/07/22
 ----------------------------------------------------------
-- Fixed an issue that the screen didn't work properly with rotating or resizing image during playback
-- Fixed an issue that the frame is dropped while broadcasting in certain situations
-- Fixed an issue that program can't exit in certain situations
-- Fixed an issue that copying files may fail during installation
-- Fixed playback problem of some MP4 files
+- Решен проблем да екран не ради правилно са ротирајућим или код промене величине слике током репродукције
+- Решен проблем испуштања кадрова код емитовања у одређеним ситуацијама
+- Решен проблем када не може да се изађе из програма у одређеним ситуацијама
+- Решен проблем отказивања копирања фајлова током инсталације
+- Решен проблем репродукције неких MP4 датотека
 
 ----------------------------------------------------------
 [1.6.54915]                                     2015/07/02
 ----------------------------------------------------------
-- Fixed an issue that can't show some DVB subtitles
-- Fixed an issue that skins look strange after separating all windows
-- Fixed an issue that thumbnail preview didn't work with D3D Skin
-- Fixed a delay issue of 60-frame captured videos when broadcasting
+- Решен проблем да не приказивања неких ДВБ титлова
+- Решен проблем чудног изгледа маске после одвајања свих прозора
+- Решен проблем да преглед сличица не раде у D3D масци
+- Решен проблем кашњења 60-frame снимљеног видеа током емитовања
 
 ----------------------------------------------------------
 [1.6.54871]                                     2015/06/29
 ----------------------------------------------------------
-* First Live reconsitution
+* Први део реорганизације у живом моду програма
 
-+ Added the ability to output multiple columns in scene explorer
-+ Added caption support in scene explorer
-+ Added an option to set a transparent background in file navigator
++ Додата могућност излаза у више колона у експлореру сцене
++ Додата подршка за наслове у експлореру сцене
++ Додата опција за постављање транспарентне позадине у фајл навигатору
 
-- Fixed incorrect calculation problem of file size
-- Fixed an issue that multiple selection can't be right-clicked in playlist
-- Fixed an error when playing certain MKV files
-- Improved speed of generating thumbnails in playlist/scene explorer
-- Fixed an error when playing certain damaged AVI files
-- Fixed an issue where the chat does not automatically scroll down in certain PCs
-- Fixed an issue that can't play audio CD
+- Исправљен нетачан прорачун величина датотеке
+- Решен проблем када вишеструки избор у плеј листи не може бити изабран десним кликом
+- Исправљена грешка приликом репродукције одређених МКВ фајлова
+- Побољшана брзина генерисања сличица у листи нумера / експлорер сцене
+- Исправљена грешка током репродукције одређених оштећених АВИ датотека
+- Решен проблем где се чат аутоматски не помера надоле у одређеним рачунарима
+- Решен проблем не пуштања аудио ЦД-а
 
 ----------------------------------------------------------
 [1.6.54549]                                     2015/06/11
 ----------------------------------------------------------
-+ Added Persian translation
++ Додат Персијски превод
 
-- Fixed an issue that playback was not supported on certain FTP servers
-- Fixed an issue that Potplayer stopped with too much chat contents
-- Fixed an issue that chat contents were cleared while playing next file during broadcasting
-- Improved HEVC DXVA decoding ability
-- Increased speed of creating thumbnails
-- Fixed an issue that can't read certain PNG files
+- Решен проблем не подржаног плејбека на одређеним ФТП серверима
+- Решен проблем престанка рада Потплејера када је садржај ћаскања превелики
+- Решен проблем брисања садржаја ћаскања током пуштања следећег фајла током емитовања
+- Побољшана способност HEVC DXVA декодера
+- Повећана брзина стварања сличица
+- Решен проблем не читања одређених PNG датотека
 
 ----------------------------------------------------------
 [1.6.54266]                                     2015/05/21
