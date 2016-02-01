@@ -2,56 +2,76 @@
 PotPlayer verzió előzmények
 
 ----------------------------------------------------------
+[1.6.58402]                                     2016/01/28
+----------------------------------------------------------
++ Külső VP8/9 kódek kiválasztási lehetőség hozzáadása
+
+- Javítva lett egy hiba, amely miatt nem lehetett lejátszani az MP3 hangfolyamot
+- Javítva egy hiba, amely a program leállását okozta az FTP megnyitás párbeszédablakban
+- Felszín logó Flash támogatás eltávolítása
+
+----------------------------------------------------------
 [1.6.57875]                                     2015/12/29
 ----------------------------------------------------------
-+ Added XInput Mouse Button mapping feature
-+ Added the ability to share broadcasts by opening address (http://tvpot.daum.net/xxxxxx.live)
++ XInput egérgomb hozzárendelési funkció hozzáadása
++ Új funkció, amely lehetővé teszi a cím megnyitásával az adások megosztását (http://tvpot.daum.net/xxxxxx.live)
++ VP9 DXVA mód hozzáadása
 
-- Fixed a circuit error while playing Vingo TV under certain conditions
-- Fixed an issue that initialized value of broadcast list (Ctrl + Mouse Wheel)
-- Fixed an issue that no sound while playing certain AVI files
-- Fixed green screen problem while playing with DX11 CopyBack decoder on NVIDIA VGA card
-- Fixed freeze problem when broadcasting in certain systems
-- Fixed display problem of tag information while playing OGG streams
+- Javítva lett a TV Vingo lejátszásnál bizonyos körülmények között jelentkező hiba
+- Továbbfejlesztett Vingo TV lejátszási pont
+- Javítva lett a műsorszórási lista inicializálási hibája (Ctrl + Egérgörgő)
+- Javítva lett egy hiba, amely miatt nem volt hang egyes AVI fájlok lejátszásakor
+- Javítva lett az NVIDIA VGA kártyáknál jelentkező zöld képernyő probléma a DX11 CopyBack dekóder használatakor
+- Javítva lett bizonyos rendszereken sugárzás közben jelentkező fagyási probléma
+- Javítva lett az OGG adatfolyamok lejátszásakor jelentkező címkeinformáció megjelenítési probléma
 
 ----------------------------------------------------------
 [1.6.57398]                                     2015/12/01
 ----------------------------------------------------------
-* Fixed a security problem (remediation of damaged MP4 header vulnerability)
+* Javítva lett egy biztonsági probléma (sérült MP4 fejléc sebezhetőség helyreállítása)
 
-+ Added Armenian translation
-+ Added DVB Teletext subtitle support
-+ Added XInput (XBOX controller) support
++ Vingo TV lejátszási funkció hozzáadása
++ XInput (XBOX vezérlő) támogatás hozzáadása
++ Örmény fordítás
++ DVB Teletext felirat támogatás hozzáadása
++ EIA 708 hangfeliratozási támogatás hozzáadása
 
-- Fixed an error on broadcasting with lots of auto-ID managers
-- Fixed an issue that can't show certain video thumbnails
-- Fixed occasional freeze problem when compression settings was changed during broadcasting
-- Fixed an issue that can't smoothly output animation ASS subtitles
-- Fixed an issue that closed program with DXVA on certain VGA cards during playback
+- Javítva lett a műsorszórásnál nagy számú auto-ID kezelők esetén jelentkező hiba
+- Javítva lett egy hiba, amely miatt nem lehetett megjeleníteni egyes videó miniatűröket
+- Javítva lett a műsorszolgáltatás közben a tömörítési beállítások módosításakor jelentkező fagyási probléma
+- Javítva lett egy hiba, amely szakadozó ASS felirat animáció megjelenítést eredményezett
+- Javítva lett egy hiba, amely bezárta a programot DXVA lejátszásnál egyes VGA kártyák használata esetén
+- Javítva lett egy hiba a műsorszórásban az SWF logónál
 
 ----------------------------------------------------------
 [1.6.56815]                                     2015/10/28
 ----------------------------------------------------------
-* Major update for FFmpeg(Previous module can't be used)
+* Jelentősebb FFmpeg frissítés (A korábbi modul nem használható)
+* Javítva lett egy biztonsági probléma (sérült AVI fejléc sebezhetőség helyreállítása)
 
-+ Added operating selection in showing UI when dropping file to play
-+ Added an option to show network in file navigator
++ Új opció a chat résztvevők listájának megnyitására/bezárására
++ Különböző böngésző használati lehetőség, ha épp nem csetel a csevegőablakban
++ Új művelet kiválasztási opció a lejátszandó fájl rádobásakor
++ Új hálózat megjelenítési opció a fájl navigátorban
 
-- Fixed an issue that can't play next one with certain AAC/MP3 files
-- Fixed abnormal action when using Windows Border Skin in Windows 10 or newer
-- Improved Subtitle Browser UI
-- Fixed a problem that no sound while playing certain MKV files
+- Javítva lett egy hiba, amely nem tette lehetővé bizonyos AAC/MP3 fájlok lejátszását
+- A Windows felszínkeret használatakor jelentkező abnormális viselkedés javítása Windows 10 vagy újabb rendszereken
+- Továbbfejlesztett feliratböngésző felület
+- Javítva lett egy hiba, amely miatt nem volt hang bizonyos MKV fájlok lejátszásakor
 
 ----------------------------------------------------------
 [1.6.56209]                                     2015/09/09
 ----------------------------------------------------------
+* A program élő módjának átszervezésének második része
+
 + Cseh fordítás
 + Görög fordítás
 + Tádzsik fordítás
 + MFT HEVC dekóder hozzáadása Windows 10 vagy újabb rendszerhez (WDDM 2.0 vagy újabb verzió)
 + FFmpeg QuickSync H264 dekóder hozzáadása
++ Áttetsző jelenetböngésző képesség hozzáadása
 
-- Javítva egy probléma, amely formátum mentési problémát okozott a rögzítőeszközön
+- Javítva lett egy probléma, amely formátum mentési problémát okozott a rögzítőeszközön
 - Blu-ray mpls fájl navigációs probléma javítása
 - Bizonyos PCs-ken lejátszás közben jelentkező ffcodec.dll hiba javítása
 - Javítva lett egy hiba, amely problémát okozott az elemek nélküli új album létrehozásakor

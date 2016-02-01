@@ -14,6 +14,7 @@
 /cd[:drive]	  : CD 열기
 /add		  : 재생 목록에 추가
 /autoplay	  : 자동으로 재생
+/same		  : 항목을 모두 같이 재생
 config="환경이름" : 지정된 환경 선택
 $}
 {$CP932=
@@ -38,9 +39,9 @@ $}
 
 命令行用法 : PotPlayer[Mini].exe "文件名" [参数]
 
-/filedlg        : 打开文件对话框
+/filedlg	: 打开文件对话框
 /urldlg		: 打开链接对话框
-/folderdlg      : 打开文件夹对话框
+/folderdlg	: 打开文件夹对话框
 /simple		: 简捷打开文件对话框
 /cap		: 视频录制
 /cam		: 摄像头其他设备
@@ -49,7 +50,8 @@ $}
 /dvd		: 默认 DVD 设备
 /cd[:drive]	: CD 驱动器
 /add		: 添加到播放列表
-/autoplay       : 自动播放
+/autoplay	: 自动播放
+/same		: 播放所有项目
 config="配置名"	: 选择指定配置
 $}
 {$CP950=
@@ -68,7 +70,8 @@ $}
 /cd[:drive]	: CD磁碟機
 /add		: 新增到播放清單
 /autoplay	: 自動播放
-config=配置名 	: 選擇指定配置
+/same		: 播放所有項目
+config="配置名"	: 選擇指定配置
 $}
 {$POLISH=
 
@@ -86,6 +89,7 @@ Użycie : PotPlayer[Mini].exe "nazwa pliku" [opcje]
 /cd[:drive]	      : Otwórz dysk CD
 /add		      : Dodaj do Listy odtwarzania
 /autoplay             : Odtwarzaj automatycznie
+/same		      : Odtwarzaj wszystkie elementy
 config="preset name"  : Wybierz podane ustawienia predefiniowane
 $}
 {$RUSSIAN=
@@ -274,7 +278,7 @@ Usage : PotPlayer[Mini].exe "filename" [options]
 
 /filedlg		: Open file dialog
 /urldlg			: Open url dialog
-/folderdlg  		: Open folder dialog
+/folderdlg		: Open folder dialog
 /simple			: Open file navigator
 /cap			: Open screen capture
 /cam			: Open webcam/Other devices
@@ -283,7 +287,8 @@ Usage : PotPlayer[Mini].exe "filename" [options]
 /dvd			: Open DVD
 /cd[:drive]		: Open a cd drive
 /add			: Add to playlist
-/autoplay   		: Play the last played file
+/autoplay		: Play the last played file
+/same			: Play all items
 config="preset name"	: Use the specified preset
 $}
 

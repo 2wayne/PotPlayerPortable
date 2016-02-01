@@ -2,10 +2,24 @@
 Historia wersji PotPlayer
 
 ----------------------------------------------------------
+[1.6.58402]                                     2016/01/28
+----------------------------------------------------------
+* Aktualizacja zabezpieczeń (naprawiono luki odczytu CUE)
+
++ Dodano możliwość wyboru zewnętrznego dekodera VP8/9
++ Dodano możliwość odtwarzania mediów strumieniowych WEBM
+
+- Naprawiono problem z odtwarzaniem strumieni MP3
+- Naprawiono problem powodujący brak reakcji odtwarzacza w oknie dialogowym Otwórz FTP
+- Usunięto ze skórki obsługę flash logo
+- Naprawiono problem z brakiem działania wyjścia S/PDIF z niektórymi kodekami
+
+----------------------------------------------------------
 [1.6.57875]                                     2015/12/29
 ----------------------------------------------------------
 + Dodano mapowanie przycisków myszki dla XInput
 + Dodano funkcję pozwalającą na współdzielenie broadcastów otwierając adres (http://tvpot.daum.net/xxxxxx.live)
++ Dodano tryb VP9 DXVA
 
 - Naprawiono problem z odtwarzaniem Vingo TV występujący w pewnych okolicznościach
 - Ulepszono czas odtwarzania Vingo TV
