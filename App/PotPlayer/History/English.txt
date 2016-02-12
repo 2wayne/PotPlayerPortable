@@ -2,6 +2,18 @@
 Version History of the PotPlayer
 
 ----------------------------------------------------------
+[1.6.58613]                                     2016/02/11
+----------------------------------------------------------
+- Fixed an abnormal operation when image size was changed with DXVA playback
+- Fixed an issue that can't output some MKV embedded subtitles
+- Fixed an issue that can't capture video in certain files
+- Fixed an abnormal title problem while playing HTTP streaming media
+- Fixed a black issue when scaling at a specific resolution
+- Fixed noise problem while playing on Intel VGAs
+- Fixed an error when playing short AVI files
+- Improved sorting in playlist
+
+----------------------------------------------------------
 [1.6.58402]                                     2016/01/28
 ----------------------------------------------------------
 * Fixed a security problem (remediation of reading CUE vulnerability)

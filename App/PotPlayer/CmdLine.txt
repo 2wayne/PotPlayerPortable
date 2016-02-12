@@ -56,18 +56,18 @@ config="配置名"	: 选择指定配置
 $}
 {$CP950=
 
-命令行用法 : PotPlayer[Mini].exe "檔案名" [參數]
+命令列用法 : PotPlayer[Mini].exe "檔案名稱" [參數]
 
-/filedlg	: 開啟檔案對話框
-/urldlg		: 開啟連結對話框
-/folderdlg	: 開啟資料夾對話框
-/simple		: 快速開啟檔案對話框
-/cap		: 視訊錄制
+/filedlg	: 開啟檔案對話方塊
+/urldlg		: 開啟連結對話方塊
+/folderdlg	: 開啟資料夾對話方塊
+/simple		: 快速開啟檔案對話方塊
+/cap		: 視訊錄製
 /cam		: 網路攝影機或其他裝置
 /atv[:ch]	: 類比電視
 /dtv[:ch]	: 數位電視
-/dvd		: 預設DVD裝置
-/cd[:drive]	: CD磁碟機
+/dvd		: 預設 DVD 裝置
+/cd[:drive]	: CD 光碟機
 /add		: 新增到播放清單
 /autoplay	: 自動播放
 /same		: 播放所有項目

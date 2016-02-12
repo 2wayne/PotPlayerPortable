@@ -2,6 +2,18 @@
 Historia wersji PotPlayer
 
 ----------------------------------------------------------
+[1.6.58613]                                     2016/02/11
+----------------------------------------------------------
+- Naprawiono nieprawidłową pracę podczas zmiany rozmiaru obrazu z odtwarzaniem DXVA
+- Naprawiono problem z brakiem na wyjściu wbudowanych napisów w niektórych nowych plikach MKV
+- Naprawiono problem z przechwytem wideo w niektórych plikach
+- Naprawiono problem z nieprawidłowymi tytułami podczas odtwarzania multimediów strumieniowych HTTP
+- Naprawiono problem występujący podczas zmiany rozmiaru przy użyciu czarnych pasów w specyficznych rozdzielczościach
+- Naprawiono problem z zaszumieniem podczas odtwarzania za pomocą VGA Intel
+- Naprawiono błąd podczas odtwarzania krótkich plików AVI
+- Ulepszono ustawienia listy odtwarzania
+
+----------------------------------------------------------
 [1.6.58402]                                     2016/01/28
 ----------------------------------------------------------
 * Aktualizacja zabezpieczeń (naprawiono luki odczytu CUE)

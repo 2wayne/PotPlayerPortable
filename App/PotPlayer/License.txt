@@ -40,23 +40,23 @@ $}
 $}
 {$CP950=
 
- 本程式可供個人/企業/學校/政府機關等自由場合任意安裝和使用。
+ 本程式可供個人/企業/學校/政府機構等自由場合任意安裝和使用。
 
-* 注意事項 
- - 本程式受著作權法和軟件保護法的保護，除保護法條款中允許或非限制的範圍以外任何人對本程式進行的逆向工程、反編譯、重新組裝都將被視為違法。(僅 FFmpeg、lame 遵循其 LGPL 協議。)
- - 本程式未經著作權公司許可絕對禁止用於商業用途。
+* 注意事項
+ - 本程式受著作權法和軟體保護法的保護，除保護法條款中允許或非限制的範圍以外任何人對本程式進行的逆向工程、反編譯、重新組裝都將被視為違法。(僅 FFmpeg、lame 遵循其 LGPL 條款。)
+ - 本程式未經著作權公司允許絕對禁止用於商業用途。
 
-* 版權訊息
- - 本程式包含了從 FFmpeg(http://ffmpeg.org)下載的視訊解碼器，並遵循其 LGPL 公共許可協議。LGPL 公共許可證書內容請查閱安裝目錄下的 LGPL.TXT 檔案。經修改後的 FFmpeg 源碼檔案您可從 http://get.daum.net/devel/ffmpeg.zip 下載。
- - 本程式包含了從 zlib(http://www.zlib.net) 下載的 zip 源碼，並遵循 "zlib License" 許可協議。
- - 本程式包含了從 http://www.rarlab.com 下載的 rar 源碼。
- - 本程式中包含了從 libpng(http://www.libpng.org) 下載的 png 源碼，並遵循 "zlib/png License" 公共許可協議。
- - 本程式中包含了從 Xiph.org(http://www.vorbis.com) 下載的 OGG(V0RBIS)源碼，並遵循 "BSD-like license" 公共許可協議。
- - 本軟件使用的 BASS 系列解碼器是直接從 http://www.un4seen.com 下載的。
+* 著作權資訊
+ - 本程式包含了從 FFmpeg(http://ffmpeg.org)下載的視訊解碼器，並遵循其 LGPL 公共授權條款。LGPL 公共授權條款內容請查閱安裝目錄下的 LGPL.TXT 檔案。經修改後的 FFmpeg 原始碼檔案您可從 http://get.daum.net/devel/ffmpeg.zip 下載。
+ - 本程式包含了從 zlib(http://www.zlib.net) 下載的 zip 原始碼，並遵循 "zlib License" 的授權條款。
+ - 本程式包含了從 http://www.rarlab.com 下載的 rar 原始碼。
+ - 本程式中包含了從 libpng(http://www.libpng.org) 下載的 png 原始碼，並遵循 "zlib/png License" 的授權條款。
+ - 本程式中包含了從 Xiph.org(http://www.vorbis.com) 下載的 OGG(V0RBIS)原始碼，並遵循 "BSD-like license" 的授權條款。
+ - 本軟體使用的 BASS 系列解碼器是直接從 http://www.un4seen.com 下載的。
  - 本程式使用的 MediaInfo 解析媒體外掛是直接從 MediaInfo(http://mediaarea.net) 下載的。
- - 本程式使用的安裝程式是從 NSIS(http://nsis.sourceforge.net) 下載的，並遵循 NSIS 的 "zlib/libpng License" 公共許可協議。
- - 本程式使用的 ATextOut 字串渲染外掛是直接從 FreeType(http://www.freetype.org) 下載的源碼。
- - 本程式著作權歸 Kakao 公司 (http://www.daum.net) 所有。
+ - 本程式使用的安裝程式是從 NSIS(http://nsis.sourceforge.net) 下載的，並遵循 NSIS 的 "zlib/libpng License" 的授權條款。
+ - 本程式使用的 ATextOut 字串渲染外掛是直接從 FreeType(http://www.freetype.org) 下載的原始碼。
+ - 本程式著作權屬於 Kakao 公司 (http://www.daum.net)。
 $}
 {$POLISH=
 

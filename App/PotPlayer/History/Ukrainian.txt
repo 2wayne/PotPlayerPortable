@@ -2,44 +2,60 @@
 Історія версій PotPlayer
 
 ----------------------------------------------------------
+[1.6.58613]                                     2016/02/11
+----------------------------------------------------------
+- Fixed an abnormal operation when image size was changed with DXVA playback
+- Fixed an issue that can't output some MKV embedded subtitles
+- Fixed an issue that can't capture video in certain files
+- Fixed an abnormal title problem while playing HTTP streaming media
+- Fixed a black issue when scaling at a specific resolution
+- Fixed noise problem while playing on Intel VGAs
+- Fixed an error when playing short AVI files
+- Improved sorting in playlist
+
+----------------------------------------------------------
 [1.6.58402]                                     2016/01/28
 ----------------------------------------------------------
-* Fixed a security problem (remediation of reading CUE vulnerability)
+* Виправлено проблему безпеки (уразливість через відновлення читання CUE)
 
-+ Added the ability to select external VP8/9 codecs
-+ Added the ability to play WEBM streaming media
++ Додано можливість вибору зовнішніх кодеків VP8/9
++ Додано можливість відтворювати потокове WEBM-медіа
 
-- Fixed an issue that can't play MP3 stream
-- Fixed an issue that the program has stopped working in FTP open dialog box
-- Removed flash support from skin logo
-- Fixed an issue that S/PDIF did not work with certain codecs
+- Виправлено проблему з неможливістю відтворення MP3-потоку
+- Виправлено проблему з зупинкою роботи програми у діалоговому вікні відкриття FTP
+- Вилучено підтримку flash-логотипів у обкладинках
+- Виправлено непрацездатність S/PDIF з певними кодеками
 
 ----------------------------------------------------------
 [1.6.57875]                                     2015/12/29
 ----------------------------------------------------------
-+ Added XInput Mouse Button mapping feature
-+ Added the ability to share broadcasts by opening address (http://tvpot.daum.net/xxxxxx.live)
++ Додано функцію мапування кнопок миші через XInput
++ Додано можливість розповсюдження трансляцій відкриттям адреси (http://tvpot.daum.net/xxxxxx.live)
++ Додано режим VP9 DXVA
 
-- Fixed a circuit error while playing Vingo TV under certain conditions
-- Fixed an issue that initialized value of broadcast list (Ctrl + Mouse Wheel)
-- Fixed an issue that no sound while playing certain AVI files
-- Fixed green screen problem while playing with DX11 CopyBack decoder on NVIDIA VGA card
-- Fixed freeze problem when broadcasting in certain systems
-- Fixed display problem of tag information while playing OGG streams
+- Виправлено помилку під час відтворення Vingo TV за певних обставин
+- Поліпшено точку відтворення Vingo TV
+- Виправлено проблему, що ініціалізувала значення списку трансляцій (Ctrl + коліщатко миші)
+- Виправлено проблему з відсутністю звуку при відтворенні певних AVI-файлів
+- Виправлено проблему зеленого екрану при відтворенні з декодером DX11 CopyBack на NVIDIA VGA-картах
+- Виправлено проблему завмирання при трансляції на певних системах
+- Виправлено проблему показу теґів при відтворенні OGG-потоків
 
 ----------------------------------------------------------
 [1.6.57398]                                     2015/12/01
 ----------------------------------------------------------
 * Виправлено проблеми безпеки (виправлено вразливість через пошкоджені заголовки AVI)
 
++ Додано підтримку XInput (джойстика XBOX)
 + Додано вірменський переклад
 + Додано підтримку телетексту DVB
++ Додано підтримку EIA 708 Closed Caption
 
 - Виправлено помилку трансляції з великою кількістю менеджерів авто-ідентифікаторів
 - Виправлено проблему з неможливістю створення мініатюр певних відео
 - Виправлено проблему випадкового завмирання при зміні параметрів стиснення під час трансляції
 - Виправлено проблему з неможливістю плавного виведення анімації для ASS-субтитрів
-- У Windows 7 або новіше використовується Direct3D 9Ex у режимі Flip як типове для представлення Direct3D
+- Виправлено проблему закриття програми з DXVA на певних VGA-картах під час відтворення
 
 ----------------------------------------------------------
 [1.6.56815]                                     2015/10/28
