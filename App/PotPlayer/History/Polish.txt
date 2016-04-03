@@ -2,6 +2,28 @@
 Historia wersji PotPlayer
 
 ----------------------------------------------------------
+[1.6.59347]                                     2016/03/23
+----------------------------------------------------------
+* Poprawka zabezpieczeń (naprawiono lukę w odtwarzaniu uszkodzonych plików)
+
++ Dodano funkcje dotykowe do domyślnej skórki
++ Dodano funkcję powiększania/pomniejszania napisów graficznych na wyjściu
++ Dodano funkcję "Szybki dostęp" w Nawigatorze po plikach
+
+- Naprawiono problem powodujący brak możliwości sortowania wg folderu elementów na liście odtwarzania
+- Naprawiono problem z błędnym parsowaniem listy odtwarzania Youtube
+- Naprawiono problem z nie odtwarzaniem strumieni HLS VOD
+- Naprawiono problem z niedziałającym autoodtwarzaniem w Windows 10
+- Naprawiono problemy z synchronizacją we wbudowanym DirectSound Audio Renderer
+- Naprawiono problem z brakiem możliwości nawigacji po liście odtwarzania na niektórych serwerach FTP
+- Naprawiono problem z przechwytem transmisji wideo w określonych warunkach
+- Naprawiono problem powodujący niemożność odtworzenia następnego pliku z plików MP3 tylko do odczytu
+- Naprawiono problem z przyciąganiem krawędzi/okna w systemie Windows 10 lub wyższym
+- Ulepszono możliwość obsługi zestawu znaków ustawianego automatycznie podczas otwierania pliku tekstowego
+- Naprawiono błąd podczas odtwarzania anime, który powodował zamknięcie programu w pewnych okolicznościach
+- Naprawiono problem z migotaniem animacji w specyficznych napisach ASS/SSA
+
+----------------------------------------------------------
 [1.6.58613]                                     2016/02/11
 ----------------------------------------------------------
 - Naprawiono nieprawidłową pracę podczas zmiany rozmiaru obrazu z odtwarzaniem DXVA

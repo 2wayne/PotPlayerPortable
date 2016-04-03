@@ -8,8 +8,8 @@
 /simple		  : 간편 열기 대화 상자
 /cap		  : 화면 캡쳐
 /cam		  : 캠이나 기타 장치
-/atv[:ch]	  : 아날로그 TV
-/dtv[:ch]	  : 디지탈 TV
+/atv[:ch] 	  : 아날로그 TV
+/dtv[:ch[-순서]]  : 디지탈 TV
 /dvd		  : DVD 기본 장치
 /cd[:drive]	  : CD 열기
 /add		  : 재생 목록에 추가
@@ -39,39 +39,39 @@ $}
 
 命令行用法 : PotPlayer[Mini].exe "文件名" [参数]
 
-/filedlg	: 打开文件对话框
-/urldlg		: 打开链接对话框
-/folderdlg	: 打开文件夹对话框
-/simple		: 简捷打开文件对话框
-/cap		: 视频录制
-/cam		: 摄像头其他设备
-/atv[:ch]	: 模拟 TV
-/dtv[:ch]	: 数字 TV
-/dvd		: 默认 DVD 设备
-/cd[:drive]	: CD 驱动器
-/add		: 添加到播放列表
-/autoplay	: 自动播放
-/same		: 播放所有项目
-config="配置名"	: 选择指定配置
+/filedlg		: 打开文件对话框
+/urldlg			: 打开链接对话框
+/folderdlg		: 打开文件夹对话框
+/simple			: 简捷打开文件对话框
+/cap			: 视频录制
+/cam			: 摄像头其他设备
+/atv[:ch]		: 模拟 TV
+/dtv[:ch[-索引]]	: 数字 TV
+/dvd			: 默认 DVD 设备
+/cd[:drive]		: CD 驱动器
+/add			: 添加到播放列表
+/autoplay		: 自动播放
+/same			: 播放所有项目
+config="配置名"		: 选择指定配置
 $}
 {$CP950=
 
 命令列用法 : PotPlayer[Mini].exe "檔案名稱" [參數]
 
-/filedlg	: 開啟檔案對話方塊
-/urldlg		: 開啟連結對話方塊
-/folderdlg	: 開啟資料夾對話方塊
-/simple		: 快速開啟檔案對話方塊
-/cap		: 視訊錄製
-/cam		: 網路攝影機或其他裝置
-/atv[:ch]	: 類比電視
-/dtv[:ch]	: 數位電視
-/dvd		: 預設 DVD 裝置
-/cd[:drive]	: CD 光碟機
-/add		: 新增到播放清單
-/autoplay	: 自動播放
-/same		: 播放所有項目
-config="配置名"	: 選擇指定配置
+/filedlg		: 開啟檔案對話方塊
+/urldlg			: 開啟連結對話方塊
+/folderdlg		: 開啟資料夾對話方塊
+/simple			: 快速開啟檔案對話方塊
+/cap			: 視訊錄製
+/cam			: 網路攝影機或其他裝置
+/atv[:ch]		: 類比電視
+/dtv[:ch[-索引]]	: 數位電視
+/dvd			: 預設 DVD 裝置
+/cd[:drive]		: CD 光碟機
+/add			: 新增到播放清單
+/autoplay		: 自動播放
+/same			: 播放所有項目
+config="配置名"		: 選擇指定配置
 $}
 {$POLISH=
 
@@ -84,7 +84,7 @@ Użycie : PotPlayer[Mini].exe "nazwa pliku" [opcje]
 /cap		      : Przechwyt ekranu
 /cam		      : Kamera lub inne urządzenie
 /atv[:ch]	      : TV analogowa (WDM)
-/dtv[:ch]	      : TV cyfrowa (BDA)
+/dtv[:ch[-index]]     : TV cyfrowa (BDA)
 /dvd		      : Domyślne urządzenie DVD
 /cd[:drive]	      : Otwórz dysk CD
 /add		      : Dodaj do Listy odtwarzania
@@ -283,7 +283,7 @@ Usage : PotPlayer[Mini].exe "filename" [options]
 /cap			: Open screen capture
 /cam			: Open webcam/Other devices
 /atv[:ch]		: Open Analog TV
-/dtv[:ch]		: Open Digital TV
+/dtv[:ch[-index]]	: Open Digital TV
 /dvd			: Open DVD
 /cd[:drive]		: Open a cd drive
 /add			: Add to playlist

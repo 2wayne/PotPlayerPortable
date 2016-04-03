@@ -2,6 +2,28 @@
 Version History of the PotPlayer
 
 ----------------------------------------------------------
+[1.6.59347]                                     2016/03/23
+----------------------------------------------------------
+* Fixed a security problem (remediation of damaged file vulnerability)
+
++ Added touch feature for default skin
++ Added the ability to scale image caption
++ Added vertical options on left side of navigator UI
+
+- Fixed an issue that playlist items can't be sorted by folder
+- Fixed an issue that can't parse YouTube playlist
+- Fixed an issue that can't play HLS VOD streams
+- Fixed an issue that autoplay didn't work in Windows 10
+- Fixed sync issue of built-in DirectSound Audio Renderer
+- Fixed an issue that can't navigate in playlists from certain FTP servers
+- Fixed an issue while capturing broadcasting video under certain conditions
+- Fixed an issue that can't play next one with read-only MP3 files
+- Fixed an issue that snapped to edge/window in Windows 10 or newer
+- Improved ability to handle character set automatically while opening text
+- Fixed an issue that caused an error at the end of playback under certain conditions
+- Fixed flickering problem of certain animated ASS/SSA subtitles
+
+----------------------------------------------------------
 [1.6.58613]                                     2016/02/11
 ----------------------------------------------------------
 - Fixed an abnormal operation when image size was changed with DXVA playback
