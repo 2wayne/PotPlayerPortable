@@ -2,6 +2,19 @@
 Historia wersji PotPlayer
 
 ----------------------------------------------------------
+[1.6.60136]                                     2016/05/11
+----------------------------------------------------------
+* Dodano obsługę funkcji High DPI (DPI-Aware)
+  (wsparcie pojedynczego ekranu DPI w Windows 8.1 lub nowszym!)
+
++ Dodano możliwość skalowania skórki
+
+- Naprawiono problem z nie działaniem niektórych przycisków w oknie broadcast
+- Naprawiono problem z nie działaniem dekodera System MFT AAC
+- Naprawiono problem z nie działaniem niektórych skrótów klawiszowych
+- Naprawiono problem powodujący błędne określenie zestawu znaków dla niektórych napisów
+
+----------------------------------------------------------
 [1.6.59347]                                     2016/03/23
 ----------------------------------------------------------
 * Poprawka zabezpieczeń (naprawiono lukę w odtwarzaniu uszkodzonych plików)
@@ -1842,7 +1855,7 @@ TV Home Address Add + ons
 + Add the ability to override the default keyboard shortcuts
 + Add Subtitles paragraph alignment
 + DigitalVideo (DV) devices, adding voice support
-+ Message (ODS) feature set further
++ Message (OSD) feature set further
 
 - Change the default skin beulruton
 - Saving the environment not later modify the default

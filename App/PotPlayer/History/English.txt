@@ -2,6 +2,19 @@
 Version History of the PotPlayer
 
 ----------------------------------------------------------
+[1.6.60136]                                     2016/05/11
+----------------------------------------------------------
+* Added High DPI (DPI-Aware) support
+ (Added single screen DPI support in Windows 8.1 or newer!)
+
++ Added the ability to zoom in skin
+
+- Fixed an issue that certain buttons in broadcast window didn't work
+- Fixed an issue that System MFT AAC decoder didn't work
+- Fixed an issue that specific shortcuts didn't work
+- Fixed an issue that charset was incorrectly determined in certain subtitles
+
+----------------------------------------------------------
 [1.6.59347]                                     2016/03/23
 ----------------------------------------------------------
 * Fixed a security problem (remediation of damaged file vulnerability)
@@ -19,7 +32,7 @@ Version History of the PotPlayer
 - Fixed an issue while capturing broadcasting video under certain conditions
 - Fixed an issue that can't play next one with read-only MP3 files
 - Fixed an issue that snapped to edge/window in Windows 10 or newer
-- Improved ability to handle character set automatically while opening text
+- Improved ability to handle charset automatically while opening text
 - Fixed an issue that caused an error at the end of playback under certain conditions
 - Fixed flickering problem of certain animated ASS/SSA subtitles
 
@@ -1789,7 +1802,7 @@ Version History of the PotPlayer
 + Add the ability to override the default keyboard shortcuts
 + Add Subtitles paragraph alignment
 + DigitalVideo (DV) devices, adding voice support
-+ Message (ODS) feature set further
++ Message (OSD) feature set further
 
 - Change the default skin beulruton
 - Saving the environment not later modify the default

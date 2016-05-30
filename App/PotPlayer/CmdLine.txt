@@ -12,9 +12,12 @@
 /dtv[:ch[-순서]]  : 디지탈 TV
 /dvd		  : DVD 기본 장치
 /cd[:drive]	  : CD 열기
-/add		  : 재생 목록에 추가
+/add		  : 재생 목록 마지막 위치에 추가
+/insert		  : 재생 목록 재생중인 파일 뒤에 추가
 /autoplay	  : 자동으로 재생
 /same		  : 항목을 모두 같이 재생
+/sort		  : 항목을 이름순 정렬	
+/randomize	  : 항목을 랜덤 정렬	
 config="환경이름" : 지정된 환경 선택
 $}
 {$CP932=
@@ -49,9 +52,12 @@ $}
 /dtv[:ch[-索引]]	: 数字 TV
 /dvd			: 默认 DVD 设备
 /cd[:drive]		: CD 驱动器
-/add			: 添加到播放列表
+/add			: 添加到播放列表的最底位置
+/insert			: 添加到播放列表中正在播放的文件的下一个位置
 /autoplay		: 自动播放
 /same			: 播放所有项目
+/sort			: 按名称排序
+/randomize		: 随机排序
 config="配置名"		: 选择指定配置
 $}
 {$CP950=
@@ -68,29 +74,35 @@ $}
 /dtv[:ch[-索引]]	: 數位電視
 /dvd			: 預設 DVD 裝置
 /cd[:drive]		: CD 光碟機
-/add			: 新增到播放清單
+/add			: 新增到播放清單的最底位置
+/insert			: 新增到播放清單中正在播放的檔案的下一個位置
 /autoplay		: 自動播放
 /same			: 播放所有項目
+/sort			: 依名稱排序
+/randomize		: 隨機排序
 config="配置名"		: 選擇指定配置
 $}
 {$POLISH=
 
 Użycie : PotPlayer[Mini].exe "nazwa pliku" [opcje]
 
-/filedlg              : Otwórz okno dialogowe pliku
-/urldlg		      : Otwórz okno dialogowe URL
-/folderdlg            : Otwórz okno dialogowe folderu
-/simple		      : Otwórz Nawigator po plikach
-/cap		      : Przechwyt ekranu
-/cam		      : Kamera lub inne urządzenie
-/atv[:ch]	      : TV analogowa (WDM)
-/dtv[:ch[-index]]     : TV cyfrowa (BDA)
-/dvd		      : Domyślne urządzenie DVD
-/cd[:drive]	      : Otwórz dysk CD
-/add		      : Dodaj do Listy odtwarzania
-/autoplay             : Odtwarzaj automatycznie
-/same		      : Odtwarzaj wszystkie elementy
-config="preset name"  : Wybierz podane ustawienia predefiniowane
+/filedlg             : Otwórz okno dialogowe pliku
+/urldlg              : Otwórz okno dialogowe URL
+/folderdlg           : Otwórz okno dialogowe folderu
+/simple              : Otwórz Nawigator po plikach
+/cap                 : Przechwyt ekranu
+/cam                 : Kamera lub inne urządzenie
+/atv[:ch]            : TV analogowa (WDM)
+/dtv[:ch[-index]]    : TV cyfrowa (BDA)
+/dvd                 : Domyślne urządzenie DVD
+/cd[:drive]          : Otwórz dysk CD
+/add                 : Dodaj do Listy odtwarzania
+/insert              : Dodaj do listy odtwarzania w pozycji po aktualnie odtwarzanym pliku
+/autoplay            : Odtwarzaj automatycznie
+/same                : Odtwarzaj wszystkie elementy
+/sort                : Sortuj elementy wg nazwy
+/randomize           : Sortuj elementy losowo
+config="preset name" : Wybierz podane ustawienia predefiniowane
 $}
 {$RUSSIAN=
 
@@ -286,9 +298,12 @@ Usage : PotPlayer[Mini].exe "filename" [options]
 /dtv[:ch[-index]]	: Open Digital TV
 /dvd			: Open DVD
 /cd[:drive]		: Open a cd drive
-/add			: Add to playlist
+/add			: Add to last position in playlist
+/insert			: Add to position which follows the current playing file in playlist
 /autoplay		: Play the last played file
 /same			: Play all items
+/sort			: Sort by name
+/randomize		: Sort randomly
 config="preset name"	: Use the specified preset
 $}
 

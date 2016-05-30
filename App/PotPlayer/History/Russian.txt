@@ -2,6 +2,18 @@
 История версий PotPlayer
 
 ----------------------------------------------------------
+[1.6.60136]                                     2016/05/11
+----------------------------------------------------------
++ Добавлена поддержка High DPI (DPI-Aware)
++ Добавлена настройка масштабирования скина
+
+* Исправлена проблема декодирования MFT AAC
+* Исправлены проблемы в работе горячих клавиш
+* Исправлена проблема в работе кнопок в окне трансляций
+* Исправлено отображение определенных кодировок в субтитрах
+
+
+----------------------------------------------------------
 [1.6.59347]                                     2016/03/23
 ----------------------------------------------------------
 * Исправлена проблема безопасности с поврежденными файлами
@@ -1783,7 +1795,7 @@ TV Home Address Add + ons
 + Add the ability to override the default keyboard shortcuts
 + Add Subtitles paragraph alignment
 + DigitalVideo (DV) devices, adding voice support
-+ Message (ODS) feature set further
++ Message (OSD) feature set further
 
 - Change the default skin beulruton
 - Saving the environment not later modify the default

@@ -2,6 +2,19 @@
 Историја верзија Пот плејера
 
 ----------------------------------------------------------
+[1.6.60136]                                     2016/05/11
+----------------------------------------------------------
+* Added High DPI (DPI-Aware) support
+ (Added single screen DPI support in Windows 8.1 or newer!)
+
++ Added the ability to zoom in skin
+
+- Fixed an issue that certain buttons in broadcast window didn't work
+- Fixed an issue that System MFT AAC decoder didn't work
+- Fixed an issue that specific shortcuts didn't work
+- Fixed an issue that charset was incorrectly determined in certain subtitles
+
+----------------------------------------------------------
 [1.6.59347]                                     2016/03/23
 ----------------------------------------------------------
 * Fixed a security problem (remediation of damaged file vulnerability)
