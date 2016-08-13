@@ -2,6 +2,44 @@
 PotPlayer verzió előzmények
 
 ----------------------------------------------------------
+[1.6.62949]                                     2016/08/11
+----------------------------------------------------------
++ Added the ability to select image quality on broadcasting
++ Added the ability to use the external playlist
++ Added the ability to play double compressed FLAC
++ Added the ability to output the rotation information while playing JPEG file
+
+- Fixed playback problem of certain TS files
+- Fixed an error when using VapourSynth script
+- Fixed playback problem of certain AVI files
+- Fixed an issue that duplicate files were added to the folder
+- Fixed an error while closing with VMR9 Renderless
+
+----------------------------------------------------------
+[1.6.62377]                                     2016/07/12
+----------------------------------------------------------
+* Fixed a security problem (remediation of playing damaged MP4 file vulnerability)
+
++ Added screensaver feature
++ Added the ability to output xxxx_Tooltip tooltips in language files
++ Added the ability to use the pop-up menu defined in skin
++ Added the ability to output translucent pop-up menu defined in skin
++ Added VapourSynth filter function
++ Added 360 degree VR playback feature
++ Added the ability to combine selected files as a single file to play in playlist
++ Added H/W deinterlacing function for built-in Direct3D9 Video Renderer
++ Added color control function for built-in Direct3D9 Video Renderer
+
+- Fixed an issue that can't decode certain H264
+- Fixed an issue that didn't support DPI in Windows 7
+- Fixed navigation error in certain PCs
+- Fixed memory leak problem when playing a lot of files
+- Fixed an issue that can't save the broadcast
+- Fixed sync playback issue of HLS
+- Improved performance of built-in Direct3D9 Video Renderer in Windows 7 or newer
+- Improved 3D videos output mode
+
+----------------------------------------------------------
 [1.6.60136]                                     2016/05/11
 ----------------------------------------------------------
 * Added High DPI (DPI-Aware) support

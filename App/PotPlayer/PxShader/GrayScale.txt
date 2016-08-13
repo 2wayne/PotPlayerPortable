@@ -2,10 +2,13 @@
 // Code from MPC
 
 sampler s0 : register(s0);
+float2 c0;
 
 float4 main(float2 tex : TEXCOORD0) : COLOR
 {
-	float c0 = dot(tex2D(s0, tex), float4(0.299, 0.587, 0.114, 0));
-	
-	return c0;
+	float3 s1 = tex2D(s0, tex).rgb;// original pixel
+	float3 sg;
+	if(c0.x < 1120 && c0.y < 630) sg = float3(.299, .587, .114);// SD grayscale
+	else sg = float3(.2126, .7152, .0722);// HD grayscale
+	return dot(s1, sg);// grayscale output
 }

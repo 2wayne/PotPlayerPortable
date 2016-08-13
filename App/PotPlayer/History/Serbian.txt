@@ -2,77 +2,116 @@
 Историја верзија Пот плејера
 
 ----------------------------------------------------------
+[1.6.62949]                                     2016/08/11
+----------------------------------------------------------
++ Added the ability to select image quality on broadcasting
++ Added the ability to use the external playlist
++ Added the ability to play double compressed FLAC
++ Added the ability to output the rotation information while playing JPEG file
+
+- Fixed playback problem of certain TS files
+- Fixed an error when using VapourSynth script
+- Fixed playback problem of certain AVI files
+- Fixed an issue that duplicate files were added to the folder
+- Fixed an error while closing with VMR9 Renderless
+
+----------------------------------------------------------
+[1.6.62377]                                     2016/07/12
+----------------------------------------------------------
+* Решен проблем безбедности (санације рањивости оштећеног AVI/MP4 фајла )
+
++ Додата могућност чувара екрана
++ Додата способност за излаз xxxx_Tooltip објашњења у језичким датотекама
++ Додата способност коришћења поп-уп менија дефинисанпг у масци
++ Додата могућност излаза провидног менија дефинисан у масци
++ Додата могућност VapourSynth филтера
++ Додата могућност 360 степени VR репродукције
++ Додата способност комбиновања изабраних као један фајл у листи за пуштање
++ Додата фунција H/W расплитања за уграђен Direct3D 9 Video Renderer
++ Додата контрола боја уграђеног Direct3D 9 Video Renderer
+
+- Решен проблем декодирања H.264
+- Решен проблем подршке DPI на Виндовс 7
+- Исправљена грешка навигације на неким рачунарима
+- Решен проблем меморије код пуштања много фајлова
+- Решен проблем не снимања емитовања
+- Решен проблем синх.репродукције са HLS
+- Побољшане могућности уграђеног Direct3D 9 Video Renderer у Виндовс 7 или новији
+- Побољшан 3D излаз видеа
+- Побољшан VMR7 Renderless mode
+
+----------------------------------------------------------
 [1.6.60136]                                     2016/05/11
 ----------------------------------------------------------
-* Added High DPI (DPI-Aware) support
- (Added single screen DPI support in Windows 8.1 or newer!)
+* Додата High DPI подршка (DPI-Aware)
+ (Додата подршка за  DPI у Windows 8.1 или новији!)
 
-+ Added the ability to zoom in skin
++ Додата способност зумирања маске
 
-- Fixed an issue that certain buttons in broadcast window didn't work
-- Fixed an issue that System MFT AAC decoder didn't work
-- Fixed an issue that specific shortcuts didn't work
-- Fixed an issue that charset was incorrectly determined in certain subtitles
+- Решен проблем не функционисања дугмади током емитовања
+- Решен проблем не функционисања системског MFT AAC декодера
+- Решен проблем не функционисања неких пречица
+- Решен проблем погрешне поставке карактера на неким преводима
 
 ----------------------------------------------------------
 [1.6.59347]                                     2016/03/23
 ----------------------------------------------------------
-* Fixed a security problem (remediation of damaged file vulnerability)
+* Исправљен безбедносни проблем (исправка рањивости оштећених фајлова)
 
-+ Added touch feature for default skin
-+ Added the ability to scale image caption
-+ Added vertical options on left side of navigator UI
-
-- Fixed an issue that playlist items can't be sorted by folder
-- Fixed an issue that can't parse YouTube playlist
-- Fixed an issue that can't play HLS VOD streams
-- Fixed an issue that autoplay didn't work in Windows 10
-- Fixed sync issue of built-in DirectSound Audio Renderer
-- Fixed an issue that can't navigate in playlists from certain FTP servers
-- Fixed an issue while capturing broadcasting video under certain conditions
-- Fixed an issue that can't play next one with read-only MP3 files
-- Fixed an issue that snapped to edge/window in Windows 10 or newer
-- Improved ability to handle character set automatically while opening text
-- Fixed an issue that caused an error at the end of playback under certain conditions
-- Fixed flickering problem of certain animated ASS/SSA subtitles
++ Додата способност додира за уобичајену маску
++ Додата способност промене величине наслова слике
++ Додате вертикалне опције на левој страни навигатора UI
+                                                       
+- Решен проблем када ставке листе не могу бити сортиране по фолдеру          
+- Решен проблем анализе YouTube листе
+- Решен проблем не пуштања HLS VOD протока
+- Решен проблем аутоматског пуштања у Windows 10
+- Решен проблем уграђених DirectSound Audio рендера
+- Решен проблем рада са листама код одређених FTP сервера
+- Решен проблем током снимања емитовања под одређеним условима
+- Решен проблем не пуштања (само за читање) MP3 фајлова
+- Решен проблем пријањања уз ивицу код Windows 10 
+- Побољшана способност аутоматске поставке карактера код отварања текста
+- Решен проблем који је изазвао грешку на крају репродукције под одређеним условима
+- Решен проблем треперења анимираних ASS/SSA превода
 
 ----------------------------------------------------------
 [1.6.58613]                                     2016/02/11
 ----------------------------------------------------------
-- Fixed an abnormal operation when image size was changed with DXVA playback
-- Fixed an issue that can't output some MKV embedded subtitles
-- Fixed an issue that can't capture video in certain files
-- Fixed an abnormal title problem while playing HTTP streaming media
-- Fixed a black issue when scaling at a specific resolution
-- Fixed noise problem while playing on Intel VGAs
-- Fixed an error when playing short AVI files
-- Improved sorting in playlist
+- Решен проблем мењања величине слике са DXVA
+- решен проблем не приказивања MKV уграђених превода
+- Решен проблем не снимања видеа код одређених фајлова
+- Решен проблем неодговарајућих наслова код  HTTP протока
+- Решен проблем црног екрана на одређеној резолуцији
+- Исправљен проблем шума код репродукције на Intel VGAs
+- Исправљена грешка код пуштања кратких AVI фајлова
+- Побољшано сортирање у плејлисти
 
 ----------------------------------------------------------
 [1.6.58402]                                     2016/01/28
 ----------------------------------------------------------
-* Fixed a security problem (remediation of reading CUE vulnerability)
+* Исправљен безбедносни проблем (исправка рањивости код читања CUE)
 
-+ Added the ability to select external VP8/9 codecs
-+ Added the ability to play WEBM streaming media
++ Додата способност избора спољног VP8/9 кодека
++ Додата способност пуштаеа WEBM протока
 
-- Fixed an issue that can't play MP3 stream
-- Fixed an issue that the program has stopped working in FTP open dialog box
-- Removed flash support from skin logo
-- Fixed an issue that S/PDIF did not work with certain codecs
+- Решен проблем немогучности пуштања MP3 протока
+- Решен проблем престанка рада програма код FTP отварања дијалога
+- Уклоњена подршка за  флеш из маски
+- Решен проблем S/PDIF није радио код одређених кодека
 
 ----------------------------------------------------------
 [1.6.57875]                                     2015/12/29
 ----------------------------------------------------------
-+ Added XInput Mouse Button mapping feature
-+ Added the ability to share broadcasts by opening address (http://tvpot.daum.net/xxxxxx.live)
++ Додата XInput Mouse Button подршка
++ Додата способност дељења емитовања отварањем адресе (http://tvpot.daum.net/xxxxxx.live)
 
-- Fixed a circuit error while playing Vingo TV under certain conditions
-- Fixed an issue that initialized value of broadcast list (Ctrl + Mouse Wheel)
-- Fixed an issue that no sound while playing certain AVI files
-- Fixed green screen problem while playing with DX11 CopyBack decoder on NVIDIA VGA card
-- Fixed freeze problem when broadcasting in certain systems
-- Fixed display problem of tag information while playing OGG streams
+- Решен проблем током репродукције Винго ТВ под одређеним условима
+- Решен проблем poćetne вредности листе за емитовање  (Ctrl + Mouse Wheel)
+- Решен проблем недостатка звука током пуштања неких AVI фајлова
+- Решен проблем зеленог екрана током пуштањаh DX11 CopyBack декодера на NVIDIA VGA картицама
+- Решен проблем замрзавања приликом емитовања у појединим системима
+- Решен проблем приказа информација током OGG протока
 
 ----------------------------------------------------------
 [1.6.57398]                                     2015/12/01

@@ -2,6 +2,46 @@
 Historia wersji PotPlayer
 
 ----------------------------------------------------------
+[1.6.62949]                                     2016/08/11
+----------------------------------------------------------
++ Dodano możliwość wyboru jakości obrazu w broadcasting
++ Dodano możliwość korzystania z zewnętrznej listy odtwarzania
++ Dodano możliwość odtwarzania podwójnie skompresowanego FLAC
++ Dodano możliwość wyprowadzania informacji o rotacji podczas odtwarzania pliku JPEG
+ 
+- Naprawiono problem z odtwarzaniem niektórych plików TS
+- Naprawiono błąd występujący podczas używania skryptów VapourSynth
+- Naprawiono problem z odtwarzaniem niektórych plików AVI
+- Naprawiono problem powodujący dodawanie zduplikowanych plików do folderu
+- Naprawiono błąd powodujący problemy z zamykaniem podczas używania VMR9 Renderless
+- Naprawiono błąd występujący podczas automatycznego zapisywania broadcastu
+
+----------------------------------------------------------
+[1.6.62377]                                     2016/07/12
+----------------------------------------------------------
+* Aktualizacje zabezpieczeń (naprawiono luki w odtwarzaniu uszkodzonych plików AVI/MP4)
+
++ Dodano funkcję wygaszacza ekranu
++ Dodano w plikach językowych możliwość wyświetlania podpowiedzi jako xxxx_Tooltip
++ Dodano możliwość korzystania z menu podręcznego zdefiniowanego w skórce
++ Dodano możliwość korzystania z przezroczystego menu podręcznego zdefiniowanego w skórce
++ Dodano możliwość używania filtrów VapourSynth
++ Dodano możliwość odtwarzania wideo 360 stopni VR
++ Dodano możliwość fizycznego połączenia zaznaczonych plików na liście w jeden plik i ich odtwarzania
++ Dodano funkcję usuwania przeplotu do wbudowanego Direct3D9 Video Renderer
++ Dodano funkcję kontroli kolorów do wbudowanego Direct3D9 Video Renderer
+
+- Naprawiono problem z dekodowaniem niektórych H264
+- Naprawiono błąd powodujący brak wsparcia DPI w systemie Windows 7 lub nowszym
+- Naprawiono błąd powodujący problemy z nawigacją w niektórych PC
+- Usunięto wyciek pamięci występujący podczas odtwarzania wielu plików
+- Naprawiono problem powodujący brak możliwości zapisu broadcast
+- Naprawiono problem z synchronizacją podczas odtwarzania HLS
+- Zwiększono wydajność wbudowanego Direct3D9 Video Renderer w Windows 7 lub nowszym
+- Usprawniono działanie wyjścia wideo 3D
+- Usprawniono tryb VMR7 Renderless
+
+----------------------------------------------------------
 [1.6.60136]                                     2016/05/11
 ----------------------------------------------------------
 * Dodano obsługę funkcji High DPI (DPI-Aware)

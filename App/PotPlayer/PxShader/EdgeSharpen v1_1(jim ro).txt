@@ -21,8 +21,8 @@ float dx = NbPixel/width;
 float dy = NbPixel/height; 
 float4 Res = 0; 
 
-// D?ection de contour par Prewitt 
-   // r?upp?ation des 9 points 
+   // Detection de contour par Prewitt 
+   // recupperation des 9 points 
    //   [ 1, 2, 3 ] 
    //   [ 4, 0, 5 ] 
    //   [ 6, 7, 8 ] 
@@ -36,7 +36,7 @@ float4 Res = 0;
    float4 c7 = tex2D(s0, tex + float2(0,dy)); 
    float4 c8 = tex2D(s0, tex + float2(dx,dy)); 
 
-   // Calcul des 3 vecteurs d?iv?(hor,vert, diag1, diag2) 
+   // Calcul des 3 vecteurs derive (hor,vert, diag1, diag2) 
    float4 delta1 = (c6+c4+c1-c3-c5-c8); 
    float4 delta2 = (c4+c1+c2-c5-c8-c7); 
    float4 delta3 = (c1+c2+c3-c8-c7-c6); 

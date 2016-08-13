@@ -1,0 +1,10 @@
+// VertFlip=ps_2_0
+
+sampler s0 : register(s0);
+
+float4 main(float2 tex : TEXCOORD0) : COLOR
+{
+	float4 c0 = tex2D(s0, float2(tex.x, 1.0 - tex.y));
+
+	return c0; 
+}

@@ -2,6 +2,46 @@
 Version History of the PotPlayer
 
 ----------------------------------------------------------
+[1.6.62949]                                     2016/08/11
+----------------------------------------------------------
++ Added the ability to select image quality on broadcasting
++ Added the ability to use the external playlist
++ Added the ability to play double compressed FLAC
++ Added the ability to output the rotation information while playing JPEG file
+
+- Fixed playback problem of certain TS files
+- Fixed an error when using VapourSynth script
+- Fixed playback problem of certain AVI files
+- Fixed an issue that duplicate files were added to the folder
+- Fixed an error while closing with VMR9 Renderless
+- Fixed an error while automatically saving the broadcast
+
+----------------------------------------------------------
+[1.6.62377]                                     2016/07/12
+----------------------------------------------------------
+* Fixed a security problem (remediation of playing damaged AVI/MP4 file vulnerability)
+
++ Added screensaver feature
++ Added the ability to output xxxx_Tooltip tooltips in language files
++ Added the ability to use the pop-up menu defined in skin
++ Added the ability to output translucent pop-up menu defined in skin
++ Added VapourSynth filter function
++ Added 360 degree VR playback feature
++ Added the ability to combine selected files as a single file to play in playlist
++ Added H/W deinterlacing function for built-in Direct3D 9 Video Renderer
++ Added color control function for built-in Direct3D 9 Video Renderer
+
+- Fixed an issue that can't decode certain H.264
+- Fixed an issue that didn't support DPI in Windows 7
+- Fixed navigation error in certain PCs
+- Fixed memory leak problem when playing a lot of files
+- Fixed an issue that can't save the broadcast
+- Fixed sync playback issue of HLS
+- Improved performance of built-in Direct3D 9 Video Renderer in Windows 7 or newer
+- Improved 3D videos output mode
+- Improved VMR7 Renderless mode
+
+----------------------------------------------------------
 [1.6.60136]                                     2016/05/11
 ----------------------------------------------------------
 * Added High DPI (DPI-Aware) support
@@ -119,7 +159,7 @@ Version History of the PotPlayer
 + Added Greek translation
 + Added Tajik translation
 + Added MFT HEVC decoder in Windows 10 or newer (WDDM 2.0 or newer version)
-+ Added FFmpeg QuickSync H264 Decoder
++ Added FFmpeg QuickSync H.264 Decoder
 + Added the ability to output translucent Scene Browser
 
 - Fixed an issue that can't save the format in capture device
@@ -157,7 +197,7 @@ Version History of the PotPlayer
 ----------------------------------------------------------
 - Fixed an issue where some DVB subtitles doesn't show up
 - Fixed a skin issue when windows are separated
-- Fixed a problem where the thumbnail preview function did not work with Direct3D9 OSC mode
+- Fixed a problem where the thumbnail preview function did not work with Direct3D 9 OSC mode
 - Fixed buffering problem with 60 FPS live streaming
 
 ----------------------------------------------------------
@@ -264,7 +304,7 @@ Version History of the PotPlayer
 - Changed default fallback language to English for untranslated strings
 - Improved playback of downloading files
 - Improved Built-in OpenGL Renderer
-- Fixed an issue where DVD menu did not work with Built-in OpenGL/Direct3D9 Video Renderers
+- Fixed an issue where DVD menu did not work with Built-in OpenGL/Direct3D 9 Video Renderers
 - Fixed sync problem with certain MP4 files
 - Improved thumbnail view of playlist items
 
@@ -456,7 +496,7 @@ Version History of the PotPlayer
 * The selections of various codec formats have been added into filter control
 
 + Added support for HEVC(H.265) video format
-+ Added Nvidia CUDA H.264 encoder
++ Added NVIDIA CUDA H.264 encoder
 + Added Dirac and MS Screen v1-4 codec support
 + Added three-finger actions into touch support
 + Added the ability to set 2nd audio renderer
@@ -480,7 +520,7 @@ Version History of the PotPlayer
 - Fixed a problem where CUDA and QuickSync decoders doesn't work with DVD playback
 - Removed deprecated codecs from Built-in Audio Decoder
 - Added the ability to ignore more HTML tags in subtitles
-- Enabled AVC1 to H264 processing of MPEG PS/TS files by default
+- Enabled AVC1 to H.264 processing of MPEG PS/TS files by default
 - Fixed stopping problem of DVD playback when using DXVA in certain situations
 - Improved seeking speed of MPEG TS/PS, MKV, OGG files
 - Improved playback of multi-program MPEG TS files
@@ -610,7 +650,7 @@ Version History of the PotPlayer
 + Added the ability to capture frames with intervals
 + Added the ability to set filter priority for each preset separately
 + Added the ability to use avisynth filters
-+ Added Direct3D9Ex Overlay Mode
++ Added Direct3D 9Ex Overlay Mode
 
 - Fixed volume problem with using built-in audio renderer
 - Fixed a problem with VMR9 Renderless when watching broadcast on XP
@@ -701,7 +741,7 @@ Version History of the PotPlayer
 - Fixed a problem that no sound while playing some MP4 files
 - Improved color space handling
 - Improved srt subtitle handling
-- Improved some UTF8 handling
+- Improved some UTF-8 handling
 - Added the ability to display power status
 
 ----------------------------------------------------------
@@ -759,7 +799,7 @@ Version History of the PotPlayer
 ----------------------------------------------------------
 - Improved handling of damaged ASF files
 - Improved display of custom shortcuts
-- Fixed an issue that incorrect handling of some UTF8 subtitles
+- Fixed an issue that incorrect handling of some UTF-8 subtitles
 - Improved preferred audio language handling
 - Fixed seeking issue of some FLV files
 - Fixed play time issue of WDM/CAM/BDA devices
@@ -845,7 +885,7 @@ Version History of the PotPlayer
 - Some fixes for DVD subtitles
 - Fixed a problem while playing MPEG2 files with DXVA
 - Some fixes while using RAW video processing
-- Improved Direct3D9Ex Flip mode
+- Improved Direct3D 9Ex Flip mode
 - Improved file open from RAR parts
 - Some fixes for playback problem of certain Audio CD
 
@@ -867,14 +907,14 @@ Version History of the PotPlayer
 ----------------------------------------------------------
 + Added the ability to jump to current subtitle position
 + Added IMC1 ~ IMC4 color spaces
-+ Added Intel QuickSync Decoder (MPEG1/2, H264/AVC, WMV3, VC1 are supported)
++ Added Intel QuickSync Decoder (MPEG1/2, H.264/AVC, WMV3, VC1 are supported)
 + Added the ability to move to chapters of blu- ray
 + Added the ability to choose blu- ray playback method
 + Added the ability to set custom screen size when starting video playback
 + Added built-in LPCM decoder
 + Added the ability to specify the transparency of the navigation dialog
 + Added the ability to rename filename in the playlist
-+ Added Nvidia CUDA Decoder (MPEG1/2, H264/AVC, VC1 are supported)
++ Added NVIDIA CUDA Decoder (MPEG1/2, H.264/AVC, VC1 are supported)
 + Added an option to play the next item when failed to play
 + Added CMD_VIDEO_CODEC_SIZE_MESSAGE,CMD_VIDEO_OUT_SIZE_MESSAGE,CMD_VIDEO_OUT_FPS_MESSAGE to skin support
 + Added resolution limit setting to usage conditions of DXVA
@@ -966,7 +1006,7 @@ Version History of the PotPlayer
 - Fixed OGG Stream playing problem
 - Added the ability to skip the viewing screen of webcam broadcasting
 - Fixed a problem that adding files to playlist takes a long time
-- Some fixes in Thread Frame of H264 decoding 
+- Some fixes in Thread Frame of H.264 decoding
 - Fixed synchronization issue of a specific file
 - Fixed a problem while a long subtitle shown
 - Fixed sync problem of a specific MPEG1 file
@@ -1033,8 +1073,8 @@ Version History of the PotPlayer
 ----------------------------------------------------------
 [1.5.28025]                                     2011/04/29
 ----------------------------------------------------------
-- Fixed NV12 output of Direct3D9/OpenGL Video Renderer problems
-- Some fixs for H264 DXVA display problems
+- Fixed NV12 output of Direct3D 9/OpenGL Video Renderer problems
+- Some fixs for H.264 DXVA display problems
 - Fixed problem of retrieving the file path
 - Fixed a compatibility problem while using external DXVA decoder
 
@@ -1046,14 +1086,14 @@ Version History of the PotPlayer
 + Added DXVA support without rendering mode
 + Added HTTP Live streaming media playback
 + Added RealVideo codecs
-+ Added Direct3D9/OpenGL Video Renderer
++ Added Direct3D 9/OpenGL Video Renderer
 
 - Fixed some problems during playback MP4 files
 - Fixed some compatibility issues between PC and BASS
-- Fixed some H264 DXVA problems that occured on some VGA cards
+- Fixed some H.264 DXVA problems that occured on some VGA cards
 - Fixed an issue where the program was killed because of an invalid bookmark
 - Fixed cache problem while recording with capture card
-- Fixed H264 DXVA compatibility problem of some GMA VGA Cards
+- Fixed H.264 DXVA compatibility problem of some GMA VGA Cards
 - Fixed subtitle tag identification problem
 - Fixed DXVA problem of WMV3 format
 - Fixed a problem that priority setting of the source filter is not valid
@@ -1100,7 +1140,7 @@ Version History of the PotPlayer
 - Improved INI file handling
 - Added an option to playlist settings to show file extension
 - Some changes in subtitles handling
-- Fixed green screen problem on Nvidia cards while playing H264 videos with DXVA
+- Fixed green screen problem on NVIDIA cards while playing H.264 videos with DXVA
 - Bug fixed in EAC3 PassThrough
 - Bug fixed in visualization
 - Some AAC audio support
@@ -1169,7 +1209,7 @@ Version History of the PotPlayer
 - Fixed a problem in built-in subtitles that when often search stopped while playing a .mkv file
 - Some fixs for built-in PAL DVD playback codec or problem behaviors
 - Fixed a problem that INI saving operation was over environmental management
-- Fixed H264 DXVA problem while watching TV or Video recording
+- Fixed H.264 DXVA problem while watching TV or Video recording
 - Fixed a problem that screen horde of DV files when double sound track playing
 - Fixed a problem in bookmark
 - Fixed a related broadcast problem
@@ -1206,7 +1246,7 @@ Version History of the PotPlayer
 - Fixed a skin problem that mouse did not work in the area of treatment
 - Added Preffered audio option
 - Added Subtitles force left- aligned option
-- Fixed some H264 TS file playback recognition problems
+- Fixed some H.264 TS file playback recognition problems
 - Fixed refresh issues of file association
 - Fixed bookmarks/chapters identify display problems
 - Fixed ARGB - > YV12 color conversion error problem
@@ -1544,13 +1584,13 @@ Version History of the PotPlayer
 
 + M2TS subtitle support embedded files
 + M2TS files TrueHD / MPL Audio Support
-+ Video capture in the FLV format H264, AAC codec support
++ Video capture in the FLV format H.264, AAC codec support
 + Add-ons will get an external audio
 + Screen sizes the ability to add user settings
 + Built-in ability to add skins to choose
 + Add-ons window, set the margins
-+ Built-in MPEG source filter AVC1 the ability to handle the added H264
-  (H264 decoder Cyberlink AVC/H264 in dealing with the overlay mixer renderer acceleration to work)
++ Built-in MPEG source filter AVC1 the ability to handle the added H.264
+  (H.264 decoder Cyberlink AVC/H.264 in dealing with the overlay mixer renderer acceleration to work)
 
 - Built-VC1 codec to play a little more smoothly, your modifications
 - Going beyond the caption horizontally gilttae Fix
@@ -1716,7 +1756,7 @@ Version History of the PotPlayer
 - Fix file association in Vista
 - Some of the files to your VC1 Remux andoedeon Fix
 - DXVA IDCT decoder speed improvements
-- Utf8-aware improvements Subtitles
+- UTF-8-aware improvements Subtitles
 - Fixes a problem then he could recognize some srt subtitles
 - S / PDIF output allows for modifying the voice capture
 - Fix some TS file, then he could recognize
@@ -1727,7 +1767,7 @@ Version History of the PotPlayer
 - ATI Radeon HD48xx in MEPG1 / 2 DXVA Were Fix a broken screen
 - Intel GMA did not work on DXVA Fix
 - HDTV saved separately from the PID to save modifications
-- HDTV is playing in the middle of changing the codec (MPEG2 <-> H264), and support
+- HDTV is playing in the middle of changing the codec (MPEG2 <-> H.264), and support
 - Some large AVI file to play Fix a Harley
 - Some voice playback MP4 files did come Fixes
 - Chat window, change the broadcast list of keyboard shortcuts, broadcast-related menu, go to

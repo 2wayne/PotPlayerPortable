@@ -42,45 +42,45 @@ $}
 
 命令行用法 : PotPlayer[Mini].exe "文件名" [参数]
 
-/filedlg		: 打开文件对话框
-/urldlg			: 打开链接对话框
-/folderdlg		: 打开文件夹对话框
-/simple			: 简捷打开文件对话框
-/cap			: 视频录制
-/cam			: 摄像头其他设备
-/atv[:ch]		: 模拟 TV
-/dtv[:ch[-索引]]	: 数字 TV
-/dvd			: 默认 DVD 设备
-/cd[:drive]		: CD 驱动器
-/add			: 添加到播放列表的最底位置
-/insert			: 添加到播放列表中正在播放的文件的下一个位置
-/autoplay		: 自动播放
-/same			: 播放所有项目
-/sort			: 按名称排序
-/randomize		: 随机排序
-config="配置名"		: 选择指定配置
+/filedlg         : 打开文件对话框
+/urldlg          : 打开链接对话框
+/folderdlg       : 打开文件夹对话框
+/simple          : 简捷打开文件对话框
+/cap             : 视频录制
+/cam             : 摄像头其他设备
+/atv[:ch]        : 模拟 TV
+/dtv[:ch[-索引]] : 数字 TV
+/dvd             : 默认 DVD 设备
+/cd[:drive]      : CD 驱动器
+/add             : 添加到播放列表的最底位置
+/insert          : 添加到播放列表中正在播放的文件的下一个位置
+/autoplay        : 自动播放
+/same            : 播放所有项目
+/sort            : 按名称排序
+/randomize       : 随机排序
+config="配置名"  : 选择指定配置
 $}
 {$CP950=
 
 命令列用法 : PotPlayer[Mini].exe "檔案名稱" [參數]
 
-/filedlg		: 開啟檔案對話方塊
-/urldlg			: 開啟連結對話方塊
-/folderdlg		: 開啟資料夾對話方塊
-/simple			: 快速開啟檔案對話方塊
-/cap			: 視訊錄製
-/cam			: 網路攝影機或其他裝置
-/atv[:ch]		: 類比電視
-/dtv[:ch[-索引]]	: 數位電視
-/dvd			: 預設 DVD 裝置
-/cd[:drive]		: CD 光碟機
-/add			: 新增到播放清單的最底位置
-/insert			: 新增到播放清單中正在播放的檔案的下一個位置
-/autoplay		: 自動播放
-/same			: 播放所有項目
-/sort			: 依名稱排序
-/randomize		: 隨機排序
-config="配置名"		: 選擇指定配置
+/filedlg          : 開啟檔案對話方塊
+/urldlg           : 開啟連結對話方塊
+/folderdlg        : 開啟資料夾對話方塊
+/simple           : 快速開啟檔案對話方塊
+/cap              : 視訊錄製
+/cam              : 網路攝影機或其他裝置
+/atv[:ch]         : 類比電視
+/dtv[:ch[-索引]]  : 數位電視
+/dvd              : 預設 DVD 裝置
+/cd[:drive]       : CD 光碟機
+/add              : 新增到播放清單的最底位置
+/insert           : 新增到播放清單中正在播放的檔案的下一個位置
+/autoplay         : 自動播放
+/same             : 播放所有項目
+/sort             : 依名稱排序
+/randomize        : 隨機排序
+config="配置名稱" : 選擇指定配置
 $}
 {$POLISH=
 
@@ -90,19 +90,19 @@ Użycie : PotPlayer[Mini].exe "nazwa pliku" [opcje]
 /urldlg              : Otwórz okno dialogowe URL
 /folderdlg           : Otwórz okno dialogowe folderu
 /simple              : Otwórz Nawigator po plikach
-/cap                 : Przechwyt ekranu
-/cam                 : Kamera lub inne urządzenie
-/atv[:ch]            : TV analogowa (WDM)
-/dtv[:ch[-index]]    : TV cyfrowa (BDA)
-/dvd                 : Domyślne urządzenie DVD
+/cap                 : Otwórz przechwyt ekranu
+/cam                 : Otwórz kamerę/inne urządzenie
+/atv[:ch]            : Otwórz TV analogową
+/dtv[:ch[-index]]    : Otwórz TV cyfrową
+/dvd                 : Otwórz DVD
 /cd[:drive]          : Otwórz dysk CD
-/add                 : Dodaj do Listy odtwarzania
-/insert              : Dodaj do listy odtwarzania w pozycji po aktualnie odtwarzanym pliku
-/autoplay            : Odtwarzaj automatycznie
+/add                 : Dodaj ostatnią pozycję na listy odtwarzania
+/insert              : Dodaj na listy odtwarzania w pozycji po aktualnie odtwarzanym pliku
+/autoplay            : Odtwarzaj ostatnio odtwarzany plik
 /same                : Odtwarzaj wszystkie elementy
-/sort                : Sortuj elementy wg nazwy
-/randomize           : Sortuj elementy losowo
-config="preset name" : Wybierz podane ustawienia predefiniowane
+/sort                : Sortuj wg nazwy
+/randomize           : Sortuj w kolejności losowej
+config="preset name" : Użyj określonych ustawień wstępnych
 $}
 {$RUSSIAN=
 
@@ -277,34 +277,71 @@ $}
 /cap		：螢幕擷取
 /cam		：開啟網絡鏡頭╱其他裝置
 /atv[:ch]	：開啟模擬電視
-/dtv[:ch]	：開啟數碼電視
+/dtv[:ch[-index]] : 開啟數碼電視
 /dvd		：開啟DVD裝置
 /cd[:drive]	：開啟CD裝置
-/add		：加入到播放清單
+/add		：加入到播放清單最後位置
+/insert		：加入到播放清單目前播放檔案後的位置
 /autoplay	：播放上次檔案
+/same		：播放全部檔案
+/sort		：按名稱排序
+/randomize	：隨機排序
 config="範本名" ：使用指定工作範本
 $}
+{$SERBIAN=
+Прекидачи:
+/filedlg		:Отвара фајл(ове) (Ctrl+O)
+/urldlg			:Отвара URL (Ctrl+U)
+/folderdlg  		:Отвара директоријуме (F2)
+/simple			:Отвара file navigator (F12)
+/cap			:Отвара хватање екрана (Ctrl+S)
+/cam			:Отвара вебкам/Друге уређаје (Ctrl+J)
+/atv[:ch]		:Отвара Аналогни ТВ (Ctrl+W)
+/dtv[:ch]		:Отвара Дигиталну ТВ (Ctrl+K)
+/dvd			:Отвара DVD (Ctrl+D)
+/cd[:drive]		:Отвара CD драјв
+/autoplay   		:Пушта последњу отварану датотеку
+"filename" /add		:Додаје наведену датотеку на листу песама
+"filename"  		:Пушта наведену датотеку
+config="preset name"	:Користи наведену поставку
+
+
+Како да пустим PotPlayer из командне линије?
+1-)Десни клик на PotPlayerMini[.exe] у инсталационом директоријуму и кликнути на  направи пречицу
+2-)Сада десни клик на ново направљени фајл "PotPlayerMini[.exe] - Shortcut" и кликнути на својства
+3-)Додај одређену команду на крају командне линије (за пример, "C:\Program Files\Daum\PotPlayer\PotPlayerMini.exe" /autoplay ) затим притисни OK.
+4-)Дупли клик на "PotPlayerMini[.exe] - Shortcut", програм ће извести жељену акцију на старту.
+
+
+Примери;
+PotPlayerMini.exe "D:\Data Center\Videos\SD Film\no retreat no surrender.avi"         ;Пушта наведени фајл директно
+PotPlayerMini.exe "D:\Data Center\Videos\SD Film\no retreat no surrender.avi" /add    ;Додаје наведени фајл у листу за пуштање
+PotPlayerMini.exe /autoplay                                                           ;Пушта последњу отварану датотеку
+PotPlayerMini.exe /filedlg                                                            ;Отвара прозор дијалога и додаје фајл(ове) у листу за пуштање
+PotPlayerMini.exe /dvd                                                                ;Отвара уобичајени DVD уређај
+PotPlayerMini.exe config="HD Pack"                                                    ;Активира назначена подешавања
+PotPlayerMini.exe /cd:e                                                               ;Отвара назначени драјв $}
 {$CP0=
 
 Usage : PotPlayer[Mini].exe "filename" [options]
 
-/filedlg		: Open file dialog
-/urldlg			: Open url dialog
-/folderdlg		: Open folder dialog
-/simple			: Open file navigator
-/cap			: Open screen capture
-/cam			: Open webcam/Other devices
-/atv[:ch]		: Open Analog TV
-/dtv[:ch[-index]]	: Open Digital TV
-/dvd			: Open DVD
-/cd[:drive]		: Open a cd drive
-/add			: Add to last position in playlist
-/insert			: Add to position which follows the current playing file in playlist
-/autoplay		: Play the last played file
-/same			: Play all items
-/sort			: Sort by name
-/randomize		: Sort randomly
-config="preset name"	: Use the specified preset
+/filedlg             : Open file dialog
+/urldlg              : Open url dialog
+/folderdlg           : Open folder dialog
+/simple              : Open file navigator
+/cap                 : Open screen capture
+/cam                 : Open webcam/Other devices
+/atv[:ch]            : Open Analog TV
+/dtv[:ch[-index]]    : Open Digital TV
+/dvd                 : Open DVD
+/cd[:drive]          : Open a cd drive
+/add                 : Add to last position in playlist
+/insert              : Add to position which follows the current playing file in playlist
+/autoplay            : Play the last played file
+/same                : Play all items
+/sort                : Sort by name
+/randomize           : Sort randomly
+config="preset name" : Use the specified preset
 $}
 
 

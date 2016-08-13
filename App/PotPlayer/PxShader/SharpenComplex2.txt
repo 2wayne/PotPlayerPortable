@@ -1,4 +1,4 @@
-// SharpenComplex2=ps_2
+// SharpenComplex2=ps_2_0
 // Code from MPC
 
 /* Sharpen complex v2 (requires ps >= 2) */
