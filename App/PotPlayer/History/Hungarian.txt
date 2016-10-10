@@ -1,99 +1,114 @@
 ﻿
-PotPlayer verzió előzmények
+PotPlayer verzióelőzmények
+
+----------------------------------------------------------
+[1.6.63638]                                     2016/10/05
+----------------------------------------------------------
++ H.264 MVC dekódolási funkció hozzáadása(kódek telepítés szükséges)
+
+- Egyes srt feliratoknál jelentkező rendellenes működés javítása
+- Javítva lett egy hiba, amely nem tette lehetővé a kilépést a közvetítés mentése közben
+- A VapourSynth használatakor jelentkező memóriavesztés probléma javítása
 
 ----------------------------------------------------------
 [1.6.62949]                                     2016/08/11
 ----------------------------------------------------------
-+ Added the ability to select image quality on broadcasting
-+ Added the ability to use the external playlist
-+ Added the ability to play double compressed FLAC
-+ Added the ability to output the rotation information while playing JPEG file
++ Képminőség választási lehetőség a közvetítés során
++ Külső lejátszási lista használati funkció
++ Kettős tömörített FLAC lejátszási lehetőség
++ Elforgatási információ mentési lehetőség a JPEG-fájl lejátszása közben
 
-- Fixed playback problem of certain TS files
-- Fixed an error when using VapourSynth script
-- Fixed playback problem of certain AVI files
-- Fixed an issue that duplicate files were added to the folder
-- Fixed an error while closing with VMR9 Renderless
+- Bizonyos TS fájlok lejátszási hibáinak javítása
+- A VapourSynth parancsfájl használatakor jelentkező hiba javítása
+- Bizonyos AVI fájlok lejátszási hibáinak javítása
+- Javítva lett egy hiba, amely miatt fájlmásolatok kerültek a mappába
+- A VMR9 Renderless bezárása közben jelentkező hiba javítása
+- Javítva lett az adás automatikus mentésekor jelentkező hiba
 
 ----------------------------------------------------------
 [1.6.62377]                                     2016/07/12
 ----------------------------------------------------------
-* Fixed a security problem (remediation of playing damaged MP4 file vulnerability)
+* Javítva egy biztonsági probléma (sérült AVI/MP4 fájl lejátszás megoldása)
 
-+ Added screensaver feature
-+ Added the ability to output xxxx_Tooltip tooltips in language files
-+ Added the ability to use the pop-up menu defined in skin
-+ Added the ability to output translucent pop-up menu defined in skin
-+ Added VapourSynth filter function
-+ Added 360 degree VR playback feature
-+ Added the ability to combine selected files as a single file to play in playlist
-+ Added H/W deinterlacing function for built-in Direct3D9 Video Renderer
-+ Added color control function for built-in Direct3D9 Video Renderer
++ Új képernyővédő funkció
++ Új lehetőség az xxxx_Tooltip eszköztipp kihelyezésére a nyelvi fájlokban
++ Új lehetőség a felszínben megadott felugró használatára
++ Új lehetőség a felszínben megadott áttetsző felugró kihelyezésére
++ Új VapourSynth szűrő funkció
++ Új 360 fokos VR lejátszási funkció
++ Új lehetőség a kiválasztott fájlok összevonására egyetlen fájlba a lejátszási listában való lejátszáshoz
++ Új H/W félkép-összefésülési funkció a beépített Direct3D9 videóleképező számára
++ Új  színvezérlő funkció a beépített Direct3D9 videóleképező számára
 
-- Fixed an issue that can't decode certain H264
-- Fixed an issue that didn't support DPI in Windows 7
-- Fixed navigation error in certain PCs
-- Fixed memory leak problem when playing a lot of files
-- Fixed an issue that can't save the broadcast
-- Fixed sync playback issue of HLS
-- Improved performance of built-in Direct3D9 Video Renderer in Windows 7 or newer
-- Improved 3D videos output mode
+- Javítva lett egy hiba, amely miatt nem lehetett dekódolni bizonyos H264 fájlokat
+- Javítva lett egy hiba, amely nem támogatta a DPI-t a Windows 7 rendszerben
+- Bizonyos számítógépeken jelentkező navigációs hiba javítása
+- Sok fájl lejátszása közben jelentkező memóriaszivárgási hiba javítása
+- Javítva lett egy hiba, amely miatt nem lehetett menteni a közvetítést
+- Javított HLS szinkronizált lejátszási hiba
+- Továbbfejlesztett beépített Direct3D9 videóleképező teljesítmény Windows 7 vagy újabb rendszereken
+- Továbbfejlesztett 3D videó kimeneti mód
+- Továbbfejlesztett VMR7 leképezési mód
 
 ----------------------------------------------------------
 [1.6.60136]                                     2016/05/11
 ----------------------------------------------------------
-* Added High DPI (DPI-Aware) support
- (Added single screen DPI support in Windows 8.1 or newer!)
+* High DPI (DPI-Aware) támogatás hozzáadása
+ (Egyetlen képernyős DPI támogatás Windows 8.1 vagy újabb rendszereken!)
 
-+ Added the ability to zoom in skin
++ Felszín nagyítási lehetőség
 
-- Fixed an issue that certain buttons in broadcast window didn't work
-- Fixed an issue that System MFT AAC decoder didn't work
-- Fixed an issue that specific shortcuts didn't work
-- Fixed an issue that charset was incorrectly determined in certain subtitles
+- Javítva lett egy hiba, amely miatt a közvetítő ablakban bizonyos gombok nem működtek
+- Javítva lett egy hiba, amely miatt a rendszer MFT AAC dekódere nem működött
+- Javítva lett egy hiba, amely miatt a konkrét hivatkozások nem működtek
+- Javítva lett egy hiba, amely miatt a karakterkészlet helytelenül került megadásra bizonyos feliratokban
 
 ----------------------------------------------------------
 [1.6.59347]                                     2016/03/23
 ----------------------------------------------------------
-* Fixed a security problem (remediation of damaged file vulnerability)
+* Javítva egy biztonsági probléma (sérült fájl sebezhetőség megoldása)
 
-+ Added touch feature for default skin
-+ Added the ability to scale image caption
-+ Added vertical options on left side of navigator UI
++ Érintésvezérlési funkció hozzáadása az alapértelmezett felszínhez
++ Képfelirat átméretezési képesség hozzáadása
++ Függőleges opciók hozzáadása a navigátor felület bal oldalán
 
-- Fixed an issue that playlist items can't be sorted by folder
-- Fixed an issue that can't parse YouTube playlist
-- Fixed an issue that can't play HLS VOD streams
-- Fixed an issue that autoplay didn't work in Windows 10
-- Fixed sync issue of built-in DirectSound Audio Renderer
-- Fixed an issue that can't navigate in playlists from certain FTP servers
-- Fixed an issue while capturing broadcasting video under certain conditions
-- Fixed an issue that can't play next one with read-only MP3 files
-- Fixed an issue that snapped to edge/window in Windows 10 or newer
-- Improved ability to handle character set automatically while opening text
-- Fixed an issue that caused an error at the end of playback under certain conditions
-- Fixed flickering problem of certain animated ASS/SSA subtitles
+- Javítva lett egy hiba, amely miatt a lejátszási lista elemeit nem lehetett mappa szerint rendezni
+- YouTube lejátszási lista elemzési hiba javítása
+- HLS VOD adatfolyam lejátszási hiba javítása
+- Windows 10-en jelentkező automatikus lejátszási hiba javítása
+- Beépített DirectSound hangleképező szinkronizálási hiba javítása
+- Javítva lett egy hiba, amely miatt nem lehetett navigálni a lejátszási listákban egyes FTP kiszolgálókról
+- A közvetítés során bizonyos feltételek között jelentkező videórögzítési hiba megoldása
+- Javítva lett egy hiba, amely miatt nem lehetett lejátszani a következő egy csak olvasható MP3 fájlokat
+- Javítva lett a Windows 10 vagy újabb rendszereken jelentkező képernyőszélhez/ablakhoz illesztési hiba
+- Továbbfejlesztett automatikus karakterkészlet kezelési képesség a szöveg megnyitása közben
+- Javítva lett bizonyos feltételek között a lejátszás végén jelentkező hiba
+- Javítva lett bizonyos animált ASS/SSA feliratoknál jelentkező villogási hiba
 
 ----------------------------------------------------------
 [1.6.58613]                                     2016/02/11
 ----------------------------------------------------------
-- Fixed an abnormal operation when image size was changed with DXVA playback
-- Fixed an issue that can't output some MKV embedded subtitles
-- Fixed an issue that can't capture video in certain files
-- Fixed an abnormal title problem while playing HTTP streaming media
-- Fixed a black issue when scaling at a specific resolution
-- Fixed noise problem while playing on Intel VGAs
-- Fixed an error when playing short AVI files
-- Improved sorting in playlist
+- Javítva lett a DXVA lejátszás közben a képméret módosításakor jelentkező rendellenes működés
+- Javítva lett az MKV beágyazott feliratoknál jelentkező hiba
+- Javítva lett egy probléma, amely miatt nem lehetett rögzíteni a videót bizonyos fájlokban
+- Javítva lett a HTTP webes média adatfolyam lejátszásakor jelentkező rendellenes műsorszórási hiba
+- Javítva lett bizonyos felbontáson méretezéskor jelentkező fekete kép probléma
+- Javítva lettek az Intel VGA kártyákon lejátszás közben jelentkező zajproblémák
+- Javítva lettek a rövid AVI fájlok lejátszása közben jelentkező hibák
+- Javított rendezés a lejátszási listában
 
 ----------------------------------------------------------
 [1.6.58402]                                     2016/01/28
 ----------------------------------------------------------
+* Javítva lett egy biztonsági probléma (CUE olvasás biztonsági rés megszüntetése)
+
 + Külső VP8/9 kódek kiválasztási lehetőség hozzáadása
++ WEBM online médiatartalom lejátszási lehetőség hozzáadása
 
 - Javítva lett egy hiba, amely miatt nem lehetett lejátszani az MP3 hangfolyamot
 - Javítva egy hiba, amely a program leállását okozta az FTP megnyitás párbeszédablakban
 - Felszín logó Flash támogatás eltávolítása
+- Javítva lett egy probléma, amely az S/PDIF hibás működését okoztat egyes kódekekkel
 
 ----------------------------------------------------------
 [1.6.57875]                                     2015/12/29

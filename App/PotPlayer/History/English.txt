@@ -2,6 +2,21 @@
 Version History of the PotPlayer
 
 ----------------------------------------------------------
+[1.6.63638]                                     2016/10/05
+----------------------------------------------------------
++ Added H.264 MVC decoding function(codec installation is required)
++ Added the ability to output fullscreen on other monitors
++ Added the ability to switch between default pan & scan
++ Added the ability to broadcast with sponsored effects
+
+- Fixed abnormal operation with specific srt subtitles
+- Fixed an issue that couldn't exit while saving the broadcast
+- Fixed an issue that HEVC 10-bit DXVA didn't work with Radeon RX 4x0 video cards
+- Fixed memory leak problem when using VapourSynth
+- Fixed an issue that VapourSynth didn't work in 64-bit version
+- Fixed an issue that Module folder didn't work in VapourSynth Portable version
+
+----------------------------------------------------------
 [1.6.62949]                                     2016/08/11
 ----------------------------------------------------------
 + Added the ability to select image quality on broadcasting

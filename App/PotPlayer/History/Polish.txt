@@ -2,6 +2,21 @@
 Historia wersji PotPlayer
 
 ----------------------------------------------------------
+[1.6.63638]                                     2016/10/05
+----------------------------------------------------------
++ Dodano funkcję dekodowania H.264 MVC (wymagana jest instalacja kodeka)
++ Dodano możliwość wyjścia na pełny ekran dla innych monitorów
++ Dodano możliwość przełączania pomiędzy ustawieniami zdefiniowanymi w "Rozmiar i pozycja klatki"
++ Dodano możliwość broadcastingu z efektami sponsorowanymi
+
+- Naprawiono błędne działanie niektórych specyficznych napisów .srt
+- Naprawiono błąd powodujący brak możliwości zakończenia zapisu broadcast
+- Naprawiono problemy z działaniem Radeonów RX 4x0 podczas odtwarzania HEVC 10-bit z DXVA
+- Naprawiono problemy z wyciekiem pamięci podczas korzystania z VapourSynth
+- Naprawiono problem z działaniem VapourSynth w wersjach 64-bitowych
+- Naprawiono problem z działaniem wersji portable VapourSynth w folderze Module
+
+----------------------------------------------------------
 [1.6.62949]                                     2016/08/11
 ----------------------------------------------------------
 + Dodano możliwość wyboru jakości obrazu w broadcasting
