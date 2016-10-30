@@ -2,6 +2,19 @@
 Историја верзија Пот плејера
 
 ----------------------------------------------------------
+[1.6.63840]                                     2016/10/28
+----------------------------------------------------------
+* Fixed a security problem(remediation of playing damaged Real file vulnerability)
+
++ Added the ability to input multiple lines in address window
+
+- Fixed an issue that can't play certain TS files
+- Fixed an issue that can't play certain dash videos on YouTube
+- Fixed an issue that searched certain MP4 files slowly
+- Fixed an issue that half frame appeared with certain capture cards during playback
+- Fixed an issue that H/W deinterlacing didn't work in certain PCs
+
+----------------------------------------------------------
 [1.6.63638]                                     2016/10/05
 ----------------------------------------------------------
 + Added H.264 MVC decoding function(codec installation is required)

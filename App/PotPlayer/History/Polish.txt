@@ -2,6 +2,19 @@
 Historia wersji PotPlayer
 
 ----------------------------------------------------------
+[1.6.63840]                                     2016/10/28
+----------------------------------------------------------
+* Aktualizacje zabezpieczeń (naprawiono lukę w zabezpieczeniach podczas odtwarzania uszkodzonych plików Real)
+
++ Dodano kilka nowych funkcji w oknie otwierania adresu URL
+
+- Naprawiono problem z odtwarzaniem niektórych nowszych plików TS
+- Naprawiono problem z odtwarzaniem niektórych plików z Youtube posiadających myślniki
+- Naprawiono problem ze zbyt wolnym przeszukiwaniem w niektórych plikach MP4
+- Naprawiono problem z pojawianiem się pół klatek w niektórych kartach przechwytujących podczas odtwarzania
+- Naprawiono problem ze sprzętowym usuwaniem przeplotu (H/W) w niektórych PC
+
+----------------------------------------------------------
 [1.6.63638]                                     2016/10/05
 ----------------------------------------------------------
 + Dodano funkcję dekodowania H.264 MVC (wymagana jest instalacja kodeka)
