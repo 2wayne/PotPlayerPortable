@@ -2,7 +2,23 @@
 Version History of the PotPlayer
 
 ----------------------------------------------------------
+[1.6.63856]                                     2016/11/17
+----------------------------------------------------------
+* Fixed a security problem(remediation of playing damaged Real file vulnerability)
+
+- Fixed an issue that real name can't be authenticated
+- Fixed an issue that no sound came out on certain channels when playing HDTV
+
+----------------------------------------------------------
 [1.6.63840]                                     2016/10/28
+----------------------------------------------------------
+* Fixed an issue that users can report the real name authentication
+
+- Fixed an issue that can't play certain MP4 files
+- Fixed an issue that can't login with password containing special characters
+
+----------------------------------------------------------
+[1.6.63835]                                     2016/10/26
 ----------------------------------------------------------
 * Fixed a security problem(remediation of playing damaged Real file vulnerability)
 

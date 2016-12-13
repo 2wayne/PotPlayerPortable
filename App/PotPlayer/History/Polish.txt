@@ -2,7 +2,23 @@
 Historia wersji PotPlayer
 
 ----------------------------------------------------------
+[1.6.63856]                                     2016/11/17
+----------------------------------------------------------
+* Aktualizacje zabezpieczeń (naprawiono lukę w zabezpieczeniach podczas odtwarzania uszkodzonych plików Real)
+
+- Naprawiono problem z uwierzytelnianiem
+- Naprawiono problem z dźwiękiem nie wyjściu podczas odtwarzania niektórych kanałów HDTV
+
+----------------------------------------------------------
 [1.6.63840]                                     2016/10/28
+----------------------------------------------------------
+* Naprawiono błąd występujący podczas weryfikacji nazwy użytkownika
+
+- Naprawiono problem z odtwarzaniem niektórych plików MP4
+- Naprawiono problem z logowaniem po wprowadzeniu znaku specjalnego
+
+----------------------------------------------------------
+[1.6.63835]                                     2016/10/26
 ----------------------------------------------------------
 * Aktualizacje zabezpieczeń (naprawiono lukę w zabezpieczeniach podczas odtwarzania uszkodzonych plików Real)
 
