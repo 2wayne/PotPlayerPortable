@@ -2,6 +2,21 @@
 Version History of the PotPlayer
 
 ----------------------------------------------------------
+[1.6.63891]                                     2017/01/04
+----------------------------------------------------------
++ Added some ACM Vorbis Mode3 decoding functions
++ Added D3D12 game capture function
++ Added MJPEG option to built-in codec fuction
+
+- Fixed an issue that playback time of certain AVIs were incorrectly calculated
+- Fixed abnormal playback problem of certain AVIs
+- Fixed occasional freeze problem when using the built-in WASAPI audio renderer
+- Fixed freeze problem when outputting certain SSA subtitles
+- Fixed an issue where subtitles were black in certain PCs
+- Fixed an issue that screen was broken when DXVA decoding certain H.264 files
+- Improved MJPEG decoding speed
+
+----------------------------------------------------------
 [1.6.63856]                                     2016/11/17
 ----------------------------------------------------------
 * Fixed a security problem(remediation of playing damaged Real file vulnerability)

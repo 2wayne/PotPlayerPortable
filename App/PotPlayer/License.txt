@@ -16,7 +16,7 @@
  - 이 프로그램에 사용된 MediaInfo 라이브러리는 http://mediaarea.net에서 사용하였습니다.
  - 이 프로그램의 설치 파일은 NSIS(http://nsis.sourceforge.net)를 사용하여 제작되었으며, NSIS의 라이센스는 'zlib/libpng License'를 따릅니다.
  - 이 프로그램의 글꼴 출력은 FreeType(http://www.freetype.org)를 사용 하였습니다.
- - 이 프로그램의 저작권은 (주)카카오(http://www.daum.net)에 있습니다.
+ - 이 프로그램의 저작권은 (주)카카오(http://www.kakao.com)에 있습니다.
 $}
 {$CP936=
 
@@ -36,7 +36,7 @@ $}
  - 本程序使用的 MediaInfo 解析媒体插件是直接从 MediaInfo(http://mediaarea.net) 下载的。
  - 本程序使用的安装程序是从 NSIS(http://nsis.sourceforge.net) 下载的，并遵循 NSIS 的 "zlib/libpng License" 公共许可协议。
  - 本程序使用的 ATextOut 字串渲染插件是直接从 FreeType(http://www.freetype.org) 下载的源码。
- - 本程序著作权归 Kakao 公司 (http://www.daum.net) 所有。
+ - 本程序著作权归 Kakao 公司 (http://www.kakao.com) 所有。
 $}
 {$CP950=
 
@@ -56,7 +56,7 @@ $}
  - 本程式使用的 MediaInfo 解析媒體外掛是直接從 MediaInfo(http://mediaarea.net) 下載的。
  - 本程式使用的安裝程式是從 NSIS(http://nsis.sourceforge.net) 下載的，並遵循 NSIS 的 "zlib/libpng License" 的授權條款。
  - 本程式使用的 ATextOut 字串渲染外掛是直接從 FreeType(http://www.freetype.org) 下載的原始碼。
- - 本程式著作權屬於 Kakao 公司 (http://www.daum.net)。
+ - 本程式著作權屬於 Kakao 公司 (http://www.kakao.com)。
 $}
 {$POLISH=
 
@@ -76,7 +76,7 @@ $}
  - Program wykorzystuje bibliotekę MediaInfo z (http://mediaarea.net).
  - Pliki instalacyjne tego programu zostały wykonane przy pomocy NSIS (http://nsis.sourceforge.net) zgodnie z licencją NSIS 'zlib / libpng License'.
  - Do renderowania czcionek została wykorzystana wtyczka ATextOut pobrana bezpośrednio z FreeType (http://www.freetype.org).
- - Prawa autorskie (główne) do tego programu posiada tylko i wyłącznie Kakao (http://www.daum.net).
+ - Prawa autorskie (główne) do tego programu posiada tylko i wyłącznie Kakao (http://www.kakao.com).
  - Autorem tłumaczenia na język polski jest Adam Malich (adam_malich@gizycko.mm.pl)
 $}
 {$RUSSIAN=
@@ -97,7 +97,7 @@ PotPlayer — бесплатная программа для некоммерч�
 - В этой программе используется библиотека BASS: http://www.un4seen.com.
 - Установочный файл создан пи помощи NSIS (http://nsis.sourceforge.net), который распространяется под лицензией zlib/libpng.
 - Внешний вывод программы основан на шрифтах FreeType (http://www.freetype.org).
-- Авторское право на эту программу принадлежит Kakao (http://www.daum.net).
+- Авторское право на эту программу принадлежит Kakao (http://www.kakao.com).
 $}
 {$SPANISH=
 
@@ -117,7 +117,7 @@ Este programa es para uso público y privado para individuos/establecimientos/of
  - La biblioteca MediaInfo (http://mediaarea.net)
  - La biblioteca de la fuente FreeType(http://www.freetype.org)
  - La instalación se ha realizado utilizando NSIS (http://nsis.sourceforge.net) bajo licencia de zlib/libpng.
- - Es propiedad de Kakao (http://www.daum.net)
+ - Es propiedad de Kakao (http://www.kakao.com)
  - Traducido por Oleada, para todos los amigos de habla hispana.
 
 $}
@@ -139,7 +139,7 @@ $}
  - У програмі використовується бібліотека MediaInfo (http://mediaarea.net).
  - Файл встановлювача програми було створено з використанням NSIS (http://nsis.sourceforge.net), що розповсюджується у відповідності до ліцензії „zlib/png license“.
  - У програмі використовується бібліотека обробки шрифтів FreeType (http://www.freetype.org).
- - Авторським правом © на цю програму володіє Kakao (http://www.daum.net).
+ - Авторським правом © на цю програму володіє Kakao (http://www.kakao.com).
  - Український переклад: Олександр (6c6c6) http://localize.org.ua
 $}
 {$HUNGARIAN=
@@ -160,7 +160,7 @@ Ez a szoftver egy ingyenes termék, amely szabadon felhasználható otthoni/cég
  - Ez a szoftver MediaInfo (http://mediaarea.net) erőforrástárat használ. 
  - Ez a szoftver egy zlib/libpng licenc alatt álló NSIS (http://nsis.sourceforge.net) programmal létrehozott telepítőt használ.
  - Ez a szoftver FreeType (http://www.freetype.org) betűtípus megjelenítő erőforrástárat használ.
- - A jelenlegi a szoftver szerzői jogai (C) a Kakao (http://www.daum.net) tulajdonában vannak.
+ - A jelenlegi a szoftver szerzői jogai (C) a Kakao (http://www.kakao.com) tulajdonában vannak.
  - Magyar fordítás: Zityi - http://szoftverforditasok.hu
 $}
 {$SERBIAN=
@@ -182,7 +182,7 @@ $}
  - Овај софтвер користи MediaInfo библиотеку (http://mediaarea.net)
  - Инсталер овог софтвера користи NSIS (http://nsis.sourceforge.net) који је лиценциран под zlib/libpng лиценцом.
  - Овај софтвер користи FreeType font рендерер библиотеку (http://www.freetype.org)
- - Ауторска права овог софтвера (C) су власништво Kakao (http://www.daum.net)
+ - Ауторска права овог софтвера (C) су власништво Kakao (http://www.kakao.com)
  - Превод од стране http://www.dvbsupport.net/
 $}
 {$THAI=
@@ -203,7 +203,7 @@ $}
      - ซอฟต์แวร์นี้ใช้ไลบรารี่ MediaInfo (http://mediaarea.net)
      - ตัวติดตั้งของซอฟต์แวร์นี้ทำโดยใช้ NSIS (http://nsis.sourceforge.net) ซึ่งได้รับอนุญาตภายใต้ใบอนุญาต zlib/libpng
      - ซอฟต์แวร์นี้ใช้ไลบรารี่ตัวแปลผลอักษร FreeType (http://www.freetype.org)
-     - ลิขสิทธิ์ (C) ซอฟต์แวร์นี้เป็นเจ้าของโดย  Kakao (http://www.daum.net)
+     - ลิขสิทธิ์ (C) ซอฟต์แวร์นี้เป็นเจ้าของโดย  Kakao (http://www.kakao.com)
      - แปลโดย M.S. คนไทย
 $}
 {$TURKISH=
@@ -224,7 +224,7 @@ Bu yazılım; ücretsiz bir üründür ve bireyler, şirketler, okullar, hüküm
  - Bu yazılım, MediaInfo kütüphanesini (http://mediaarea.net) kullanmaktadır.
  - Bu yazılımın yükleyicisi, zlib/libpng lisansı altında yayımlanan NSIS (http://nsis.sourceforge.net) ile oluşturulmuştur.
  - Bu yazılım, FreeType yazı tipi işleyici kütüphanesini (http://www.freetype.org) kullanmaktadır.
- - Bu yazılımın telif hakları (C), Kakao'ya (http://www.daum.net) aittir.
+ - Bu yazılımın telif hakları (C), Kakao'ya (http://www.kakao.com) aittir.
  - Bu yazılım, Türkçeye Yiğit Ateş (yigitates@outlook.com) tarafından çevrilmiştir.
 $}
 {$PERSIAN=
@@ -246,7 +246,7 @@ $}
  - (http://www.freetype.org) FreeType این نرم افزار با استفاده از فونت کتابخانه رندر
  -ساخته شده است zlib / libpng  تحت مجوز NSIS (http://nsis.sourceforge.net)نصب این نرم افزار با استفاده از  
  -(http://www.dvbsupport.net) ترجمه شده است  DVB  این نرم افزار به زبان انگلیسی توسط پشتیبانی          
- -(http://www.daum.net) می باشد Kakao متعلق به (C) حق تکثیر این نرم افزار براساس
+ -(http://www.kakao.com) می باشد Kakao متعلق به (C) حق تکثیر این نرم افزار براساس
 $}
 {$FRENCH=
 
@@ -266,7 +266,7 @@ Ce logiciel est un produit gratuit qui peut être utilisé librement par des uti
  - Ce logiciel utilise la bibliothèque MediaInfo (http://mediaarea.net).
  - L'installeur de ce logiciel a été conçu en utilisant NSIS (http://nsis.sourceforge.net) qui est sous licence zlib/libpng.
  - Ce logiciel utilise une bibliothèque de rendu de police FreeType (http://www.freetype.org).
- - Les droits d'auteur (C) de ce logiciel sont la propriété de Kakao (http://www.daum.net).
+ - Les droits d'auteur (C) de ce logiciel sont la propriété de Kakao (http://www.kakao.com).
  - Traduit par Thierry Delaunay.
 $}
 {$HONGKONGESE=
@@ -297,11 +297,11 @@ $}
 －本軟件使用BASS系列解碼器（http://www.un4seen.com）。
 －本軟件使用FreeType文字呈像器（http://www.freetype.org）。
 －本軟件使用MediaInfo影音資訊程式（http://mediaarea.net）。
-－本軟件版權由Kakao持有（http://www.daum.net）。
+－本軟件版權由Kakao持有（http://www.kakao.com）。
 $}
 {$CP0=
 
-This software is a freeware product, which can be used freely by individual/company/School/Government Office/etc. users to play media files as long as it’s for non-commercial purposes.
+This software is a freeware product, which can be used freely by individual/company/School/Government Office/etc. users to play media files as long as it's for non-commercial purposes.
 
 * Attention
  - This software is protected by copyright laws and software protection law, and modifying, reverse engineering, decompiling, disassembling, or otherwise making changes to the software beyond what is specifically allowed by relevant laws is strictly prohibited.(Except for FFmpeg,lame which have LGPL licenses)
@@ -317,6 +317,6 @@ This software is a freeware product, which can be used freely by individual/comp
  - This software uses MediaInfo library (http://mediaarea.net)
  - This software uses FreeType font renderer library (http://www.freetype.org)
  - This software's installer was made using NSIS (http://nsis.sourceforge.net) which is licensed under zlib/libpng license.
- - This software was translated into English by DVB Support (http://www.dvbsupport.net)
- - This software copyrights (C) are owned by Kakao (http://www.daum.net)
+ - This software was translated into English by DVB Support
+ - This software copyrights (C) are owned by Kakao (http://www.kakao.com)
 $}

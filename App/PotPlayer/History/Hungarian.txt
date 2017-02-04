@@ -2,34 +2,63 @@
 PotPlayer verzióelőzmények
 
 ----------------------------------------------------------
+[1.6.63891]                                     2017/01/04
+----------------------------------------------------------
++ Néhány ACM Vorbis Mode3 dekódolási funkció
++ D3D12 játék rögzítési funkció
++ MJPEG opció a beépített kódek funkcióhoz
+
+- Javítva lett egy hiba, amely miatt hibásan lett kiszámítva a lejátszási idő bizonyos AVI fájlok esetén
+- Javítva lett bizonyos AVI fájloknál jelentkező rendellenes lejátszási hiba 
+- Javítva lett a beépített WASAPI hangleképezőnél jelentkező időszakos fagyási probléma
+- Javítva lett egy fagyási probléma bizonyos SSA feliratok kiküldése esetén
+- Javítva lett egy hiba, amely miatt a feliratok feketék voltak bizonyos számítógépeken
+- Javítva lett egy hiba, amely miatt a képernyő összeomlott a DXVA dekódolásnál bizonyos H.264 fájlok esetén
+- Javított MJPEG dekódolási sebesség
+
+----------------------------------------------------------
 [1.6.63856]                                     2016/11/17
 ----------------------------------------------------------
-* Fixed a security problem(remediation of playing damaged Real file vulnerability)
+* Javítva egy biztonsági probléma(sérült Real fájl lejátszási sebezhetőség megoldása)
 
-- Fixed an issue that real name can't be authenticated
-- Fixed an issue that no sound came out on certain channels when playing HDTV
+- Javítva lett egy hiba, amely miatt a valós név nem lett hitelesítve
+- Javítva lett egy hiba, amely miatt nem volt hang bizonyos csatornákon HDTV lejátszásnál
 
 ----------------------------------------------------------
 [1.6.63840]                                     2016/10/28
 ----------------------------------------------------------
-* Fixed a security problem(remediation of playing damaged Real file vulnerability)
+* Javítva lett egy hiba, hogy a felhasználók jelenthessék a valós név hitelesítést
 
-+ Added the ability to input multiple lines in address window
+- Javítva lett egy hiba, amely miatt nem lehetett lejátszani egyes MP4 fájlokat
+- Javítva lett egy hiba, amely nem tette lehetővé a bejelentkezést a speciális karaktereket tartalmazó jelszóval
 
-- Fixed an issue that can't play certain TS files
-- Fixed an issue that can't play certain dash videos on YouTube
-- Fixed an issue that searched certain MP4 files slowly
-- Fixed an issue that half frame appeared with certain capture cards during playback
-- Fixed an issue that H/W deinterlacing didn't work in certain PCs
+----------------------------------------------------------
+[1.6.63835]                                     2016/10/26
+----------------------------------------------------------
+* Javítva egy biztonsági probléma(sérült Real fájl lejátszási sebezhetőség megoldása)
+
++ Több sor beviteli képesség a cím ablakban
+
+- Javítva lett egy hiba, amely miatt nem lehetett lejátszani bizonyos TS fájlokat
+- Javítva lett egy hiba, amely miatt nem lehetett lejátszani bizonyos dash videókat a YouTube-on
+- Javítva lett egy hiba, amely miatt egyes MP4 fájlok keresése lassan történt
+- Javítva lett egy hiba, amely miatt fél keret jelent meg egyes rögzítőkártyáknál lejátszás közben
+- Javítva lett egy hiba, amely miatt a H/W félkép-összefésülés nem működött bizonyos számítógépeken
 
 ----------------------------------------------------------
 [1.6.63638]                                     2016/10/05
 ----------------------------------------------------------
 + H.264 MVC dekódolási funkció hozzáadása(kódek telepítés szükséges)
++ Új lehetőség a teljes képernyős mód más monitorokra való kiküldésére
++ Új lehetőség az alapértelmezett képkövetés közti váltására
++ Új lehetőség a közvetítésre szponzorált hatásokkal
 
 - Egyes srt feliratoknál jelentkező rendellenes működés javítása
 - Javítva lett egy hiba, amely nem tette lehetővé a kilépést a közvetítés mentése közben
+- Javítva egy hiba, amely miatt a HEVC 10-bites DXVA nem működött a Radeon RX 4x0 videókártyákkal
 - A VapourSynth használatakor jelentkező memóriavesztés probléma javítása
+- Javítva lett egy hiba, amely miatt a VapourSynth nem működik a 64 bites verzióban
+- Javítva lett egy hiba, amely miatt a modul mappa nem működik a VapourSynth portable verzióban
 
 ----------------------------------------------------------
 [1.6.62949]                                     2016/08/11
@@ -49,7 +78,7 @@ PotPlayer verzióelőzmények
 ----------------------------------------------------------
 [1.6.62377]                                     2016/07/12
 ----------------------------------------------------------
-* Javítva egy biztonsági probléma (sérült AVI/MP4 fájl lejátszás megoldása)
+* Javítva egy biztonsági probléma (sérült AVI/MP4 fájl lejátszási sebezhetőség megoldása)
 
 + Új képernyővédő funkció
 + Új lehetőség az xxxx_Tooltip eszköztipp kihelyezésére a nyelvi fájlokban

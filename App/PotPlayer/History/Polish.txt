@@ -2,6 +2,21 @@
 Historia wersji PotPlayer
 
 ----------------------------------------------------------
+[1.6.63891]                                     2017/01/04
+----------------------------------------------------------
++ Dodano kilka funkcji dekodowania ACM Vorbis Mode3
++ Dodano funkcję przechwytywania gier D3D12
++ Dodano opcję wyboru MJPEG do wbudowanych kodeków
+
+- Naprawiono problem z błędnym wyliczaniem czasu odtwarzania dla niektórych AVI
+- Naprawiono problem z nieprawidłowym odtwarzaniem niektórych plików AVI
+- Naprawiono problem ze sporadycznym zamrażaniem odtwarzacza podczas używania wbudowanego WASAPI Audio Renderer
+- Naprawiono problem z zamrażaniem na wyjściu niektórych napisów SSA
+- Naprawiono problem powodujący wyświetlanie czarnych napisów w niektórych PC
+- Naprawiono problem powodujący zniekształcenia obrazu podczas dekodowania DXVA niektórych plików H.264
+- Poprawiono szybkość dekodowania MJPEG
+
+----------------------------------------------------------
 [1.6.63856]                                     2016/11/17
 ----------------------------------------------------------
 * Aktualizacje zabezpieczeń (naprawiono lukę w zabezpieczeniach podczas odtwarzania uszkodzonych plików Real)
