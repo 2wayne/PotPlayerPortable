@@ -48,13 +48,13 @@ float4 main( float2 tex : TEXCOORD0 ) : COLOR
 	//   [ -1, 0 ,1 ]
 	//   [ -2, 0, 2 ]
 	//   [ -1, 0 ,1 ]
-	delta1 =  (c3 + 2*c5 + c8)-(c1 + 2*c4 + c6);
+	delta1 =  ((c3 + 2*c5 + c8)-(c1 + 2*c4 + c6)).x;
 
 	// Gradient vertical
 	//   [ -1,- 2,-1 ]
 	//   [  0,  0, 0 ]
 	//   [  1,  2, 1 ]
-	delta2 = (c6 + 2*c7 + c8)-(c1 + 2*c2 + c3);
+	delta2 = ((c6 + 2*c7 + c8)-(c1 + 2*c2 + c3)).x;
 
 	// calcul
 	value = sqrt( mul(delta1,delta1) + mul(delta2,delta2) ) ;

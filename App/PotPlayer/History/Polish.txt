@@ -2,6 +2,53 @@
 Historia wersji PotPlayer
 
 ----------------------------------------------------------
+[1.7.1150]                                      2017/03/16
+----------------------------------------------------------
+* Aktualizacje zabezpieczeń (naprawiono lukę w zabezpieczeniach podczas odtwarzania uszkodzonych plików mov)
+
++ Dodano funkcję broadcast do ulubionych
++ Dodano możliwość ukrycia emotikonów czatu
+
+- Ulepszono obsługę listy użytkowników czatu
+- Zmieniono opcję kompresji broadcast na VBR
+- Naprawiono błąd powodujący brak możliwości wyboru zintegrowanych napisów SMI
+- Naprawiono błąd, który uniemożliwiał przetwarzanie M3U na określonych serwerach
+- Naprawiono błąd, który powodował wyłączenie logowania w pewnych okolicznościach
+- Naprawiono błąd, który powodował pojawianie się zniekształceń podczas odtwarzania 360 VR
+
+----------------------------------------------------------
+[1.7.661]                                       2017/03/03
+----------------------------------------------------------
+- Naprawiono błąd powodujący, że wbudowany D3D11 Video Renderer nie akceptował wejściowego wideo P010 
+- Naprawiono błąd występujący przy wyborze kolejności języka napisów
+- Naprawiono błąd występujący podczas odtwarzania niektórych plików MKV/MP4
+- Naprawiono problem z wyświetlaniem wiadomości wysyłanych na czacie
+
+----------------------------------------------------------
+[1.7.456]                                       2017/02/22
+----------------------------------------------------------
++ Dodano język azerbejdżański
+
+- Naprawiono token wygaszania emotikon
+- Naprawiono wiadomość o błędzie podczas wchodzenia na czat
+- Naprawiono błąd zgłaszany przez widzów
+- Naprawiono błąd występujący podczas wchodzenia na broadcast na niektórych PC
+
+----------------------------------------------------------
+[1.7.351]                                    	2017/02/18
+----------------------------------------------------------
+* Reorganizacja Kakao TV
+
++ Dodano dla skórek funkcję "Zawsze na wierzchu innych okien"
++ Dodano możliwość wyboru urządzenia wyjściowego Direct3D9
++ Dodano możliwość wyboru renderera wideo Direct3D 11 (Windows 8 lub nowszy)
++ Dodano funkcję Pixel Shader dla renderera wideo OpenGL
+
+- Naprawiono błąd występujący podczas dekodowania niektórych MJPEG
+- Naprawiono błąd powodujący brak działania przechwytywania D3D11 w niektórych grach
+- Ulepszono obsługę Closed Caption
+
+----------------------------------------------------------
 [1.6.63891]                                     2017/01/04
 ----------------------------------------------------------
 + Dodano kilka funkcji dekodowania ACM Vorbis Mode3

@@ -16,46 +16,46 @@ float4 p1 : register(c1);
 
 float4 main( float2 tex : TEXCOORD0 ) : COLOR 
 { 
-float dx = one_over_width; 
-float dy = one_over_height; 
+	float dx = one_over_width; 
+	float dy = one_over_height; 
 
-// recupperation de la matrice de 9 points 
-//   [ 1, 2 , 3 ] 
-//   [ 4,ori, 5 ] 
-//   [ 6, 7 , 8 ] 
+	// recupperation de la matrice de 9 points 
+	//   [ 1, 2 , 3 ] 
+	//   [ 4,ori, 5 ] 
+	//   [ 6, 7 , 8 ] 
 
-   float4 ori = tex2D(s0, tex); 
-   float4 c1 = tex2D(s0, tex + float2(-dx,-dy)); 
-   float4 c2 = tex2D(s0, tex + float2(0,-dy)); 
-   float4 c3 = tex2D(s0, tex + float2(dx,-dy)); 
-   float4 c4 = tex2D(s0, tex + float2(-dx,0)); 
-   float4 c5 = tex2D(s0, tex + float2(dx,0)); 
-   float4 c6 = tex2D(s0, tex + float2(-dx,dy)); 
-   float4 c7 = tex2D(s0, tex + float2(0,dy)); 
-   float4 c8 = tex2D(s0, tex + float2(dx,dy)); 
+	float4 ori = tex2D(s0, tex); 
+	float4 c1 = tex2D(s0, tex + float2(-dx,-dy)); 
+	float4 c2 = tex2D(s0, tex + float2(0,-dy)); 
+	float4 c3 = tex2D(s0, tex + float2(dx,-dy)); 
+	float4 c4 = tex2D(s0, tex + float2(-dx,0)); 
+	float4 c5 = tex2D(s0, tex + float2(dx,0)); 
+	float4 c6 = tex2D(s0, tex + float2(-dx,dy)); 
+	float4 c7 = tex2D(s0, tex + float2(0,dy)); 
+	float4 c8 = tex2D(s0, tex + float2(dx,dy)); 
 
-// calcul image floue (filtre gaussien) 
-float  multipliers[9]= 
+	// calcul image floue (filtre gaussien) 
+	float  multipliers[9]= 
             {1,2,1, 
              2,4,2, 
              1,2,1}; 
 
-float4 total=0; 
-   total +=  c1 * multipliers[0]; 
-   total +=  c2 * multipliers[1]; 
-   total +=  c3 * multipliers[2]; 
-   total +=  c4 * multipliers[3]; 
-   total +=  ori * multipliers[4]; 
-   total +=  c5 * multipliers[5]; 
-   total +=  c6 * multipliers[6]; 
-   total +=  c7 * multipliers[7]; 
-   total +=  c8 * multipliers[8]; 
+	float4 total = float4(0, 0, 0, 0); 
+	total +=  c1 * multipliers[0]; 
+	total +=  c2 * multipliers[1]; 
+	total +=  c3 * multipliers[2]; 
+	total +=  c4 * multipliers[3]; 
+	total +=  ori * multipliers[4]; 
+	total +=  c5 * multipliers[5]; 
+	total +=  c6 * multipliers[6]; 
+	total +=  c7 * multipliers[7]; 
+	total +=  c8 * multipliers[8]; 
 
-   // 1/(1+2+1+2+4+2+1+2+1) = 1/ 16 = .0625 
-   total *= 0.0625f; 
+	// 1/(1+2+1+2+4+2+1+2+1) = 1/ 16 = .0625 
+	total *= 0.0625f; 
 
-// soustraction de l'image flou a l'image originale 
-   total = 2*ori - total; 
-//return ori; 
-   return total; 
+	// soustraction de l'image flou a l'image originale 
+	total = 2*ori - total; 
+	//return ori; 
+	return total; 
 }

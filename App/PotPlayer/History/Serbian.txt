@@ -2,69 +2,114 @@
 Историја верзија Пот плејера
 
 ----------------------------------------------------------
+[1.7.1150]                                      2017/03/16
+----------------------------------------------------------
+* Fixed a security problem(remediation of playing damaged mov file vulnerability)
+
++ Added function of broadcast to favorites
++ Added the ability to make chat emoticons invisible
+
+- Improved handling of chat user list
+- Changed option of broadcast compression to VBR
+- Fixed an issue that SMI integrated subtitles can't be selected
+- Fixed an issue that m3u can't be parsed on certain servers
+- Fixed an issue that log-in was released under certain conditions
+- Fixed an issue that appeared distorted when playing 360 VR
+
+----------------------------------------------------------
+[1.7.661]                                       2017/03/03
+----------------------------------------------------------
+- Решен проблем када уграђени D3D11 рендер не може да прихвати P010 улаз
+- Решен проблем код одабирања језика превода
+- Решен проблем репродукције неких MKV/MP4 фајлова
+- Решен проблем где чат улазне поруке нису биле приказане
+
+----------------------------------------------------------
+[1.7.456]                                       2017/02/22
+----------------------------------------------------------
++ Додат Азербејџански језик
+
+- Сређен истек емотикон токена
+- Сређен недостатак поруке уласком у чат собу
+- Сређен баг пријављен од гледалаца
+- Исправљена грешка код улаза у емитовање код неких PCs
+
+----------------------------------------------------------
+[1.7.351]                                    	2017/02/18
+----------------------------------------------------------
+* Реорганизација Kakao TV
+
++ Додата функција да је маска увек на врху
++ Додата могућност одабира уређаја на видео излазу Direct3D9
++ Додат Direct3D 11 видео излазни уређај (Виндовс 8 или новији)
++ Додата подршка pixel shader за OpenGL video излазни уређај
+
+- Решен проблем код декодирања неких MJPEG
+- Решен проблем не хватања слике са D3D11 код неких игара
+- Побољшано руковање затворених наслова 
+
+----------------------------------------------------------
 [1.6.63891]                                     2017/01/04
 ----------------------------------------------------------
-+ Added some ACM Vorbis Mode3 decoding functions
-+ Added D3D12 game capture function
-+ Added MJPEG option to built-in codec fuction
++ Додата функција ACM Vorbis Mode3 декодирања
++ Додата функција D3D12 снимања игрице
++ Додата MJPEG опција уграђеним кодецима
 
-- Fixed an issue that playback time of certain AVIs were incorrectly calculated
-- Fixed abnormal playback problem of certain AVIs
-- Fixed occasional freeze problem when using the built-in WASAPI audio renderer
-- Fixed freeze problem when outputting certain SSA subtitles
-- Fixed an issue where subtitles were black in certain PCs
-- Fixed an issue that screen was broken when DXVA decoding certain H.264 files
-- Improved MJPEG decoding speed
+- Решен проблем времена репродукције неких AVIs када су погрешно израчунати
+- Решена ненормална репродукција неких AVIs
+- Решен проблем замрзавања код коришћења уграђеног WASAPI аудио рендера
+- Решен проблем замрзавања приказа неких SSA превода
+- Решен проблем када је превод црн код неких PCs
+- Решен проблем црног екрана код DXVA декодирања H.264 фајлова
+- Побољшана брзина декодирања MJPEG
 
 ----------------------------------------------------------
 [1.6.63856]                                     2016/11/17
 ----------------------------------------------------------
-* Fixed a security problem(remediation of playing damaged Real file vulnerability)
+* Решен проблем безбедности (санације рањивости оштећеног Real фајла)
 
-- Fixed an issue that real name can't be authenticated
-- Fixed an issue that no sound came out on certain channels when playing HDTV
+- Решен проблем када право име не може бити верификовано
+- Решен проблем појаве изостанка звука на неким каналима код репродукције HDTV
 
 ----------------------------------------------------------
 [1.6.63840]                                     2016/10/28
 ----------------------------------------------------------
-* Fixed a security problem(remediation of playing damaged Real file vulnerability)
+* Решен проблем безбедности (санације рањивости оштећеног Real фајла)
 
-+ Added the ability to input multiple lines in address window
++ Додата способност уношења више линија у прозору адреса
 
-- Fixed an issue that can't play certain TS files
-- Fixed an issue that can't play certain dash videos on YouTube
-- Fixed an issue that searched certain MP4 files slowly
-- Fixed an issue that half frame appeared with certain capture cards during playback
-- Fixed an issue that H/W deinterlacing didn't work in certain PCs
+- Решен проблем споре претраге MP4 фајлова
+- Решен проблем појављивања пола фрејма на неким графичким картицама током репродукције
+- Решен проблем не функционисања H/W непреплитања на неким PCs
 
 ----------------------------------------------------------
 [1.6.63638]                                     2016/10/05
 ----------------------------------------------------------
-+ Added H.264 MVC decoding function(codec installation is required)
-+ Added the ability to output fullscreen on other monitors
-+ Added the ability to switch between default pan & scan
-+ Added the ability to broadcast with sponsored effects
++ Додата H.264 MVC функција декодирања(потребна инсталација кодека)
++ Додата способност излаза на пуни екран на другим мониторима
++ Додата способност пребацивања на уобичајен pan & scan
++ Додата способност емитовања са ефектима покровитељства
 
-- Fixed abnormal operation with specific srt subtitles
-- Fixed an issue that couldn't exit while saving the broadcast
-- Fixed an issue that HEVC 10-bit DXVA didn't work with Radeon RX 4x0 video cards
-- Fixed memory leak problem when using VapourSynth
-- Fixed an issue that VapourSynth didn't work in 64-bit version
-- Fixed an issue that Module folder didn't work in VapourSynth Portable version
+- Исправљена ненормална операција са одређеним srt преводом
+- Решен проблем немогућности излаза током снимања емитовања
+- Решен проблем HEVC 10-bit DXVA није радио са Radeon RX 4x0 видео картицом
+- Исправљен проблем цурења меморије током коришћења VapourSynth
+- Решен проблем да VapourSynth није радио у 64-bit верзији
+- Решен проблем Module фолдера није радио у VapourSynth портабле верзији
 
 ----------------------------------------------------------
 [1.6.62949]                                     2016/08/11
 ----------------------------------------------------------
-+ Added the ability to select image quality on broadcasting
-+ Added the ability to use the external playlist
-+ Added the ability to play double compressed FLAC
-+ Added the ability to output the rotation information while playing JPEG file
++ Додата способност избора квалитета слике током емитовања 
++ Додата способност коришћења спољње листе
++ Додата способност репродукције дупле компресије FLAC
++ Додата способност ротације информација код репродукције JPEG фајла
 
-- Fixed playback problem of certain TS files
-- Fixed an error when using VapourSynth script
-- Fixed playback problem of certain AVI files
-- Fixed an issue that duplicate files were added to the folder
-- Fixed an error while closing with VMR9 Renderless
+- Исправљен проблем репродукције неких TS фајлова
+- Исправљен проблем коришћења VapourSynth скрипти
+- Исправљен проблем репродукције неких AVI фајлова
+- Исправљена грешка дуплирања фајлова додатих у фолдер
+- Исправљена грешка код затварања са VMR9 Renderless
 
 ----------------------------------------------------------
 [1.6.62377]                                     2016/07/12

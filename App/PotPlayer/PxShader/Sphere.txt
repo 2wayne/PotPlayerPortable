@@ -14,7 +14,7 @@ float4 main(float2 tex : TEXCOORD0) : COLOR
 	// - no reflection or refraction, yet (my ati 9800 has a 64 + 32 instruction limit...)
 
 	float3 pl = float3(3,-3,-4); // light pos
-	float4 cl = 0.4; // light color
+	float4 cl = float4(0.4, 0.4, 0.4, 0.4); // light color
 
 	float3 pc = float3(0,0,-1); // cam pos
 	float3 ps = float3(0,0,0.5); // sphere pos
@@ -27,7 +27,7 @@ float4 main(float2 tex : TEXCOORD0) : COLOR
 	float C = dot(pc - ps, pc - ps) - r*r;
 	float D = B*B - 4*A*C;
 
-	float4 c0 = 0;
+	float4 c0 = float4(0, 0, 0, 0);
 
 	if(D >= 0)
 	{
@@ -44,7 +44,11 @@ float4 main(float2 tex : TEXCOORD0) : COLOR
 		float3 l = normalize(pl - p);
 
 		// mapping the image onto the sphere
-		tex = acos(-n)/PI;
+#ifdef GLSL
+		tex = float2(acos(-n)/PI);
+#else
+		tex = acos(-n)/PI, acos(-n)/PI;
+#endif
 
 		// rotate it
 		tex.x = frac(tex.x + frac(clock/10));

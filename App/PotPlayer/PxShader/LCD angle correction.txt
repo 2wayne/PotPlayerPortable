@@ -1,6 +1,8 @@
 // LCD angle correction=ps_2_0
 // Code from MPC
 
+sampler s0 : register(s0);
+
 // Fractions, either decimal or not, are allowed
 // RedBrightness, GreenBrightness and BlueBrightness, interval [-10, 10], default 0
 #define RedBrightnessTop 0
@@ -25,8 +27,6 @@
 #define RedGammaBottom 1
 #define GreenGammaBottom 1
 #define BlueGammaBottom 1
-
-sampler s0;
 
 float4 main(float2 tex : TEXCOORD0) : COLOR
 {

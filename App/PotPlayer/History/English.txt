@@ -2,6 +2,53 @@
 Version History of the PotPlayer
 
 ----------------------------------------------------------
+[1.7.1150]                                      2017/03/16
+----------------------------------------------------------
+* Fixed a security problem(remediation of playing damaged mov file vulnerability)
+
++ Added function of broadcast to favorites
++ Added the ability to make chat emoticons invisible
+
+- Improved handling of chat user list
+- Changed option of broadcast compression to VBR
+- Fixed an issue that SMI integrated subtitles can't be selected
+- Fixed an issue that m3u can't be parsed on certain servers
+- Fixed an issue that log-in was released under certain conditions
+- Fixed an issue that appeared distorted when playing 360 VR
+
+----------------------------------------------------------
+[1.7.661]                                       2017/03/03
+----------------------------------------------------------
+- Fixed an issue that built-in D3D11 renderer can't accept P010 input
+- Fixed an error when selecting order of subtitle languages
+- Fixed an error when playing certain MKV/MP4 files
+- Fixed an issue where chat input messages were not displayed
+
+----------------------------------------------------------
+[1.7.456]                                       2017/02/22
+----------------------------------------------------------
++ Added Azerbaijani translation
+
+- Fixed expiration of emoticon token
+- Fixed failure message to enter the chat room
+- Fixed a bug reported by viewers
+- Fixed an error when entering a broadcast in certain PCs
+
+----------------------------------------------------------
+[1.7.351]                                       2017/02/18
+----------------------------------------------------------
+* Reorganization of Kakao TV
+
++ Added feature of skin always on top
++ Added the ability to select device in video output device Direct3D9
++ Added Direct3D 11 video output device (Windows 8 or newer)
++ Added feature of pixel shader to OpenGL video output device
+
+- Fixed an issue when decoding certain MJPEG
+- Fixed an issue that D3D11 capture did not work in certain games
+- Improved closed caption handling
+
+----------------------------------------------------------
 [1.6.63891]                                     2017/01/04
 ----------------------------------------------------------
 + Added some ACM Vorbis Mode3 decoding functions
